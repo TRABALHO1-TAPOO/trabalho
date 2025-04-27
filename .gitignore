@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/diario_saude/.vs
+/diario_saude/diario_saude/bin/Debug/net9.0
+/diario_saude/diario_saude/obj
