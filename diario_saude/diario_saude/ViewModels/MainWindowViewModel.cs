@@ -10,6 +10,14 @@ namespace diario_saude.ViewModels
 {
     public class MainWindowViewModel : ViewModelBase
     {
+
+        private Brush _menuBackgroundColor = new SolidColorBrush(Color.Parse("#1e1e1e"));
+        public Brush MenuBackgroundColor
+        {
+            get => _menuBackgroundColor;
+            set => this.RaiseAndSetIfChanged(ref _menuBackgroundColor, value);
+        }
+
         private bool _isPaneOpen = false;
         public bool IsPaneOpen
         {
@@ -71,6 +79,10 @@ namespace diario_saude.ViewModels
 }
 public class ListItemTemplate : ReactiveObject
 {
+    public string Label { get; }
+    public Type ModelType { get; }
+    public StreamGeometry? Icon { get; }
+
     public ListItemTemplate(Type type, string iconKey)
     {
         ModelType = type;
@@ -84,8 +96,4 @@ public class ListItemTemplate : ReactiveObject
         ModelType = type;
         Label = type.Name.Replace("PageViewModel", "");
     }
-
-    public string Label { get; }
-    public Type ModelType { get; }
-    public StreamGeometry? Icon { get; }
 }
