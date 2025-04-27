@@ -15,7 +15,7 @@ namespace diario_saude.ViewModels
             set => this.RaiseAndSetIfChanged(ref _contentBackgroundColor, value);
         }
 
-        private string _themePreference;
+        private string _themePreference = "Dark";
 
         public string ThemePreference
         {
@@ -29,7 +29,6 @@ namespace diario_saude.ViewModels
 
         public ViewModelBase()
         {
-            ThemePreference = "Light";
             SetBackgroundColorBasedOnTheme();
         }
 
