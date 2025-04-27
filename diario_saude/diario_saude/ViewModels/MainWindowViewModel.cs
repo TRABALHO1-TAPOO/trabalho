@@ -31,7 +31,8 @@ namespace diario_saude.ViewModels
             new ListItemTemplate(typeof(HomePageViewModel), "home_regular"),
             new ListItemTemplate(typeof(DailyRecordPageViewModel), "note_add_regular"),
             new ListItemTemplate(typeof(RecordHistoryPageViewModel), "calendar_regular"),
-            new ListItemTemplate(typeof(ReportAndChartsPageViewModel), "data_histogram_regular")
+            new ListItemTemplate(typeof(ReportAndChartsPageViewModel), "data_histogram_regular"),
+            new ListItemTemplate(typeof(SettingsPageViewModel), "settings_regular"),
         };
 
         private ListItemTemplate? _selectedListItem;
