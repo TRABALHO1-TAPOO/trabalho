@@ -28,6 +28,9 @@
       <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Avalonia.ReactiveUI" Version="11.2.7" />
+    <!-- Pacotes do banco de dados -->
+    <PackageReference Include="linq2db" Version="5.4.0" />
+    <PackageReference Include="Microsoft.Data.SQLite" Version="8.0.3" />
   </ItemGroup>
 
   <ItemGroup>
