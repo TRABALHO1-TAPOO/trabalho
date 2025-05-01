@@ -1,36 +1,53 @@
 <UserControl xmlns="https://github.com/avaloniaui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 			 xmlns:vm="using:diario_saude.ViewModels"
 			 x:DataType="vm:SettingsPageViewModel"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="diario_saude.Views.SettingsPageView">
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+			 x:Class="diario_saude.Views.SettingsPageView">
 
-	<Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20">
-		<Grid.ColumnDefinitions>
-			<ColumnDefinition Width="Auto"/>
-			<ColumnDefinition Width="Auto"/>
-			<ColumnDefinition Width="Auto"/>
-		</Grid.ColumnDefinitions>
+	<Grid>
+		<StackPanel Orientation="Horizontal" Grid.Row="0">
+			<Image Source="avares://diario_saude/Assets/logo.png"
+				   Width="100"
+				   HorizontalAlignment="Left"
+				   VerticalAlignment="Top"/>
+			<StackPanel Orientation="Vertical">
+				<TextBlock Text="Visual"
+					VerticalAlignment="Center"
+					Margin="0 14 0 0"
+					FontFamily="Segoe UI"
+					FontSize="16"
+					FontWeight="Bold"/>
+				<TextBlock  Text="Studio"
+					VerticalAlignment="Center"
+					FontFamily="Segoe UI"
+					FontSize="16"
+					FontWeight="Bold"/>
+				<TextBlock  Text="Health"
+					VerticalAlignment="Center"
+					FontFamily="Segoe UI"
+					FontSize="16"
+					FontWeight="Bold"/>
+			</StackPanel>
+		</StackPanel>
 
-		<PathIcon Grid.Column="0"
-					Data="{StaticResource color_regular}">
-		</PathIcon>
-		<TextBlock Grid.Column="1"
-				   FontFamily="Cabin"
-				   FontSize="16"
-				   FontWeight="Bold"
-				   VerticalAlignment="Center"
-				   Margin="0,0,10,0"
-			   Text="{Binding ThemePreference, StringFormat='  Tema ({0})'}">
-		</TextBlock>
-
-
-		<ToggleButton Grid.Column="2"
-					  Classes="theme-switch"
-					  Command="{Binding ToggleThemeCommand}"
-					  VerticalAlignment="Center"/>
+		<StackPanel Orientation="Horizontal"
+					HorizontalAlignment="Center"
+					VerticalAlignment="Center">
+			<PathIcon Data="{StaticResource color_regular}"
+					  Margin="0,0,5,0"/>
+			<TextBlock FontFamily="Cabin"
+					   FontSize="16"
+					   FontWeight="Bold"
+					   VerticalAlignment="Center"
+					   Text="{Binding ThemePreference, StringFormat='  Tema ({0})'}"/>
+			<ToggleButton Classes="theme-switch"
+						  Command="{Binding ToggleThemeCommand}"
+						  Margin="10,0,0,0"
+						  VerticalAlignment="Center"/>
+		</StackPanel>
 	</Grid>
 
 </UserControl>

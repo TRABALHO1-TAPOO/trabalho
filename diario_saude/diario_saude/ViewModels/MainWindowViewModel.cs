@@ -6,6 +6,7 @@ using ReactiveUI;
 using System;
 using System.Collections.ObjectModel;
 using System.IO;
+using System.Linq;
 using System.Reactive;
 namespace diario_saude.ViewModels
 {
@@ -28,7 +29,7 @@ namespace diario_saude.ViewModels
 
         public ReactiveCommand<Unit, Unit> TriggerPane { get; }
 
-        private ViewModelBase _currentPage = new HomePageViewModel();
+        private ViewModelBase _currentPage;
         public ViewModelBase CurrentPage
         {
             get => _currentPage;
@@ -58,9 +59,22 @@ namespace diario_saude.ViewModels
         public void OnSelectedListItemChanged(ListItemTemplate? value)
         {
             if (value is null) return;
-            var instance = Activator.CreateInstance(value.ModelType);
-            if (instance is null) return;
-            CurrentPage = (ViewModelBase)instance;
+            object? instance = null;
+
+            // Criação especial para HomePageViewModel
+            if (value.ModelType == typeof(HomePageViewModel))
+            {
+                instance = new HomePageViewModel(this); // Passa a referência do MainWindowViewModel
+            }
+            else
+            {
+                instance = Activator.CreateInstance(value.ModelType);
+            }
+
+            if (instance is ViewModelBase vm)
+            {
+                CurrentPage = vm;
+            }
         }
 
         public ObservableCollection<ListItemTemplate> Items
@@ -82,6 +96,14 @@ namespace diario_saude.ViewModels
             (Avalonia.Application.Current as Application)!.RequestedThemeVariant = ThemeVariant.Light;
         }
 
+         public void NavigateTo<TViewModel>() where TViewModel : ViewModelBase
+        {
+            var item = Items.FirstOrDefault(i => i.ModelType == typeof(TViewModel));
+            if (item != null)
+            {
+                SelectedListItem = item; // Dispara a navegação via menu
+            }
+        }
         public MainWindowViewModel()
         {
             SetTheme();
@@ -89,6 +111,7 @@ namespace diario_saude.ViewModels
             {
                 IsPaneOpen = !IsPaneOpen;
             });
+            CurrentPage = new HomePageViewModel(this);
         }
     }
 }
