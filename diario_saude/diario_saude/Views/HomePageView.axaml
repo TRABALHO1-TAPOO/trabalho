@@ -8,11 +8,50 @@
 			 x:DataType="vm:HomePageViewModel">
 
 
-	<StackPanel HorizontalAlignment="Center"
-				VerticalAlignment="Center"
-				Background="{Binding ContentBackgroundColor}">
-		<Image Source="avares://diario_saude/Assets/logo.png"
-			   Width="200"/>
-	</StackPanel>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+
+		<StackPanel Orientation="Horizontal" Grid.Row="0">
+			<Image Source="avares://diario_saude/Assets/logo.png"
+				   Width="100"
+				   HorizontalAlignment="Left"
+				   VerticalAlignment="Top"/>
+			<StackPanel Orientation="Vertical">
+				<TextBlock Text="Visual"
+					VerticalAlignment="Center"
+					Margin="0 14 0 0"
+					FontFamily="Segoe UI"
+					FontSize="16"
+					FontWeight="Bold"/>
+				<TextBlock  Text="Studio"
+					VerticalAlignment="Center"
+					FontFamily="Segoe UI"
+					FontSize="16"
+					FontWeight="Bold"/>
+				<TextBlock  Text="Health"
+					VerticalAlignment="Center"
+					FontFamily="Segoe UI"
+					FontSize="16"
+					FontWeight="Bold"/>
+			</StackPanel>
+
+		</StackPanel>
+		<StackPanel Orientation="Horizontal"
+					Grid.Row="1"
+					HorizontalAlignment="Center"
+					VerticalAlignment="Center">
+			<Button Margin="40"
+					Padding="30"
+					CornerRadius="30"
+					Command="{Binding NavigateToDailyRecordCommand}">Novo Registro</Button>
+			<Button Margin="40"
+					Padding="30"
+					CornerRadius="30"
+					Command="{Binding NavigateToRecordHistoryCommand}">Histórico de Registros</Button>
+		</StackPanel>
+	</Grid>
 
 </UserControl>
