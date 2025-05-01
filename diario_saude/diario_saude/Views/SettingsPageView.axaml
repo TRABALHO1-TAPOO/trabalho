@@ -7,15 +7,25 @@
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="diario_saude.Views.SettingsPageView">
 
-	<StackPanel Margin="20" Spacing="10">
-		<ToggleButton
-		  Command="{Binding ToggleThemeCommand}"
-		  Background="Transparent">
-			<StackPanel Orientation="Horizontal" Spacing="4">
-				<PathIcon Data="{StaticResource settings_regular}" />
-			</StackPanel>
+	<Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="Auto"/>
+			<ColumnDefinition Width="Auto"/>
+		</Grid.ColumnDefinitions>
 
-		</ToggleButton>
-	</StackPanel>
+		<TextBlock Grid.Column="0"
+				   FontFamily="Cabin"
+				   FontSize="16"
+				   FontWeight="Bold"
+				   VerticalAlignment="Center"
+				   Margin="0,0,10,0"
+			   Text="{Binding ThemePreference, StringFormat='Tema ({0})'}">
+		</TextBlock>
+
+		<ToggleButton Grid.Column="1"
+					  Classes="theme-switch"
+					  Command="{Binding ToggleThemeCommand}"
+					  VerticalAlignment="Center"/>
+	</Grid>
 
 </UserControl>

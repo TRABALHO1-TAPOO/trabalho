@@ -12,5 +12,6 @@
     <Application.Styles>
         <FluentTheme />
 		<StyleInclude Source="avares://diario_saude/Assets/Icons.axaml"></StyleInclude>
+		<StyleInclude Source="avares://diario_saude/Styles/SwitchButton.axaml"/>
 	</Application.Styles>
 </Application>

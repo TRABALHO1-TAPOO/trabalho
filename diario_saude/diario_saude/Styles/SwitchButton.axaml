@@ -1,0 +1,57 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+	<Style Selector="ToggleButton.theme-switch">
+		<Setter Property="Width" Value="50"/>
+		<Setter Property="Height" Value="30"/>
+		<Setter Property="BorderThickness" Value="0"/>
+		<Setter Property="Background" Value="Transparent"/>
+		<Setter Property="Template">
+			<ControlTemplate>
+				<Border Name="RootBorder"
+                        Background="{DynamicResource ThemeBackgroundBrush}"
+                        BorderBrush="#CCCCCC"
+                        BorderThickness="1"
+                        CornerRadius="15">
+					<Panel>
+						<!-- Track background -->
+						<Border Name="Track"
+                                CornerRadius="14"
+                                Width="48"
+                                Height="28"
+                                Margin="1"
+                                Background="#1e1e1e"/>
+
+						<!-- Thumb (bolinha deslizante) -->
+						<Ellipse Name="Thumb"
+                                Width="26"
+                                Height="26"
+                                Margin="2,2,22,2"
+                                HorizontalAlignment="Left"
+                                Fill="White"
+                                Stroke="#CCCCCC"
+                                StrokeThickness="1"/>
+					</Panel>
+				</Border>
+			</ControlTemplate>
+		</Setter>
+	</Style>
+
+	<!-- Correção dos seletores para os estados -->
+	<Style Selector="ToggleButton.theme-switch:checked /template/ Border#Track">
+		<Setter Property="Background" Value="#d3d3d3"/>
+	</Style>
+
+	<Style Selector="ToggleButton.theme-switch:checked /template/ Ellipse#Thumb">
+		<Setter Property="Margin" Value="22,2,2,2"/>
+	</Style>
+
+	<!-- Estilos para estados adicionais -->
+	<Style Selector="ToggleButton.theme-switch:pointerover /template/ Border#RootBorder">
+		<Setter Property="BorderBrush" Value="#999999"/>
+	</Style>
+
+	<Style Selector="ToggleButton.theme-switch:pressed /template/ Border#RootBorder">
+		<Setter Property="Opacity" Value="0.8"/>
+	</Style>
+</Styles>
