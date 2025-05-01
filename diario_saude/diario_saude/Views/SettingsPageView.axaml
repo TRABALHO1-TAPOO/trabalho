@@ -11,18 +11,23 @@
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition Width="Auto"/>
 			<ColumnDefinition Width="Auto"/>
+			<ColumnDefinition Width="Auto"/>
 		</Grid.ColumnDefinitions>
 
-		<TextBlock Grid.Column="0"
+		<PathIcon Grid.Column="0"
+					Data="{StaticResource color_regular}">
+		</PathIcon>
+		<TextBlock Grid.Column="1"
 				   FontFamily="Cabin"
 				   FontSize="16"
 				   FontWeight="Bold"
 				   VerticalAlignment="Center"
 				   Margin="0,0,10,0"
-			   Text="{Binding ThemePreference, StringFormat='Tema ({0})'}">
+			   Text="{Binding ThemePreference, StringFormat='  Tema ({0})'}">
 		</TextBlock>
 
-		<ToggleButton Grid.Column="1"
+
+		<ToggleButton Grid.Column="2"
 					  Classes="theme-switch"
 					  Command="{Binding ToggleThemeCommand}"
 					  VerticalAlignment="Center"/>
