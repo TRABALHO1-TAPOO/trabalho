@@ -68,27 +68,23 @@ namespace diario_saude.ViewModels
             get => _items;
             set => this.RaiseAndSetIfChanged(ref _items, value);
         }
-
-        private void SetBackgroundColorBasedOnTheme()
+        protected override void SetDarkTheme()
         {
-            if (ThemePreference == "Light")
-            {
-                ContentBackgroundColor = new SolidColorBrush(Color.Parse("#e2e2e2"));
-                MenuBackgroundColor = new SolidColorBrush(Color.Parse("#f3f3f3"));
-                (Avalonia.Application.Current as Application)!.RequestedThemeVariant = ThemeVariant.Light;
-            }
-            else
-            {
-                ContentBackgroundColor = new SolidColorBrush(Color.Parse("#2d2d2d"));
-                MenuBackgroundColor = new SolidColorBrush(Color.Parse("#1e1e1e"));
-                (Avalonia.Application.Current as Application)!.RequestedThemeVariant = ThemeVariant.Dark;
+            ContentBackgroundColor = new SolidColorBrush(Color.Parse("#2d2d2d"));
+            MenuBackgroundColor = new SolidColorBrush(Color.Parse("#1e1e1e"));
+            (Avalonia.Application.Current as Application)!.RequestedThemeVariant = ThemeVariant.Dark;
+        }
 
-            }
+        protected override void SetLightTheme()
+        {
+            ContentBackgroundColor = new SolidColorBrush(Color.Parse("#e2e2e2"));
+            MenuBackgroundColor = new SolidColorBrush(Color.Parse("#f3f3f3"));
+            (Avalonia.Application.Current as Application)!.RequestedThemeVariant = ThemeVariant.Light;
         }
 
         public MainWindowViewModel()
         {
-            SetBackgroundColorBasedOnTheme();
+            SetTheme();
             TriggerPane = ReactiveCommand.Create(() =>
             {
                 IsPaneOpen = !IsPaneOpen;

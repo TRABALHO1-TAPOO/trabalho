@@ -23,28 +23,37 @@ namespace diario_saude.ViewModels
             set
             {
                 this.RaiseAndSetIfChanged(ref _themePreference, value);
-                SetBackgroundColorBasedOnTheme();
-            } 
+                SetTheme();
+            }
         }
 
         public ViewModelBase()
         {
-            SetBackgroundColorBasedOnTheme();
+            SetTheme();
         }
 
-        private void SetBackgroundColorBasedOnTheme()
+        protected void SetTheme()
         {
-            if(ThemePreference == "Light")
+            if (ThemePreference == "Light")
             {
-                ContentBackgroundColor = new SolidColorBrush(Color.Parse("#f2f2f2"));
-                (Avalonia.Application.Current as Application)!.RequestedThemeVariant = ThemeVariant.Light;
+                SetLightTheme();
             }
-            else 
+            else
             {
-                ContentBackgroundColor = new SolidColorBrush(Color.Parse("#2d2d2d"));
-                (Avalonia.Application.Current as Application)!.RequestedThemeVariant = ThemeVariant.Dark;
+                SetDarkTheme();
+            }
+        }
 
-            }
+        protected virtual void SetLightTheme()
+        {
+            ContentBackgroundColor = new SolidColorBrush(Color.Parse("#f2f2f2"));
+            (Avalonia.Application.Current as Application)!.RequestedThemeVariant = ThemeVariant.Light;
+        }
+
+        protected virtual void SetDarkTheme()
+        {
+            ContentBackgroundColor = new SolidColorBrush(Color.Parse("#2d2d2d"));
+            (Avalonia.Application.Current as Application)!.RequestedThemeVariant = ThemeVariant.Dark;
         }
 
         public void ToggleTheme()
