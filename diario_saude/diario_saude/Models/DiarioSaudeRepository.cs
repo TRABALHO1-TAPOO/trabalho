@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using LinqToDB;
 
@@ -14,13 +15,12 @@ namespace DiarioSaude.Models
             _db = new DiarioSaudeDb(connectionString);
         }
 
-        // RegistroDiario operations
         public async Task<int> AdicionarRegistroDiarioAsync(RegistroDiario registro)
         {
             return await _db.InsertWithInt32IdentityAsync(registro);
         }
 
-        public async Task<RegistroDiario> ObterRegistroDiarioAsync(int id)
+        public async Task<RegistroDiario?> ObterRegistroDiarioAsync(int id)
         {
             return await _db.RegistrosDiarios.FirstOrDefaultAsync(r => r.Id == id);
         }
@@ -28,6 +28,7 @@ namespace DiarioSaude.Models
         public async Task<List<RegistroDiario>> ObterRegistrosPorPeriodoAsync(DateTime inicio, DateTime fim)
         {
             return await _db.RegistrosDiarios
+                .AsQueryable()
                 .Where(r => r.Data >= inicio && r.Data <= fim)
                 .OrderByDescending(r => r.Data)
                 .ToListAsync();
@@ -43,49 +44,44 @@ namespace DiarioSaude.Models
             await _db.RegistrosDiarios.DeleteAsync(r => r.Id == id);
         }
 
-        // Humor operations
         public async Task<List<Humor>> ObterHumoresAsync()
         {
             return await _db.Humores.ToListAsync();
         }
 
-        // QualidadeSono operations
         public async Task<List<QualidadeSono>> ObterQualidadesSonoAsync()
         {
             return await _db.QualidadesSono.ToListAsync();
         }
 
-        // Alimentacao operations
         public async Task<int> AdicionarAlimentacaoAsync(Alimentacao alimentacao)
         {
             return await _db.InsertWithInt32IdentityAsync(alimentacao);
         }
 
-        public async Task<Alimentacao> ObterAlimentacaoAsync(int id)
+        public async Task<Alimentacao?> ObterAlimentacaoAsync(int id)
         {
             return await _db.Alimentacoes.FirstOrDefaultAsync(a => a.Id == id);
         }
 
-        // AtividadeFisica operations
         public async Task<int> AdicionarAtividadeFisicaAsync(AtividadeFisica atividade)
         {
             return await _db.InsertWithInt32IdentityAsync(atividade);
         }
 
-        public async Task<AtividadeFisica> ObterAtividadeFisicaAsync(int id)
+        public async Task<AtividadeFisica?> ObterAtividadeFisicaAsync(int id)
         {
             return await _db.AtividadesFisicas.FirstOrDefaultAsync(a => a.Id == id);
         }
 
-        // Configuracao operations
-        public async Task<Configuracao> ObterConfiguracaoAsync()
+        public async Task<Configuracao?> ObterConfiguracaoAsync()
         {
             return await _db.Configuracoes.FirstOrDefaultAsync();
         }
 
         public async Task SalvarConfiguracaoAsync(Configuracao config)
         {
-            if (await _db.Configuracoes.AnyAsync())
+            if (await _db.Configuracoes.AsQueryable().AnyAsync())
                 await _db.UpdateAsync(config);
             else
                 await _db.InsertAsync(config);

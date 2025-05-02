@@ -9,7 +9,7 @@ namespace DiarioSaude.Models
         public int Id { get; set; }
 
         [Column, NotNull]
-        public string Descricao { get; set; }
+        public required string Descricao { get; set; }
 
         [Column]
         public int? Calorias { get; set; }

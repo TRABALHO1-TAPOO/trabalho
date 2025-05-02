@@ -9,9 +9,9 @@ namespace DiarioSaude.Models
         public int Id { get; set; }
 
         [Column, NotNull]
-        public string CaminhoBanco { get; set; }
+        public required string CaminhoBanco { get; set; }
 
         [Column, NotNull]
-        public string Tema { get; set; } // "claro" ou "escuro"
+        public required string Tema { get; set; } // "claro" ou "escuro"
     }
 } 

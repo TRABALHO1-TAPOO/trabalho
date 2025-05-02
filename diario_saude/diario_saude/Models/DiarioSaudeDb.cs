@@ -1,3 +1,5 @@
+using System;
+using System.Linq;
 using LinqToDB;
 using LinqToDB.Data;
 
@@ -9,18 +11,17 @@ namespace DiarioSaude.Models
         {
         }
 
-        public ITable<RegistroDiario> RegistrosDiarios => GetTable<RegistroDiario>();
-        public ITable<Humor> Humores => GetTable<Humor>();
-        public ITable<QualidadeSono> QualidadesSono => GetTable<QualidadeSono>();
-        public ITable<Alimentacao> Alimentacoes => GetTable<Alimentacao>();
-        public ITable<AtividadeFisica> AtividadesFisicas => GetTable<AtividadeFisica>();
-        public ITable<Configuracao> Configuracoes => GetTable<Configuracao>();
+        public ITable<RegistroDiario> RegistrosDiarios => this.GetTable<RegistroDiario>();
+        public ITable<Humor> Humores => this.GetTable<Humor>();
+        public ITable<QualidadeSono> QualidadesSono => this.GetTable<QualidadeSono>();
+        public ITable<Alimentacao> Alimentacoes => this.GetTable<Alimentacao>();
+        public ITable<AtividadeFisica> AtividadesFisicas => this.GetTable<AtividadeFisica>();
+        public ITable<Configuracao> Configuracoes => this.GetTable<Configuracao>();
 
         public static void CreateDatabase(string connectionString)
         {
             using var db = new DiarioSaudeDb(connectionString);
             
-            // Create all tables if they don't exist
             db.CreateTable<RegistroDiario>();
             db.CreateTable<Humor>();
             db.CreateTable<QualidadeSono>();
@@ -29,7 +30,7 @@ namespace DiarioSaude.Models
             db.CreateTable<Configuracao>();
 
             // Insert default values for Humor
-            if (!db.Humores.Any())
+            if (!db.Humores.AsQueryable().Any())
             {
                 db.Insert(new Humor { Descricao = "Feliz" });
                 db.Insert(new Humor { Descricao = "Triste" });
@@ -38,7 +39,7 @@ namespace DiarioSaude.Models
             }
 
             // Insert default values for QualidadeSono
-            if (!db.QualidadesSono.Any())
+            if (!db.QualidadesSono.AsQueryable().Any())
             {
                 db.Insert(new QualidadeSono { Descricao = "Boa" });
                 db.Insert(new QualidadeSono { Descricao = "Média" });

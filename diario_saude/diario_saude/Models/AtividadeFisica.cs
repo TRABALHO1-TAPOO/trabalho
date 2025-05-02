@@ -9,7 +9,7 @@ namespace DiarioSaude.Models
         public int Id { get; set; }
 
         [Column, NotNull]
-        public string TipoAtividade { get; set; }
+        public required string TipoAtividade { get; set; }
 
         [Column, NotNull]
         public int DuracaoMinutos { get; set; }
