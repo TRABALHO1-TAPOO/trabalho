@@ -3,6 +3,14 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="diario_saude.Views.RecordHistoryPageView">
-  Histórico de Registros
+			 xmlns:local="using:diario_saude.Views.Components"
+			 x:Class="diario_saude.Views.RecordHistoryPageView">
+	<Grid>
+		<local:LogoHeader HorizontalAlignment="Left" VerticalAlignment="Top"/>
+		<StackPanel
+	VerticalAlignment="Center"
+	HorizontalAlignment="Center">
+			<TextBox>Histórico de Registros</TextBox>
+		</StackPanel>
+	</Grid>
 </UserControl>

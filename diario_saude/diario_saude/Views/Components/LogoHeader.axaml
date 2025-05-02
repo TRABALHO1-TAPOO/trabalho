@@ -1,0 +1,16 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="diario_saude.Views.Components.LogoHeader">
+	<StackPanel Orientation="Horizontal">
+		<Image Source="avares://diario_saude/Assets/logo.png"
+               Width="100"/>
+		<StackPanel Orientation="Vertical">
+			<TextBlock Text="Visual" Margin="0 14 0 0"
+                     FontFamily="Segoe UI" FontSize="16" FontWeight="Bold"/>
+			<TextBlock Text="Studio"
+                     FontFamily="Segoe UI" FontSize="16" FontWeight="Bold"/>
+			<TextBlock Text="Health"
+                     FontFamily="Segoe UI" FontSize="16" FontWeight="Bold"/>
+		</StackPanel>
+	</StackPanel>
+</UserControl>
