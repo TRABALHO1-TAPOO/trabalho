@@ -9,10 +9,10 @@ namespace diario_saude.ViewModels
 {
     public class ViewModelBase : ReactiveObject
     {
-
         public ReactiveCommand<Unit, Unit> ToggleThemeCommand { get; }
 
         private Brush _contentBackgroundColor = new SolidColorBrush(Color.Parse("#2d2d2d"));
+
         public Brush ContentBackgroundColor
         {
             get => _contentBackgroundColor;
@@ -72,6 +72,5 @@ namespace diario_saude.ViewModels
         {
             ThemeService.Toggle();
         }
-
     }
 }

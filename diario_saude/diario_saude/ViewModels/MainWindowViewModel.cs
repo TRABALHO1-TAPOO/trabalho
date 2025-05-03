@@ -1,19 +1,19 @@
 ﻿using Avalonia;
-using Avalonia.Controls;
 using Avalonia.Media;
 using Avalonia.Styling;
+using diario_saude.Services;
 using ReactiveUI;
 using System;
 using System.Collections.ObjectModel;
-using System.IO;
 using System.Linq;
 using System.Reactive;
+
 namespace diario_saude.ViewModels
 {
     public class MainWindowViewModel : ViewModelBase
     {
-
         private Brush _menuBackgroundColor = new SolidColorBrush(Color.Parse("#1e1e1e"));
+
         public Brush MenuBackgroundColor
         {
             get => _menuBackgroundColor;
@@ -21,6 +21,7 @@ namespace diario_saude.ViewModels
         }
 
         private bool _isPaneOpen = false;
+
         public bool IsPaneOpen
         {
             get => _isPaneOpen;
@@ -30,6 +31,7 @@ namespace diario_saude.ViewModels
         public ReactiveCommand<Unit, Unit> TriggerPane { get; }
 
         private ViewModelBase _currentPage;
+
         public ViewModelBase CurrentPage
         {
             get => _currentPage;
@@ -45,7 +47,14 @@ namespace diario_saude.ViewModels
             new ListItemTemplate(typeof(SettingsPageViewModel), "settings_regular"),
         };
 
+        public ObservableCollection<ListItemTemplate> Items
+        {
+            get => _items;
+            set => this.RaiseAndSetIfChanged(ref _items, value);
+        }
+
         private ListItemTemplate? _selectedListItem;
+
         public ListItemTemplate SelectedListItem
         {
             get => _selectedListItem!;
@@ -56,15 +65,24 @@ namespace diario_saude.ViewModels
             }
         }
 
+        public MainWindowViewModel()
+        {
+            SetTheme();
+            TriggerPane = ReactiveCommand.Create(() =>
+            {
+                IsPaneOpen = !IsPaneOpen;
+            });
+            CurrentPage = new HomePageViewModel(this);
+        }
+
         public void OnSelectedListItemChanged(ListItemTemplate? value)
         {
             if (value is null) return;
             object? instance = null;
 
-            // Criação especial para HomePageViewModel
             if (value.ModelType == typeof(HomePageViewModel))
             {
-                instance = new HomePageViewModel(this); // Passa a referência do MainWindowViewModel
+                instance = new HomePageViewModel(this);
             }
             else
             {
@@ -77,11 +95,15 @@ namespace diario_saude.ViewModels
             }
         }
 
-        public ObservableCollection<ListItemTemplate> Items
+        public void NavigateTo<TViewModel>() where TViewModel : ViewModelBase
         {
-            get => _items;
-            set => this.RaiseAndSetIfChanged(ref _items, value);
+            var item = Items.FirstOrDefault(i => i.ModelType == typeof(TViewModel));
+            if (item != null)
+            {
+                SelectedListItem = item;
+            }
         }
+
         protected override void SetDarkTheme()
         {
             ContentBackgroundColor = new SolidColorBrush(Color.Parse("#2d2d2d"));
@@ -95,43 +117,5 @@ namespace diario_saude.ViewModels
             MenuBackgroundColor = new SolidColorBrush(Color.Parse("#f3f3f3"));
             (Avalonia.Application.Current as Application)!.RequestedThemeVariant = ThemeVariant.Light;
         }
-
-         public void NavigateTo<TViewModel>() where TViewModel : ViewModelBase
-        {
-            var item = Items.FirstOrDefault(i => i.ModelType == typeof(TViewModel));
-            if (item != null)
-            {
-                SelectedListItem = item; // Dispara a navegação via menu
-            }
-        }
-        public MainWindowViewModel()
-        {
-            SetTheme();
-            TriggerPane = ReactiveCommand.Create(() =>
-            {
-                IsPaneOpen = !IsPaneOpen;
-            });
-            CurrentPage = new HomePageViewModel(this);
-        }
-    }
-}
-public class ListItemTemplate : ReactiveObject
-{
-    public string Label { get; }
-    public Type ModelType { get; }
-    public StreamGeometry? Icon { get; }
-
-    public ListItemTemplate(Type type, string iconKey)
-    {
-        ModelType = type;
-        Label = type.Name.Replace("PageViewModel", "");
-        Application.Current!.TryFindResource(iconKey, out var icon);
-        Icon = (StreamGeometry)icon!;
-    }
-
-    public ListItemTemplate(Type type)
-    {
-        ModelType = type;
-        Label = type.Name.Replace("PageViewModel", "");
     }
 }
