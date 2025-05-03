@@ -5,7 +5,9 @@ using diario_saude.ViewModels;
 using diario_saude.Views;
 using System;
 using System.IO;
+using System.Threading.Tasks;
 using DiarioSaude.Models;
+using diario_saude.Services;
 
 namespace diario_saude
 {
@@ -30,43 +32,18 @@ namespace diario_saude
                     
                 DbPath = Path.Combine(appDataPath, "diariosaude.db");
                 
-                // Se o banco de dados já existe e está causando problemas, tentar excluir
-                if (File.Exists(DbPath))
-                {
-                    try
-                    {
-                        // Apenas durante desenvolvimento - em produção, deve-se fazer backup
-                        File.Delete(DbPath);
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine($"Não foi possível excluir o banco de dados existente: {ex.Message}");
-                        // Usa caminho alternativo se não puder excluir
-                        DbPath = Path.Combine(appDataPath, $"diariosaude_{DateTime.Now.Ticks}.db");
-                    }
-                }
-                
                 // Inicializa o banco de dados
                 string connectionString = $"Data Source={DbPath}";
                 DiarioSaudeDb.CreateDatabase(connectionString);
+                
+                // Inicializa o ThemeService de forma assíncrona
+                Task.Run(async () => await ThemeService.InitializeAsync(connectionString)).Wait();
                 
                 Console.WriteLine($"Banco de dados inicializado em: {DbPath}");
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Erro ao inicializar o banco de dados: {ex.Message}");
-                // Em caso de falha, use uma localização temporária
-                DbPath = Path.Combine(Path.GetTempPath(), $"diariosaude_temp_{Guid.NewGuid()}.db");
-                string connectionString = $"Data Source={DbPath}";
-                try
-                {
-                    DiarioSaudeDb.CreateDatabase(connectionString);
-                    Console.WriteLine($"Banco de dados inicializado em local temporário: {DbPath}");
-                }
-                catch (Exception innerEx)
-                {
-                    Console.WriteLine($"Falha crítica no banco de dados: {innerEx.Message}");
-                }
             }
         }
 

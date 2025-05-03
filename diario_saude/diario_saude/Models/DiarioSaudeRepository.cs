@@ -25,15 +25,6 @@ namespace DiarioSaude.Models
             return await _db.RegistrosDiarios.FirstOrDefaultAsync(r => r.Id == id);
         }
 
-        public async Task<List<RegistroDiario>> ObterRegistrosPorPeriodoAsync(DateTime inicio, DateTime fim)
-        {
-            return await _db.RegistrosDiarios
-                .AsQueryable()
-                .Where(r => r.Data >= inicio && r.Data <= fim)
-                .OrderByDescending(r => r.Data)
-                .ToListAsync();
-        }
-
         public async Task AtualizarRegistroDiarioAsync(RegistroDiario registro)
         {
             await _db.UpdateAsync(registro);
@@ -54,42 +45,9 @@ namespace DiarioSaude.Models
             return await _db.QualidadesSono.ToListAsync();
         }
 
-        public async Task<int> AdicionarAlimentacaoAsync(Alimentacao alimentacao)
-        {
-            return await _db.InsertWithInt32IdentityAsync(alimentacao);
-        }
-
-        public async Task<Alimentacao?> ObterAlimentacaoAsync(int id)
-        {
-            return await _db.Alimentacoes.FirstOrDefaultAsync(a => a.Id == id);
-        }
-
-        public async Task<int> AdicionarAtividadeFisicaAsync(AtividadeFisica atividade)
-        {
-            return await _db.InsertWithInt32IdentityAsync(atividade);
-        }
-
-        public async Task<AtividadeFisica?> ObterAtividadeFisicaAsync(int id)
-        {
-            return await _db.AtividadesFisicas.FirstOrDefaultAsync(a => a.Id == id);
-        }
-
-        public async Task<Configuracao?> ObterConfiguracaoAsync()
-        {
-            return await _db.Configuracoes.FirstOrDefaultAsync();
-        }
-
-        public async Task SalvarConfiguracaoAsync(Configuracao config)
-        {
-            if (await _db.Configuracoes.AsQueryable().AnyAsync())
-                await _db.UpdateAsync(config);
-            else
-                await _db.InsertAsync(config);
-        }
-
         public void Dispose()
         {
-            _db?.Dispose();
+            _db.Dispose();
         }
     }
-} 
+}

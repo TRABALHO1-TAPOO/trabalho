@@ -46,7 +46,7 @@ namespace diario_saude.ViewModels
 
         protected void SetTheme()
         {
-            if (ThemePreference == "Light")
+            if (ThemePreference == "claro")
             {
                 SetLightTheme();
             }

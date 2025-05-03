@@ -29,6 +29,7 @@ namespace diario_saude.ViewModels
         }
 
         public ReactiveCommand<Unit, Unit> TriggerPane { get; }
+        public ReactiveCommand<Unit, Unit> ToggleThemeCommand { get; }
 
         private ViewModelBase _currentPage;
 
@@ -67,12 +68,29 @@ namespace diario_saude.ViewModels
 
         public MainWindowViewModel()
         {
-            SetTheme();
+            SetTheme(); // Aplicar o tema ao inicializar
+
             TriggerPane = ReactiveCommand.Create(() =>
             {
                 IsPaneOpen = !IsPaneOpen;
             });
+
+            ToggleThemeCommand = ReactiveCommand.Create(() =>
+            {
+                ThemeService.Toggle();
+            });
+
+            // Atualizar a interface quando o tema mudar
+            ThemeService.PreferenceChanged += OnThemeChanged;
+
             CurrentPage = new HomePageViewModel(this);
+        }
+
+        private void OnThemeChanged(string newTheme)
+        {
+            ThemePreference = newTheme; // Atualizar a propriedade ThemePreference
+            SetTheme(); // Aplicar o tema atualizado
+            Console.WriteLine($"Tema alterado para: {newTheme}");
         }
 
         public void OnSelectedListItemChanged(ListItemTemplate? value)

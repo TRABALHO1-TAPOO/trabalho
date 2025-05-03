@@ -38,10 +38,10 @@ namespace DiarioSaude.Models
                     if (!db.Humores.AsQueryable().Any())
                     {
                         Console.WriteLine("Inserindo valores padrão para Humor");
-                        db.Insert(new Humor { Descricao = "Feliz" });
-                        db.Insert(new Humor { Descricao = "Triste" });
-                        db.Insert(new Humor { Descricao = "Ansioso" });
-                        db.Insert(new Humor { Descricao = "Neutro" });
+                        db.InsertAsync(new Humor { Descricao = "Feliz" });
+                        db.InsertAsync(new Humor { Descricao = "Triste" });
+                        db.InsertAsync(new Humor { Descricao = "Ansioso" });
+                        db.InsertAsync(new Humor { Descricao = "Neutro" });
                     }
                 }
                 catch (Exception ex)
