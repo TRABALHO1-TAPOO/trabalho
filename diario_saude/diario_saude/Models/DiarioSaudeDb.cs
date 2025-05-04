@@ -18,51 +18,73 @@ namespace DiarioSaude.Models
         public ITable<AtividadeFisica> AtividadesFisicas => this.GetTable<AtividadeFisica>();
         public ITable<Configuracao> Configuracoes => this.GetTable<Configuracao>();
 
+        public bool TableExists<T>()
+        {
+            var tableName = this.MappingSchema.GetEntityDescriptor(typeof(T)).Name;
+            var result = this.Query<string>($"SELECT name FROM sqlite_master WHERE type='table' AND name='{tableName}'").FirstOrDefault();
+            return !string.IsNullOrEmpty(result);
+        }
+
         public static void CreateDatabase(string connectionString)
         {
             try
             {
+                Console.WriteLine("Iniciando a criação do banco de dados...");
                 using var db = new DiarioSaudeDb(connectionString);
-                
-                // Verifica se as tabelas existem e tenta criar se não existirem
-                try { db.CreateTable<RegistroDiario>(); } catch { Console.WriteLine("Tabela RegistroDiario já existe ou erro ao criar"); }
-                try { db.CreateTable<Humor>(); } catch { Console.WriteLine("Tabela Humor já existe ou erro ao criar"); }
-                try { db.CreateTable<QualidadeSono>(); } catch { Console.WriteLine("Tabela QualidadeSono já existe ou erro ao criar"); }
-                try { db.CreateTable<Alimentacao>(); } catch { Console.WriteLine("Tabela Alimentacao já existe ou erro ao criar"); }
-                try { db.CreateTable<AtividadeFisica>(); } catch { Console.WriteLine("Tabela AtividadeFisica já existe ou erro ao criar"); }
-                try { db.CreateTable<Configuracao>(); } catch { Console.WriteLine("Tabela Configuracao já existe ou erro ao criar"); }
 
-                // Insert default values for Humor if table is empty
-                try
+                if (!db.TableExists<RegistroDiario>())
                 {
-                    if (!db.Humores.AsQueryable().Any())
-                    {
-                        Console.WriteLine("Inserindo valores padrão para Humor");
-                        db.InsertAsync(new Humor { Descricao = "Feliz" });
-                        db.InsertAsync(new Humor { Descricao = "Triste" });
-                        db.InsertAsync(new Humor { Descricao = "Ansioso" });
-                        db.InsertAsync(new Humor { Descricao = "Neutro" });
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"Erro ao inserir valores padrão em Humor: {ex.Message}");
+                    db.CreateTable<RegistroDiario>();
+                    Console.WriteLine("Tabela RegistroDiario criada com sucesso.");
                 }
 
-                // Insert default values for QualidadeSono if table is empty
-                try
+                if (!db.TableExists<Humor>())
                 {
-                    if (!db.QualidadesSono.AsQueryable().Any())
-                    {
-                        Console.WriteLine("Inserindo valores padrão para QualidadeSono");
-                        db.Insert(new QualidadeSono { Descricao = "Boa" });
-                        db.Insert(new QualidadeSono { Descricao = "Média" });
-                        db.Insert(new QualidadeSono { Descricao = "Ruim" });
-                    }
+                    db.CreateTable<Humor>();
+                    Console.WriteLine("Tabela Humor criada com sucesso.");
                 }
-                catch (Exception ex)
+
+                if (!db.TableExists<QualidadeSono>())
                 {
-                    Console.WriteLine($"Erro ao inserir valores padrão em QualidadeSono: {ex.Message}");
+                    db.CreateTable<QualidadeSono>();
+                    Console.WriteLine("Tabela QualidadeSono criada com sucesso.");
+                }
+
+                if (!db.TableExists<Alimentacao>())
+                {
+                    db.CreateTable<Alimentacao>();
+                    Console.WriteLine("Tabela Alimentacao criada com sucesso.");
+                }
+
+                if (!db.TableExists<AtividadeFisica>())
+                {
+                    db.CreateTable<AtividadeFisica>();
+                    Console.WriteLine("Tabela AtividadeFisica criada com sucesso.");
+                }
+
+                if (!db.TableExists<Configuracao>())
+                {
+                    db.CreateTable<Configuracao>();
+                    Console.WriteLine("Tabela Configuracao criada com sucesso.");
+                }
+
+                // Inserir valores padrão para Humor
+                if (!db.Humores.ToList().Any())
+                {
+                    Console.WriteLine("Inserindo valores padrão para Humor");
+                    db.Insert(new Humor { Descricao = "Feliz" });
+                    db.Insert(new Humor { Descricao = "Triste" });
+                    db.Insert(new Humor { Descricao = "Ansioso" });
+                    db.Insert(new Humor { Descricao = "Neutro" });
+                }
+
+                // Inserir valores padrão para QualidadeSono
+                if (!db.QualidadesSono.ToList().Any())
+                {
+                    Console.WriteLine("Inserindo valores padrão para QualidadeSono");
+                    db.Insert(new QualidadeSono { Descricao = "Boa" });
+                    db.Insert(new QualidadeSono { Descricao = "Média" });
+                    db.Insert(new QualidadeSono { Descricao = "Ruim" });
                 }
 
                 Console.WriteLine("Inicialização do banco de dados concluída com sucesso");
@@ -70,8 +92,9 @@ namespace DiarioSaude.Models
             catch (Exception ex)
             {
                 Console.WriteLine($"Erro grave ao inicializar o banco de dados: {ex.Message}");
-                throw; // Re-throw para que a camada superior possa lidar com o erro
+                Console.WriteLine($"StackTrace: {ex.StackTrace}");
+                throw;
             }
         }
     }
-} 
+}

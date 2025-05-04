@@ -15,30 +15,30 @@ namespace diario_saude
     {
         public static string DbPath { get; private set; } = "diariosaude.db";
         
-        public override void Initialize()
+        public override async void Initialize()
         {
             AvaloniaXamlLoader.Load(this);
-            
+
             try
             {
                 // Configura o caminho do banco de dados no diretório do aplicativo
                 string appDataPath = Path.Combine(
                     Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
                     "DiarioSaude");
-                    
+
                 // Cria o diretório se não existir
                 if (!Directory.Exists(appDataPath))
                     Directory.CreateDirectory(appDataPath);
-                    
+
                 DbPath = Path.Combine(appDataPath, "diariosaude.db");
-                
+
                 // Inicializa o banco de dados
                 string connectionString = $"Data Source={DbPath}";
-                DiarioSaudeDb.CreateDatabase(connectionString);
-                
+                await Task.Run(() => DiarioSaudeDb.CreateDatabase(connectionString));
+
                 // Inicializa o ThemeService de forma assíncrona
-                Task.Run(async () => await ThemeService.InitializeAsync(connectionString)).Wait();
-                
+                await ThemeService.InitializeAsync(connectionString);
+
                 Console.WriteLine($"Banco de dados inicializado em: {DbPath}");
             }
             catch (Exception ex)

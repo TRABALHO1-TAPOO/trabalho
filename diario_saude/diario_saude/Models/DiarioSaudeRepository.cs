@@ -15,34 +15,29 @@ namespace DiarioSaude.Models
             _db = new DiarioSaudeDb(connectionString);
         }
 
-        public async Task<int> AdicionarRegistroDiarioAsync(RegistroDiario registro)
+        public async Task<List<RegistroDiario>> ObterRegistrosDiariosAsync()
         {
-            return await _db.InsertWithInt32IdentityAsync(registro);
-        }
-
-        public async Task<RegistroDiario?> ObterRegistroDiarioAsync(int id)
-        {
-            return await _db.RegistrosDiarios.FirstOrDefaultAsync(r => r.Id == id);
-        }
-
-        public async Task AtualizarRegistroDiarioAsync(RegistroDiario registro)
-        {
-            await _db.UpdateAsync(registro);
-        }
-
-        public async Task DeletarRegistroDiarioAsync(int id)
-        {
-            await _db.RegistrosDiarios.DeleteAsync(r => r.Id == id);
+            return await Task.Run(() => _db.RegistrosDiarios.ToList());
         }
 
         public async Task<List<Humor>> ObterHumoresAsync()
         {
-            return await _db.Humores.ToListAsync();
+            return await Task.Run(() => _db.Humores.ToList());
         }
 
         public async Task<List<QualidadeSono>> ObterQualidadesSonoAsync()
         {
-            return await _db.QualidadesSono.ToListAsync();
+            return await Task.Run(() => _db.QualidadesSono.ToList());
+        }
+
+        public async Task<List<Alimentacao>> ObterAlimentacoesAsync()
+        {
+            return await Task.Run(() => _db.Alimentacoes.ToList());
+        }
+
+        public async Task<List<AtividadeFisica>> ObterAtividadesFisicasAsync()
+        {
+            return await Task.Run(() => _db.AtividadesFisicas.ToList());
         }
 
         public void Dispose()

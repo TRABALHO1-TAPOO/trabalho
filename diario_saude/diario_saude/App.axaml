@@ -3,15 +3,13 @@
              x:Class="diario_saude.App"
              xmlns:local="using:diario_saude"
              RequestedThemeVariant="Dark">
-             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
-
     <Application.DataTemplates>
         <local:ViewLocator/>
     </Application.DataTemplates>
   
     <Application.Styles>
         <FluentTheme />
-		<StyleInclude Source="avares://diario_saude/Assets/Icons.axaml"></StyleInclude>
-		<StyleInclude Source="avares://diario_saude/Styles/SwitchButton.axaml"/>
-	</Application.Styles>
+        <StyleInclude Source="avares://diario_saude/Assets/Icons.axaml" />
+        <StyleInclude Source="avares://diario_saude/Styles/SwitchButton.axaml" />
+    </Application.Styles>
 </Application>

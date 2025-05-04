@@ -1,16 +1,54 @@
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:diario_saude.ViewModels"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-			 xmlns:local="using:diario_saude.Views.Components"	
-             x:Class="diario_saude.Views.DailyRecordPageView">
-	<Grid>
-		<local:LogoHeader HorizontalAlignment="Left" VerticalAlignment="Top"/>
-		<StackPanel
-			VerticalAlignment="Center"
-			HorizontalAlignment="Center">
-			<TextBox>Registro Diário</TextBox>
-		</StackPanel>
-	</Grid>
+             x:Class="diario_saude.Views.DailyRecordPageView"
+             x:DataType="vm:DailyRecordPageViewModel">
+
+    <Grid RowDefinitions="Auto, *" Margin="20">
+        <!-- Cabeçalho -->
+        <Image Source="avares://diario_saude/Assets/logo.png" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="100" />
+
+        <!-- Conteúdo Principal -->
+        <StackPanel Grid.Row="1" Spacing="10" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <!-- Título -->
+            <TextBlock Text="Registro Diário" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" />
+
+            <!-- Seleção de Humor -->
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBlock Text="Humor:" VerticalAlignment="Center" />
+                <ComboBox ItemsSource="{Binding MoodOptions}" SelectedItem="{Binding SelectedMood}" Width="200" />
+            </StackPanel>
+
+            <!-- Seleção de Qualidade do Sono -->
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBlock Text="Qualidade do Sono:" VerticalAlignment="Center" />
+                <ComboBox ItemsSource="{Binding SleepQualityOptions}" SelectedItem="{Binding SelectedSleepQuality}" Width="200" />
+            </StackPanel>
+
+            <!-- Descrição da Alimentação -->
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBlock Text="Alimentação:" VerticalAlignment="Center" />
+                <TextBox Text="{Binding FoodDescription}" Width="300" />
+            </StackPanel>
+
+			    <!-- Seleção do Tipo de Atividade Física -->
+			<TextBlock Text="Tipo de Atividade Física:" />
+			<ComboBox ItemsSource="{Binding PhysicalActivityTypes}" SelectedItem="{Binding SelectedPhysicalActivityType}" />
+
+            <!-- Duração da Atividade Física -->
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBlock Text="Duração da Atividade Física (min):" VerticalAlignment="Center" />
+                <NumericUpDown Value="{Binding PhysicalActivityDuration}" Minimum="0" Maximum="300" Width="100" />
+            </StackPanel>
+
+            <!-- Botões -->
+            <StackPanel Orientation="Horizontal" Spacing="20" HorizontalAlignment="Center">
+                <Button Content="Salvar" Command="{Binding SaveCommand}" Width="100" />
+                <Button Content="Cancelar" Command="{Binding CancelCommand}" Width="100" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
 </UserControl>
