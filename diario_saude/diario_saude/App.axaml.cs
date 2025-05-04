@@ -15,10 +15,16 @@ namespace diario_saude
     {
         public static string DbPath { get; private set; } = "diariosaude.db";
         
-        public override async void Initialize()
+        public override void Initialize()
         {
             AvaloniaXamlLoader.Load(this);
 
+            // Inicia o banco de dados de forma assíncrona
+            _ = InitializeDatabaseAsync();
+        }
+
+        private async Task InitializeDatabaseAsync()
+        {
             try
             {
                 // Configura o caminho do banco de dados no diretório do aplicativo

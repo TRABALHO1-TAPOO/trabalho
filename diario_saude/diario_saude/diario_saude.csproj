@@ -8,26 +8,12 @@
     <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
   </PropertyGroup>
 
-  <!-- Inclui pastas e recursos -->
-  <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Views\" />
-    <Folder Include="Assets\" />
-    <Folder Include="Styles\" />
-  </ItemGroup>
-
-  <!-- Inclui todos os recursos XAML -->
-  <ItemGroup>
-    <AvaloniaResource Include="App.axaml" />
-    <AvaloniaResource Include="Assets\**" />
-    <AvaloniaResource Include="Styles\**" />
-    <AvaloniaResource Include="Views\**" />
-  </ItemGroup>
-
-  <!-- Remove duplicatas ou entradas conflitantes -->
-  <ItemGroup>
-    <AvaloniaXaml Remove="Assets\Icons.axaml" />
-  </ItemGroup>
+  <!-- Inclui o arquivo Icons.axaml como recurso -->
+ <ItemGroup>
+  <AvaloniaResource Include="Assets\Icons.axaml" />
+  <AvaloniaResource Include="Assets\favicon.ico" />
+  <AvaloniaResource Include="Assets\logo.png" />
+</ItemGroup>
 
   <!-- Referências de pacotes -->
   <ItemGroup>
