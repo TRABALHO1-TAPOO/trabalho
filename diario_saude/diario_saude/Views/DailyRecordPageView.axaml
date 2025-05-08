@@ -5,13 +5,14 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="diario_saude.Views.DailyRecordPageView"
-             x:DataType="vm:DailyRecordPageViewModel">
+             xmlns:local="using:diario_saude.Views.Components"
+			 x:DataType="vm:DailyRecordPageViewModel">
 
-    <Grid RowDefinitions="Auto, *" Margin="20">
+    <Grid RowDefinitions="Auto, *">
         <!-- Cabeçalho -->
-        <Image Source="avares://diario_saude/Assets/logo.png" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="100" />
+		<local:LogoHeader HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
-        <!-- Conteúdo Principal -->
+		<!-- Conteúdo Principal -->
         <StackPanel Grid.Row="1" Spacing="10" HorizontalAlignment="Center" VerticalAlignment="Center">
             <!-- Título -->
             <TextBlock Text="Registro Diário" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" />

@@ -6,13 +6,13 @@
         mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="600"
         x:Class="diario_saude.Views.EditRecordWindow"
         x:DataType="vm:EditRecordWindowViewModel"
-        Icon="/Assets/favicon.ico"
+		xmlns:local="using:diario_saude.Views.Components"
         Title="Editar Registro">
-    <Grid RowDefinitions="Auto, *" Margin="20">
+    <Grid RowDefinitions="Auto, *">
         <!-- Cabeçalho -->
-        <Image Source="avares://diario_saude/Assets/logo.png" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="100" />
+		<local:LogoHeader HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
-        <!-- Conteúdo Principal -->
+		<!-- Conteúdo Principal -->
         <StackPanel Grid.Row="1" Spacing="10" HorizontalAlignment="Center" VerticalAlignment="Center">
             <!-- Título -->
             <TextBlock Text="Registro Diário" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" />

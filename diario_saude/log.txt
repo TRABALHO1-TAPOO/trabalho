@@ -1,0 +1,162 @@
+08/05/2025 17:34:50: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 17:34:51: Registros carregados do banco: 0
+08/05/2025 17:34:51: Registros carregados do banco: 0
+08/05/2025 17:34:51: Registros carregados em Records: 0
+08/05/2025 17:34:51: Registros carregados em FilteredRecords: 0
+08/05/2025 17:34:51: Registros carregados em Records: 0
+08/05/2025 17:34:51: Registros carregados em FilteredRecords: 0
+08/05/2025 17:34:51: Aplicando filtro: Mensal
+08/05/2025 17:34:51: Total de registros em Records antes do filtro1: 0
+08/05/2025 17:34:51: Total de registros em Records antes do filtro2: 0
+08/05/2025 17:34:51: Total de registros em Records antes do filtro3: 0
+08/05/2025 17:34:51: Aplicando filtro: Mensal
+08/05/2025 17:34:51: Total de registros em Records antes do filtro1: 0
+08/05/2025 17:34:51: Total de registros em Records antes do filtro2: 0
+08/05/2025 17:34:51: Total de registros em Records antes do filtro3: 0
+08/05/2025 17:34:51: Total de registros no viewModel: 0
+08/05/2025 17:34:51: Total de registros filtrados no viewModel: 0
+08/05/2025 17:34:51: Filtro selecionado no viewModel: Mensal
+08/05/2025 17:35:23: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 17:35:23: Registros carregados do banco: 0
+08/05/2025 17:35:23: Registros carregados do banco: 0
+08/05/2025 17:35:23: Registros carregados em Records: 0
+08/05/2025 17:35:23: Registros carregados em FilteredRecords: 0
+08/05/2025 17:35:23: Registros carregados em Records: 0
+08/05/2025 17:35:23: Registros carregados em FilteredRecords: 0
+08/05/2025 17:35:23: Aplicando filtro: Mensal
+08/05/2025 17:35:23: Total de registros em Records antes do filtro1: 0
+08/05/2025 17:35:23: Total de registros em Records antes do filtro2: 0
+08/05/2025 17:35:23: Total de registros em Records antes do filtro3: 0
+08/05/2025 17:35:23: Aplicando filtro: Mensal
+08/05/2025 17:35:23: Total de registros em Records antes do filtro1: 0
+08/05/2025 17:35:23: Total de registros em Records antes do filtro2: 0
+08/05/2025 17:35:23: Total de registros em Records antes do filtro3: 0
+08/05/2025 17:35:23: Total de registros no viewModel: 0
+08/05/2025 17:35:23: Total de registros filtrados no viewModel: 0
+08/05/2025 17:35:23: Filtro selecionado no viewModel: Mensal
+08/05/2025 17:35:24: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 17:35:24: Registros carregados do banco: 0
+08/05/2025 17:35:24: Registros carregados do banco: 0
+08/05/2025 17:35:24: Registros carregados em Records: 0
+08/05/2025 17:35:24: Registros carregados em FilteredRecords: 0
+08/05/2025 17:35:25: Registros carregados em Records: 0
+08/05/2025 17:35:25: Registros carregados em FilteredRecords: 0
+08/05/2025 17:35:25: Aplicando filtro: Mensal
+08/05/2025 17:35:25: Total de registros em Records antes do filtro1: 0
+08/05/2025 17:35:25: Total de registros em Records antes do filtro2: 0
+08/05/2025 17:35:25: Total de registros em Records antes do filtro3: 0
+08/05/2025 17:35:25: Aplicando filtro: Mensal
+08/05/2025 17:35:25: Total de registros em Records antes do filtro1: 0
+08/05/2025 17:35:25: Total de registros em Records antes do filtro2: 0
+08/05/2025 17:35:25: Total de registros em Records antes do filtro3: 0
+08/05/2025 17:35:25: Total de registros no viewModel: 0
+08/05/2025 17:35:25: Total de registros filtrados no viewModel: 0
+08/05/2025 17:35:25: Filtro selecionado no viewModel: Mensal
+08/05/2025 17:35:27: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 17:35:27: Registros carregados do banco: 0
+08/05/2025 17:35:27: Registros carregados do banco: 0
+08/05/2025 17:35:27: Registros carregados em Records: 0
+08/05/2025 17:35:27: Registros carregados em FilteredRecords: 0
+08/05/2025 17:35:27: Registros carregados em Records: 0
+08/05/2025 17:35:27: Registros carregados em FilteredRecords: 0
+08/05/2025 17:35:27: Aplicando filtro: Mensal
+08/05/2025 17:35:27: Total de registros em Records antes do filtro1: 0
+08/05/2025 17:35:27: Total de registros em Records antes do filtro2: 0
+08/05/2025 17:35:27: Total de registros em Records antes do filtro3: 0
+08/05/2025 17:35:27: Aplicando filtro: Mensal
+08/05/2025 17:35:27: Total de registros em Records antes do filtro1: 0
+08/05/2025 17:35:27: Total de registros em Records antes do filtro2: 0
+08/05/2025 17:35:27: Total de registros em Records antes do filtro3: 0
+08/05/2025 17:35:27: Total de registros no viewModel: 0
+08/05/2025 17:35:27: Total de registros filtrados no viewModel: 0
+08/05/2025 17:35:27: Filtro selecionado no viewModel: Mensal
+08/05/2025 17:35:27: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 17:35:27: Registros carregados do banco: 0
+08/05/2025 17:35:27: Registros carregados do banco: 0
+08/05/2025 17:35:27: Registros carregados em Records: 0
+08/05/2025 17:35:27: Registros carregados em FilteredRecords: 0
+08/05/2025 17:35:27: Registros carregados em Records: 0
+08/05/2025 17:35:27: Registros carregados em FilteredRecords: 0
+08/05/2025 17:35:27: Aplicando filtro: Mensal
+08/05/2025 17:35:27: Total de registros em Records antes do filtro1: 0
+08/05/2025 17:35:27: Total de registros em Records antes do filtro2: 0
+08/05/2025 17:35:27: Total de registros em Records antes do filtro3: 0
+08/05/2025 17:35:27: Aplicando filtro: Mensal
+08/05/2025 17:35:27: Total de registros em Records antes do filtro1: 0
+08/05/2025 17:35:27: Total de registros em Records antes do filtro2: 0
+08/05/2025 17:35:27: Total de registros em Records antes do filtro3: 0
+08/05/2025 17:35:27: Total de registros no viewModel: 0
+08/05/2025 17:35:27: Total de registros filtrados no viewModel: 0
+08/05/2025 17:35:27: Filtro selecionado no viewModel: Mensal
+08/05/2025 17:35:28: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 17:35:28: Registros carregados do banco: 0
+08/05/2025 17:35:28: Registros carregados do banco: 0
+08/05/2025 17:35:28: Registros carregados em Records: 0
+08/05/2025 17:35:28: Registros carregados em FilteredRecords: 0
+08/05/2025 17:35:28: Registros carregados em Records: 0
+08/05/2025 17:35:28: Registros carregados em FilteredRecords: 0
+08/05/2025 17:35:28: Aplicando filtro: Mensal
+08/05/2025 17:35:28: Total de registros em Records antes do filtro1: 0
+08/05/2025 17:35:28: Total de registros em Records antes do filtro2: 0
+08/05/2025 17:35:28: Total de registros em Records antes do filtro3: 0
+08/05/2025 17:35:28: Aplicando filtro: Mensal
+08/05/2025 17:35:28: Total de registros em Records antes do filtro1: 0
+08/05/2025 17:35:28: Total de registros em Records antes do filtro2: 0
+08/05/2025 17:35:28: Total de registros em Records antes do filtro3: 0
+08/05/2025 17:35:28: Total de registros no viewModel: 0
+08/05/2025 17:35:28: Total de registros filtrados no viewModel: 0
+08/05/2025 17:35:28: Filtro selecionado no viewModel: Mensal
+08/05/2025 17:35:35: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 17:35:36: Registros carregados do banco: 0
+08/05/2025 17:35:36: Registros carregados do banco: 0
+08/05/2025 17:35:36: Registros carregados em Records: 0
+08/05/2025 17:35:36: Registros carregados em FilteredRecords: 0
+08/05/2025 17:35:36: Registros carregados em Records: 0
+08/05/2025 17:35:36: Registros carregados em FilteredRecords: 0
+08/05/2025 17:35:36: Aplicando filtro: Mensal
+08/05/2025 17:35:36: Total de registros em Records antes do filtro1: 0
+08/05/2025 17:35:36: Total de registros em Records antes do filtro2: 0
+08/05/2025 17:35:36: Total de registros em Records antes do filtro3: 0
+08/05/2025 17:35:36: Aplicando filtro: Mensal
+08/05/2025 17:35:36: Total de registros em Records antes do filtro1: 0
+08/05/2025 17:35:36: Total de registros em Records antes do filtro2: 0
+08/05/2025 17:35:36: Total de registros em Records antes do filtro3: 0
+08/05/2025 17:35:36: Total de registros no viewModel: 0
+08/05/2025 17:35:36: Total de registros filtrados no viewModel: 0
+08/05/2025 17:35:36: Filtro selecionado no viewModel: Mensal
+08/05/2025 17:35:54: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 17:35:54: Registros carregados do banco: 0
+08/05/2025 17:35:54: Registros carregados do banco: 0
+08/05/2025 17:35:54: Registros carregados em Records: 0
+08/05/2025 17:35:54: Registros carregados em FilteredRecords: 0
+08/05/2025 17:35:54: Registros carregados em Records: 0
+08/05/2025 17:35:54: Registros carregados em FilteredRecords: 0
+08/05/2025 17:35:54: Aplicando filtro: Mensal
+08/05/2025 17:35:54: Total de registros em Records antes do filtro1: 0
+08/05/2025 17:35:54: Total de registros em Records antes do filtro2: 0
+08/05/2025 17:35:54: Total de registros em Records antes do filtro3: 0
+08/05/2025 17:35:54: Aplicando filtro: Mensal
+08/05/2025 17:35:54: Total de registros em Records antes do filtro1: 0
+08/05/2025 17:35:54: Total de registros em Records antes do filtro2: 0
+08/05/2025 17:35:54: Total de registros em Records antes do filtro3: 0
+08/05/2025 17:35:54: Total de registros no viewModel: 0
+08/05/2025 17:35:54: Total de registros filtrados no viewModel: 0
+08/05/2025 17:35:54: Filtro selecionado no viewModel: Mensal
+08/05/2025 17:36:45: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 17:36:45: Registros carregados do banco: 0
+08/05/2025 17:36:45: Registros carregados do banco: 0
+08/05/2025 17:36:45: Registros carregados em Records: 0
+08/05/2025 17:36:45: Registros carregados em FilteredRecords: 0
+08/05/2025 17:36:45: Registros carregados em Records: 0
+08/05/2025 17:36:45: Registros carregados em FilteredRecords: 0
+08/05/2025 17:36:45: Aplicando filtro: Mensal
+08/05/2025 17:36:45: Total de registros em Records antes do filtro1: 0
+08/05/2025 17:36:45: Total de registros em Records antes do filtro2: 0
+08/05/2025 17:36:45: Total de registros em Records antes do filtro3: 0
+08/05/2025 17:36:45: Aplicando filtro: Mensal
+08/05/2025 17:36:45: Total de registros em Records antes do filtro1: 0
+08/05/2025 17:36:45: Total de registros em Records antes do filtro2: 0
+08/05/2025 17:36:45: Total de registros em Records antes do filtro3: 0
+08/05/2025 17:36:45: Total de registros no viewModel: 0
+08/05/2025 17:36:45: Total de registros filtrados no viewModel: 0
+08/05/2025 17:36:45: Filtro selecionado no viewModel: Mensal

@@ -6,12 +6,13 @@
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="diario_saude.Views.RecordHistoryPageView"
              x:DataType="vm:RecordHistoryPageViewModel"
-             x:Name="Root">
+             xmlns:local="using:diario_saude.Views.Components"
+			 x:Name="Root">
 
 
-    <Grid Margin="20" RowDefinitions="Auto, Auto, *">
-	<Image Source="avares://diario_saude/Assets/logo.png" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="100" />
-        <!-- Título -->
+    <Grid RowDefinitions="Auto, Auto, *">
+	<local:LogoHeader HorizontalAlignment="Left" VerticalAlignment="Top"/>
+		<!-- Título -->
         <TextBlock Text="Histórico de Registros" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20" />
 
         <!-- Filtros -->
