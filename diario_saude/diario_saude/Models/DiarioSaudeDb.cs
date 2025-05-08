@@ -11,7 +11,7 @@ namespace DiarioSaude.Models
         {
         }
 
-        public ITable<RegistroDiario> RegistrosDiarios => this.GetTable<RegistroDiario>();
+        public ITable<RegistroDiario> RegistroDiario => this.GetTable<RegistroDiario>();
         public ITable<Humor> Humores => this.GetTable<Humor>();
         public ITable<QualidadeSono> QualidadesSono => this.GetTable<QualidadeSono>();
         public ITable<Alimentacao> Alimentacoes => this.GetTable<Alimentacao>();

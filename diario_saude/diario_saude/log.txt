@@ -1,0 +1,422 @@
+08/05/2025 12:06:33: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 12:06:33: Registros carregados do banco: 7
+08/05/2025 12:06:33: Registro encontrado: Data=04/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada
+08/05/2025 12:06:33: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=BananA, Atividade=Musculação
+08/05/2025 12:06:33: Registro encontrado: Data=07/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=asD, Atividade=Yoga
+08/05/2025 12:06:33: Registro encontrado: Data=03/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação
+08/05/2025 12:06:33: Registro encontrado: Data=09/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação
+08/05/2025 12:06:33: Registro encontrado: Data=07/05/2025 00:00:00, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação
+08/05/2025 12:06:33: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação
+08/05/2025 12:06:33: Registros carregados do banco: 7
+08/05/2025 12:06:33: Registro encontrado: Data=04/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada
+08/05/2025 12:06:33: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=BananA, Atividade=Musculação
+08/05/2025 12:06:33: Registro encontrado: Data=07/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=asD, Atividade=Yoga
+08/05/2025 12:06:33: Registro encontrado: Data=03/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação
+08/05/2025 12:06:33: Registro encontrado: Data=09/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação
+08/05/2025 12:06:33: Registro encontrado: Data=07/05/2025 00:00:00, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação
+08/05/2025 12:06:33: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação
+08/05/2025 12:06:33: Registros carregados do banco: 7
+08/05/2025 12:06:33: Registro encontrado: Data=04/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada
+08/05/2025 12:06:33: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=BananA, Atividade=Musculação
+08/05/2025 12:06:33: Registro encontrado: Data=07/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=asD, Atividade=Yoga
+08/05/2025 12:06:33: Registro encontrado: Data=03/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação
+08/05/2025 12:06:33: Registro encontrado: Data=09/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação
+08/05/2025 12:06:33: Registro encontrado: Data=07/05/2025 00:00:00, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação
+08/05/2025 12:06:33: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação
+08/05/2025 12:06:33: Registros carregados em Records: 7
+08/05/2025 12:06:33: Registros carregados em FilteredRecords: 0
+08/05/2025 12:06:33: Aplicando filtro: Mensal
+08/05/2025 12:06:33: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:06:33: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:06:33: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:06:33: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:06:33: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:06:33: Registro filtrado: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lambda, Calorias=6 Atividade=Musculação, Duracao=11
+08/05/2025 12:06:33: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:06:33: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:06:33: Registros carregados em Records: 7
+08/05/2025 12:06:33: Registros carregados em FilteredRecords: 0
+08/05/2025 12:06:33: Aplicando filtro: Mensal
+08/05/2025 12:06:33: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:06:33: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:06:33: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:06:33: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:06:33: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:06:33: Registro filtrado: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lambda, Calorias=6 Atividade=Musculação, Duracao=11
+08/05/2025 12:06:33: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:06:33: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:06:33: Registros carregados em Records: 7
+08/05/2025 12:06:33: Registros carregados em FilteredRecords: 0
+08/05/2025 12:06:33: Aplicando filtro: Mensal
+08/05/2025 12:06:33: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:06:33: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:06:33: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:06:33: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:06:33: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:06:33: Registro filtrado: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lambda, Calorias=6 Atividade=Musculação, Duracao=11
+08/05/2025 12:06:33: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:06:33: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:06:33: Total de registros no viewModel: 7
+08/05/2025 12:06:33: Total de registros filtrados no viewModel: 5
+08/05/2025 12:06:33: Filtro selecionado no viewModel: Mensal
+08/05/2025 12:06:33: Registro filtrado no DataContext: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada, Duração=300
+08/05/2025 12:06:33: Registro filtrado no DataContext: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação, Duração=300
+08/05/2025 12:06:33: Registro filtrado no DataContext: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação, Duração=11
+08/05/2025 12:06:33: Registro filtrado no DataContext: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação, Duração=1
+08/05/2025 12:06:33: Registro filtrado no DataContext: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação, Duração=1
+08/05/2025 12:15:18: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 12:15:18: Registros carregados do banco: 7
+08/05/2025 12:15:18: Registro encontrado: Data=04/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada
+08/05/2025 12:15:18: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=BananA, Atividade=Musculação
+08/05/2025 12:15:18: Registro encontrado: Data=07/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=asD, Atividade=Yoga
+08/05/2025 12:15:18: Registro encontrado: Data=03/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação
+08/05/2025 12:15:18: Registro encontrado: Data=09/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação
+08/05/2025 12:15:18: Registro encontrado: Data=07/05/2025 00:00:00, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação
+08/05/2025 12:15:18: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação
+08/05/2025 12:15:18: Registros carregados do banco: 7
+08/05/2025 12:15:18: Registro encontrado: Data=04/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada
+08/05/2025 12:15:18: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=BananA, Atividade=Musculação
+08/05/2025 12:15:18: Registro encontrado: Data=07/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=asD, Atividade=Yoga
+08/05/2025 12:15:18: Registro encontrado: Data=03/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação
+08/05/2025 12:15:18: Registro encontrado: Data=09/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação
+08/05/2025 12:15:18: Registro encontrado: Data=07/05/2025 00:00:00, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação
+08/05/2025 12:15:18: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação
+08/05/2025 12:15:18: Registros carregados do banco: 7
+08/05/2025 12:15:18: Registro encontrado: Data=04/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada
+08/05/2025 12:15:18: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=BananA, Atividade=Musculação
+08/05/2025 12:15:18: Registro encontrado: Data=07/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=asD, Atividade=Yoga
+08/05/2025 12:15:18: Registro encontrado: Data=03/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação
+08/05/2025 12:15:18: Registro encontrado: Data=09/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação
+08/05/2025 12:15:18: Registro encontrado: Data=07/05/2025 00:00:00, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação
+08/05/2025 12:15:18: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação
+08/05/2025 12:15:18: Registros carregados em Records: 7
+08/05/2025 12:15:18: Registros carregados em FilteredRecords: 0
+08/05/2025 12:15:18: Aplicando filtro: Mensal
+08/05/2025 12:15:18: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:15:18: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:15:18: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:15:18: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:15:18: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:15:18: Registro filtrado: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lambda, Calorias=6 Atividade=Musculação, Duracao=11
+08/05/2025 12:15:18: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:15:18: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:15:18: Registros carregados em Records: 7
+08/05/2025 12:15:18: Registros carregados em FilteredRecords: 0
+08/05/2025 12:15:18: Aplicando filtro: Mensal
+08/05/2025 12:15:18: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:15:18: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:15:18: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:15:18: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:15:18: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:15:18: Registro filtrado: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lambda, Calorias=6 Atividade=Musculação, Duracao=11
+08/05/2025 12:15:18: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:15:18: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:15:18: Registros carregados em Records: 7
+08/05/2025 12:15:18: Registros carregados em FilteredRecords: 0
+08/05/2025 12:15:18: Aplicando filtro: Mensal
+08/05/2025 12:15:18: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:15:18: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:15:18: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:15:18: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:15:18: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:15:18: Registro filtrado: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lambda, Calorias=6 Atividade=Musculação, Duracao=11
+08/05/2025 12:15:18: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:15:18: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:15:18: Total de registros no viewModel: 7
+08/05/2025 12:15:18: Total de registros filtrados no viewModel: 5
+08/05/2025 12:15:18: Filtro selecionado no viewModel: Mensal
+08/05/2025 12:15:18: Registro filtrado no DataContext: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada, Duração=300
+08/05/2025 12:15:18: Registro filtrado no DataContext: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação, Duração=300
+08/05/2025 12:15:18: Registro filtrado no DataContext: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação, Duração=11
+08/05/2025 12:15:18: Registro filtrado no DataContext: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação, Duração=1
+08/05/2025 12:15:18: Registro filtrado no DataContext: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação, Duração=1
+08/05/2025 12:15:26: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 12:15:26: Registros carregados do banco: 7
+08/05/2025 12:15:26: Registro encontrado: Data=04/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada
+08/05/2025 12:15:26: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=BananA, Atividade=Musculação
+08/05/2025 12:15:26: Registro encontrado: Data=07/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=asD, Atividade=Yoga
+08/05/2025 12:15:26: Registro encontrado: Data=03/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação
+08/05/2025 12:15:26: Registro encontrado: Data=09/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação
+08/05/2025 12:15:26: Registro encontrado: Data=07/05/2025 00:00:00, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação
+08/05/2025 12:15:26: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação
+08/05/2025 12:15:26: Registros carregados do banco: 7
+08/05/2025 12:15:26: Registro encontrado: Data=04/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada
+08/05/2025 12:15:26: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=BananA, Atividade=Musculação
+08/05/2025 12:15:26: Registro encontrado: Data=07/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=asD, Atividade=Yoga
+08/05/2025 12:15:26: Registro encontrado: Data=03/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação
+08/05/2025 12:15:26: Registro encontrado: Data=09/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação
+08/05/2025 12:15:26: Registro encontrado: Data=07/05/2025 00:00:00, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação
+08/05/2025 12:15:26: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação
+08/05/2025 12:15:26: Registros carregados do banco: 7
+08/05/2025 12:15:26: Registro encontrado: Data=04/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada
+08/05/2025 12:15:26: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=BananA, Atividade=Musculação
+08/05/2025 12:15:26: Registro encontrado: Data=07/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=asD, Atividade=Yoga
+08/05/2025 12:15:26: Registro encontrado: Data=03/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação
+08/05/2025 12:15:26: Registro encontrado: Data=09/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação
+08/05/2025 12:15:26: Registro encontrado: Data=07/05/2025 00:00:00, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação
+08/05/2025 12:15:26: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação
+08/05/2025 12:15:26: Registros carregados em Records: 7
+08/05/2025 12:15:26: Registros carregados em FilteredRecords: 0
+08/05/2025 12:15:26: Aplicando filtro: Mensal
+08/05/2025 12:15:26: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:15:26: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:15:26: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:15:26: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:15:26: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:15:26: Registro filtrado: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lambda, Calorias=6 Atividade=Musculação, Duracao=11
+08/05/2025 12:15:26: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:15:26: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:15:26: Registros carregados em Records: 7
+08/05/2025 12:15:26: Registros carregados em FilteredRecords: 0
+08/05/2025 12:15:26: Aplicando filtro: Mensal
+08/05/2025 12:15:26: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:15:26: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:15:26: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:15:26: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:15:26: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:15:26: Registro filtrado: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lambda, Calorias=6 Atividade=Musculação, Duracao=11
+08/05/2025 12:15:26: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:15:26: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:15:26: Registros carregados em Records: 7
+08/05/2025 12:15:26: Registros carregados em FilteredRecords: 0
+08/05/2025 12:15:26: Aplicando filtro: Mensal
+08/05/2025 12:15:26: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:15:26: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:15:26: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:15:26: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:15:26: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:15:26: Registro filtrado: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lambda, Calorias=6 Atividade=Musculação, Duracao=11
+08/05/2025 12:15:26: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:15:26: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:15:26: Total de registros no viewModel: 7
+08/05/2025 12:15:26: Total de registros filtrados no viewModel: 5
+08/05/2025 12:15:26: Filtro selecionado no viewModel: Mensal
+08/05/2025 12:15:26: Registro filtrado no DataContext: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada, Duração=300
+08/05/2025 12:15:26: Registro filtrado no DataContext: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação, Duração=300
+08/05/2025 12:15:26: Registro filtrado no DataContext: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação, Duração=11
+08/05/2025 12:15:27: Registro filtrado no DataContext: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação, Duração=1
+08/05/2025 12:15:27: Registro filtrado no DataContext: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação, Duração=1
+08/05/2025 12:25:11: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 12:25:11: Registros carregados do banco: 7
+08/05/2025 12:25:11: Registro encontrado: Data=04/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada
+08/05/2025 12:25:11: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=BananA, Atividade=Musculação
+08/05/2025 12:25:11: Registro encontrado: Data=07/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=asD, Atividade=Yoga
+08/05/2025 12:25:11: Registro encontrado: Data=03/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação
+08/05/2025 12:25:11: Registro encontrado: Data=09/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação
+08/05/2025 12:25:11: Registro encontrado: Data=07/05/2025 00:00:00, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação
+08/05/2025 12:25:11: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação
+08/05/2025 12:25:11: Registros carregados do banco: 7
+08/05/2025 12:25:11: Registro encontrado: Data=04/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada
+08/05/2025 12:25:11: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=BananA, Atividade=Musculação
+08/05/2025 12:25:11: Registro encontrado: Data=07/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=asD, Atividade=Yoga
+08/05/2025 12:25:11: Registro encontrado: Data=03/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação
+08/05/2025 12:25:11: Registro encontrado: Data=09/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação
+08/05/2025 12:25:11: Registro encontrado: Data=07/05/2025 00:00:00, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação
+08/05/2025 12:25:11: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação
+08/05/2025 12:25:11: Registros carregados do banco: 7
+08/05/2025 12:25:11: Registro encontrado: Data=04/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada
+08/05/2025 12:25:11: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=BananA, Atividade=Musculação
+08/05/2025 12:25:11: Registro encontrado: Data=07/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=asD, Atividade=Yoga
+08/05/2025 12:25:11: Registro encontrado: Data=03/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação
+08/05/2025 12:25:11: Registro encontrado: Data=09/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação
+08/05/2025 12:25:11: Registro encontrado: Data=07/05/2025 00:00:00, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação
+08/05/2025 12:25:11: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação
+08/05/2025 12:25:11: Registros carregados em Records: 7
+08/05/2025 12:25:11: Registros carregados em FilteredRecords: 0
+08/05/2025 12:25:11: Aplicando filtro: Mensal
+08/05/2025 12:25:11: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:25:11: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:25:11: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:25:11: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:25:11: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:25:11: Registro filtrado: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lambda, Calorias=6 Atividade=Musculação, Duracao=11
+08/05/2025 12:25:11: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:25:11: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:25:11: Registros carregados em Records: 7
+08/05/2025 12:25:11: Registros carregados em FilteredRecords: 0
+08/05/2025 12:25:11: Aplicando filtro: Mensal
+08/05/2025 12:25:11: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:25:11: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:25:11: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:25:11: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:25:11: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:25:11: Registro filtrado: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lambda, Calorias=6 Atividade=Musculação, Duracao=11
+08/05/2025 12:25:11: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:25:11: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:25:11: Registros carregados em Records: 7
+08/05/2025 12:25:11: Registros carregados em FilteredRecords: 0
+08/05/2025 12:25:11: Aplicando filtro: Mensal
+08/05/2025 12:25:11: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:25:11: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:25:11: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:25:11: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:25:11: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:25:11: Registro filtrado: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lambda, Calorias=6 Atividade=Musculação, Duracao=11
+08/05/2025 12:25:11: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:25:11: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:25:11: Total de registros no viewModel: 7
+08/05/2025 12:25:11: Total de registros filtrados no viewModel: 5
+08/05/2025 12:25:11: Filtro selecionado no viewModel: Mensal
+08/05/2025 12:25:11: Registro filtrado no DataContext: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada, Duração=300
+08/05/2025 12:25:11: Registro filtrado no DataContext: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação, Duração=300
+08/05/2025 12:25:11: Registro filtrado no DataContext: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação, Duração=11
+08/05/2025 12:25:11: Registro filtrado no DataContext: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação, Duração=1
+08/05/2025 12:25:11: Registro filtrado no DataContext: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação, Duração=1
+08/05/2025 12:27:13: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 12:27:13: Registros carregados do banco: 7
+08/05/2025 12:27:13: Registro encontrado: Data=04/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada
+08/05/2025 12:27:13: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=BananA, Atividade=Musculação
+08/05/2025 12:27:13: Registro encontrado: Data=07/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=asD, Atividade=Yoga
+08/05/2025 12:27:13: Registro encontrado: Data=03/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação
+08/05/2025 12:27:13: Registro encontrado: Data=09/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação
+08/05/2025 12:27:13: Registro encontrado: Data=07/05/2025 00:00:00, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação
+08/05/2025 12:27:13: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação
+08/05/2025 12:27:13: Registros carregados do banco: 7
+08/05/2025 12:27:13: Registro encontrado: Data=04/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada
+08/05/2025 12:27:13: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=BananA, Atividade=Musculação
+08/05/2025 12:27:13: Registro encontrado: Data=07/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=asD, Atividade=Yoga
+08/05/2025 12:27:13: Registro encontrado: Data=03/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação
+08/05/2025 12:27:13: Registro encontrado: Data=09/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação
+08/05/2025 12:27:13: Registro encontrado: Data=07/05/2025 00:00:00, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação
+08/05/2025 12:27:13: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação
+08/05/2025 12:27:13: Registros carregados do banco: 7
+08/05/2025 12:27:13: Registro encontrado: Data=04/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada
+08/05/2025 12:27:13: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=BananA, Atividade=Musculação
+08/05/2025 12:27:13: Registro encontrado: Data=07/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=asD, Atividade=Yoga
+08/05/2025 12:27:13: Registro encontrado: Data=03/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação
+08/05/2025 12:27:13: Registro encontrado: Data=09/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação
+08/05/2025 12:27:13: Registro encontrado: Data=07/05/2025 00:00:00, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação
+08/05/2025 12:27:13: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação
+08/05/2025 12:27:13: Registros carregados em Records: 7
+08/05/2025 12:27:13: Registros carregados em FilteredRecords: 0
+08/05/2025 12:27:13: Aplicando filtro: Mensal
+08/05/2025 12:27:13: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:27:13: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:27:13: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:27:13: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:27:13: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:27:13: Registro filtrado: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lambda, Calorias=6 Atividade=Musculação, Duracao=11
+08/05/2025 12:27:13: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:27:13: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:27:13: Registros carregados em Records: 7
+08/05/2025 12:27:13: Registros carregados em FilteredRecords: 0
+08/05/2025 12:27:13: Aplicando filtro: Mensal
+08/05/2025 12:27:13: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:27:13: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:27:13: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:27:13: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:27:13: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:27:13: Registro filtrado: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lambda, Calorias=6 Atividade=Musculação, Duracao=11
+08/05/2025 12:27:13: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:27:13: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:27:13: Registros carregados em Records: 7
+08/05/2025 12:27:13: Registros carregados em FilteredRecords: 0
+08/05/2025 12:27:13: Aplicando filtro: Mensal
+08/05/2025 12:27:13: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:27:13: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:27:13: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:27:13: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:27:13: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:27:13: Registro filtrado: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lambda, Calorias=6 Atividade=Musculação, Duracao=11
+08/05/2025 12:27:13: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:27:13: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:27:13: Total de registros no viewModel: 7
+08/05/2025 12:27:13: Total de registros filtrados no viewModel: 5
+08/05/2025 12:27:13: Filtro selecionado no viewModel: Mensal
+08/05/2025 12:27:13: Registro filtrado no DataContext: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada, Duração=300
+08/05/2025 12:27:13: Registro filtrado no DataContext: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação, Duração=300
+08/05/2025 12:27:13: Registro filtrado no DataContext: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação, Duração=11
+08/05/2025 12:27:13: Registro filtrado no DataContext: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação, Duração=1
+08/05/2025 12:27:13: Registro filtrado no DataContext: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação, Duração=1
+08/05/2025 12:27:20: Aplicando filtro: Semanal
+08/05/2025 12:27:20: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:27:20: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:27:20: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:27:20: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:27:20: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:27:20: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:27:20: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:27:22: Aplicando filtro: Diário
+08/05/2025 12:27:22: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:27:22: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:27:22: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:27:22: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:28:39: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 12:28:39: Registros carregados do banco: 7
+08/05/2025 12:28:39: Registro encontrado: Data=04/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada
+08/05/2025 12:28:39: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=BananA, Atividade=Musculação
+08/05/2025 12:28:39: Registro encontrado: Data=07/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=asD, Atividade=Yoga
+08/05/2025 12:28:39: Registro encontrado: Data=03/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação
+08/05/2025 12:28:39: Registro encontrado: Data=09/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação
+08/05/2025 12:28:39: Registro encontrado: Data=07/05/2025 00:00:00, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação
+08/05/2025 12:28:39: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação
+08/05/2025 12:28:39: Registros carregados do banco: 7
+08/05/2025 12:28:39: Registro encontrado: Data=04/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada
+08/05/2025 12:28:39: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=BananA, Atividade=Musculação
+08/05/2025 12:28:39: Registro encontrado: Data=07/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=asD, Atividade=Yoga
+08/05/2025 12:28:39: Registro encontrado: Data=03/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação
+08/05/2025 12:28:39: Registro encontrado: Data=09/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação
+08/05/2025 12:28:39: Registro encontrado: Data=07/05/2025 00:00:00, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação
+08/05/2025 12:28:39: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação
+08/05/2025 12:28:39: Registros carregados do banco: 7
+08/05/2025 12:28:39: Registro encontrado: Data=04/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada
+08/05/2025 12:28:39: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=BananA, Atividade=Musculação
+08/05/2025 12:28:39: Registro encontrado: Data=07/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=asD, Atividade=Yoga
+08/05/2025 12:28:39: Registro encontrado: Data=03/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação
+08/05/2025 12:28:39: Registro encontrado: Data=09/04/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação
+08/05/2025 12:28:39: Registro encontrado: Data=07/05/2025 00:00:00, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação
+08/05/2025 12:28:39: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação
+08/05/2025 12:28:39: Registros carregados em Records: 7
+08/05/2025 12:28:39: Registros carregados em FilteredRecords: 0
+08/05/2025 12:28:39: Aplicando filtro: Mensal
+08/05/2025 12:28:39: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:28:39: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:28:39: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:28:39: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:28:39: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:28:39: Registro filtrado: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lambda, Calorias=6 Atividade=Musculação, Duracao=11
+08/05/2025 12:28:39: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:28:39: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:28:39: Registros carregados em Records: 7
+08/05/2025 12:28:39: Registros carregados em FilteredRecords: 0
+08/05/2025 12:28:39: Aplicando filtro: Mensal
+08/05/2025 12:28:39: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:28:39: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:28:39: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:28:39: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:28:39: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:28:39: Registro filtrado: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lambda, Calorias=6 Atividade=Musculação, Duracao=11
+08/05/2025 12:28:39: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:28:39: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:28:39: Registros carregados em Records: 7
+08/05/2025 12:28:39: Registros carregados em FilteredRecords: 0
+08/05/2025 12:28:39: Aplicando filtro: Mensal
+08/05/2025 12:28:39: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:28:39: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:28:39: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:28:39: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:28:39: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:28:39: Registro filtrado: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lambda, Calorias=6 Atividade=Musculação, Duracao=11
+08/05/2025 12:28:39: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:28:39: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:28:39: Total de registros no viewModel: 7
+08/05/2025 12:28:39: Total de registros filtrados no viewModel: 5
+08/05/2025 12:28:39: Filtro selecionado no viewModel: Mensal
+08/05/2025 12:28:39: Registro filtrado no DataContext: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentação=ADASD, Atividade=Caminhada, Duração=300
+08/05/2025 12:28:39: Registro filtrado no DataContext: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentação=Palmito, Atividade=Natação, Duração=300
+08/05/2025 12:28:39: Registro filtrado no DataContext: Data=09/04/2025, Humor=Feliz, Sono=Boa, Alimentação=Lambda, Atividade=Musculação, Duração=11
+08/05/2025 12:28:39: Registro filtrado no DataContext: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentação=ePoara, Atividade=Musculação, Duração=1
+08/05/2025 12:28:39: Registro filtrado no DataContext: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentação=HOje, Atividade=Natação, Duração=1
+08/05/2025 12:28:47: Aplicando filtro: Semanal
+08/05/2025 12:28:47: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:28:47: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:28:47: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:28:47: Registro filtrado: Data=04/05/2025, Humor=Triste, Sono=Média, Alimentacao=ADASD, Calorias=3 Atividade=Caminhada, Duracao=300
+08/05/2025 12:28:47: Registro filtrado: Data=03/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=Palmito, Calorias=5000 Atividade=Natação, Duracao=300
+08/05/2025 12:28:47: Registro filtrado: Data=07/05/2025, Humor=Ansioso, Sono=Média, Alimentacao=ePoara, Calorias=1 Atividade=Musculação, Duracao=1
+08/05/2025 12:28:47: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1
+08/05/2025 12:29:07: Aplicando filtro: Diário
+08/05/2025 12:29:07: Total de registros em Records antes do filtro1: 7
+08/05/2025 12:29:07: Total de registros em Records antes do filtro2: 7
+08/05/2025 12:29:07: Total de registros em Records antes do filtro3: 7
+08/05/2025 12:29:07: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Média, Alimentacao=HOje, Calorias=4 Atividade=Natação, Duracao=1

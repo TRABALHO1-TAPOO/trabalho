@@ -17,7 +17,7 @@ namespace DiarioSaude.Models
 
         public async Task<List<RegistroDiario>> ObterRegistrosDiariosAsync()
         {
-            return await Task.Run(() => _db.RegistrosDiarios.ToList());
+            return await Task.Run(() => _db.RegistroDiario.ToList());
         }
 
         public async Task<List<Humor>> ObterHumoresAsync()

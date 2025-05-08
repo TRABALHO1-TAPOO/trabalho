@@ -19,7 +19,7 @@
             <!-- Data do Registro -->
             <StackPanel Orientation="Horizontal" Spacing="10">
                 <TextBlock Text="Data do Registro:" VerticalAlignment="Center" />
-                <DatePicker SelectedDate="{Binding RecordDate}" Width="800" />
+                <DatePicker SelectedDate="{Binding RecordDate}" Width="400" />
             </StackPanel>
 
             <!-- Seleção de Humor -->
@@ -43,17 +43,29 @@
             <!-- Calorias da Alimentação -->
             <StackPanel Orientation="Horizontal" Spacing="10">
                 <TextBlock Text="Calorias da Alimentação:" VerticalAlignment="Center" />
-                <NumericUpDown x:Name="AlimentacaoCaixaCal" Value="{Binding FoodCalories}" Minimum="0" Maximum="5000" Width="100" />
+                <NumericUpDown x:Name="AlimentacaoCaixaCal" 
+                               Value="{Binding FoodCalories}" 
+                               Minimum="0" 
+                               Maximum="5000" 
+                               ParsingNumberStyle="Integer" 
+                               Width="200" />
             </StackPanel>
 
 			    <!-- Seleção do Tipo de Atividade Física -->
-			<TextBlock Text="Tipo de Atividade Física:" />
-			<ComboBox x:Name="AtividadeCaixa" ItemsSource="{Binding PhysicalActivityTypes}" SelectedItem="{Binding SelectedPhysicalActivityType}" />
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBlock Text="Tipo de Atividade Física:" VerticalAlignment="Center" />
+                <ComboBox x:Name="AtividadeCaixa" ItemsSource="{Binding PhysicalActivityTypes}" SelectedItem="{Binding SelectedPhysicalActivityType}" Width="200" />
+            </StackPanel>
 
             <!-- Duração da Atividade Física -->
             <StackPanel Orientation="Horizontal" Spacing="10">
                 <TextBlock Text="Duração da Atividade Física (min):" VerticalAlignment="Center" />
-                <NumericUpDown x:Name="AtividadeTempo" Value="{Binding PhysicalActivityDuration}" Minimum="0" Maximum="300" Width="100" />
+                <NumericUpDown x:Name="AtividadeTempo" 
+                               Value="{Binding PhysicalActivityDuration}" 
+                               Minimum="0" 
+                               Maximum="300" 
+                               ParsingNumberStyle="Integer" 
+                               Width="200" />
             </StackPanel>
 
             <!-- Botões -->

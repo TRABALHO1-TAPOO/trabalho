@@ -1,4 +1,5 @@
 using Avalonia.Controls;
+using System.Diagnostics;
 
 namespace diario_saude.Views
 {
@@ -6,6 +7,7 @@ namespace diario_saude.Views
     {
         public MainWindow()
         {
+            Debug.WriteLine("MainWindow constructor called.");
             InitializeComponent();
         }
     }

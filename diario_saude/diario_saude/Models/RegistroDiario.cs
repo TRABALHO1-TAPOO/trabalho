@@ -9,19 +9,19 @@ namespace DiarioSaude.Models
         [PrimaryKey, Identity]
         public int Id { get; set; }
 
-        [Column, NotNull]
+        [Column(Name = "Data"), NotNull]
         public DateTime Data { get; set; }
 
-        [Column, NotNull]
+        [Column(Name = "HumorId"), NotNull]
         public int HumorId { get; set; }
 
-        [Column, NotNull]
+        [Column(Name = "SonoId"), NotNull]
         public int SonoId { get; set; }
 
-        [Column, NotNull]
+        [Column(Name = "AlimentacaoId"), NotNull]
         public int AlimentacaoId { get; set; }
 
-        [Column, NotNull]
+        [Column(Name = "AtividadeFisicaId"), NotNull]
         public int AtividadeFisicaId { get; set; }
     }
-} 
+}

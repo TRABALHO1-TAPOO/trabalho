@@ -5,19 +5,22 @@ using ReactiveUI;
 using System.Reactive;
 using System.Threading.Tasks;
 using DiarioSaude.Models; 
+using LinqToDB;
+using System.Collections.Generic;
+using System.IO;
 
 namespace diario_saude.ViewModels
 {
     public class RecordHistoryPageViewModel : ViewModelBase
     {
         public ObservableCollection<Record> Records { get; } = new ObservableCollection<Record>();
-        public ObservableCollection<Record> FilteredRecords { get; } = new ObservableCollection<Record>();
+        public ObservableCollection<Record> FilteredRecords { get; set; } = new ObservableCollection<Record>();
         public ObservableCollection<string> FilterOptions { get; } = new ObservableCollection<string>
         {
             "Diário", "Semanal", "Mensal"
         };
 
-        private string _selectedFilter = "Diário"; // Inicializa com um valor padrão
+        private string _selectedFilter = "Mensal"; // Inicializa com um valor padrão
         public string SelectedFilter
         {
             get => _selectedFilter;
@@ -34,44 +37,45 @@ namespace diario_saude.ViewModels
 
         public RecordHistoryPageViewModel()
         {
-            // Carrega os registros do banco de dados
-            LoadRecordsFromDatabase();
-
             ApplyFilterCommand = ReactiveCommand.Create(ApplyFilter);
             EditCommand = ReactiveCommand.Create<Record>(EditRecord);
             DeleteCommand = ReactiveCommand.Create<Record>(DeleteRecord);
+
+            // Carrega os registros do banco de dados
+            LoadRecordsFromDatabase();
         }
 
-        private async void LoadRecordsFromDatabase()
+        public async Task LoadRecordsFromDatabase()
         {
             try
             {
-                //Console.WriteLine($"Caminho do banco de dados: {App.DbPath}");
-
-                // Simulação de carregamento de registros do banco de dados
                 var recordsFromDb = await FetchRecordsFromDatabaseAsync();
 
-                // Adiciona os registros carregados ao ObservableCollection na UI thread
+                // Atualiza as coleções na UI thread
                 await Avalonia.Threading.Dispatcher.UIThread.InvokeAsync(() =>
                 {
                     Records.Clear();
+                    FilteredRecords.Clear();
+
                     foreach (var record in recordsFromDb)
                     {
                         Records.Add(record);
                     }
 
-                    // Inicializa o FilteredRecords com todos os registros
-                    FilteredRecords.Clear();
-                    foreach (var record in Records)
-                    {
-                        FilteredRecords.Add(record);
-                    }
+                    Log($"Registros carregados em Records: {Records.Count}");
+                    Log($"Registros carregados em FilteredRecords: {FilteredRecords.Count}");
                 });
+
+                // Notifica a interface sobre as alterações
+                this.RaisePropertyChanged(nameof(FilteredRecords));
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Erro ao carregar registros do banco de dados: {ex.Message}");
+                Log($"Erro ao carregar registros do banco de dados: {ex.Message}");
             }
+
+            // Aplica o filtro inicial
+            ApplyFilter();
         }
 
         private async Task<ObservableCollection<Record>> FetchRecordsFromDatabaseAsync()
@@ -84,7 +88,7 @@ namespace diario_saude.ViewModels
 
                 // Obtenha todos os registros da tabela RegistroDiario
                 var registrosDiarios = await Task.Run(() => repository.ObterRegistrosDiariosAsync());
-                Console.WriteLine($"Registros carregados: {registrosDiarios.Count}");
+                Log($"Registros carregados do banco: {registrosDiarios.Count}");
 
                 // Obtenha todas as descrições das tabelas relacionadas
                 var humores = await repository.ObterHumoresAsync();
@@ -98,23 +102,27 @@ namespace diario_saude.ViewModels
                     var humorDescricao = humores.FirstOrDefault(h => h.Id == registro.HumorId)?.Descricao ?? "Desconhecido";
                     var sonoDescricao = qualidadesSono.FirstOrDefault(s => s.Id == registro.SonoId)?.Descricao ?? "Desconhecido";
                     var alimentacaoDescricao = alimentacoes.FirstOrDefault(a => a.Id == registro.AlimentacaoId)?.Descricao ?? "Desconhecido";
+                    var alimentacaoCalorias = alimentacoes.FirstOrDefault(a => a.Id == registro.AlimentacaoId)?.Calorias ?? 0;
+                    var atividadeDuracao = atividadesFisicas.FirstOrDefault(a => a.Id == registro.AtividadeFisicaId)?.DuracaoMinutos ?? 0;
                     var atividadeDescricao = atividadesFisicas.FirstOrDefault(a => a.Id == registro.AtividadeFisicaId)?.TipoAtividade ?? "Desconhecido";
 
-                    Console.WriteLine($"Registro encontrado: Data={registro.Data}, Humor={humorDescricao}, Sono={sonoDescricao}, Alimentação={alimentacaoDescricao}, Atividade={atividadeDescricao}");
+                    Log($"Registro encontrado: Data={registro.Data}, Humor={humorDescricao}, Sono={sonoDescricao}, Alimentação={alimentacaoDescricao}, Atividade={atividadeDescricao}");
 
                     records.Add(new Record
                     {
                         Date = registro.Data.ToShortDateString(),
                         Mood = humorDescricao,
                         SleepQuality = sonoDescricao,
+                        FoodDescription = alimentacaoDescricao,
+                        FoodCalories = alimentacaoCalorias,
                         Activity = atividadeDescricao,
-                        Duration = registro.AtividadeFisicaId // Substitua por lógica para calcular a duração, se necessário
+                        Duration = atividadeDuracao
                     });
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Erro ao buscar registros do banco de dados: {ex.Message}");
+                Log($"Erro ao buscar registros do banco de dados: {ex.Message}");
             }
 
             return records;
@@ -122,21 +130,33 @@ namespace diario_saude.ViewModels
 
         private void ApplyFilter()
         {
+            Log($"Aplicando filtro: {SelectedFilter}");
+
+            Log($"Total de registros em Records antes do filtro1: {Records.Count}");
             FilteredRecords.Clear();
+
+            Log($"Total de registros em Records antes do filtro2: {Records.Count}");
 
             var filtered = SelectedFilter switch
             {
-                "Diário" => Records.Where(r => DateTime.Parse(r.Date) >= DateTime.Now.Date),
-                "Semanal" => Records.Where(r => DateTime.Parse(r.Date) >= DateTime.Now.AddDays(-7)),
-                "Mensal" => Records.Where(r => DateTime.Parse(r.Date) >= DateTime.Now.AddMonths(-1)),
+                "Diário" => Records.Where(r => DateTime.TryParse(r.Date, out var date) && date >= DateTime.Now.Date),
+                "Semanal" => Records.Where(r => DateTime.TryParse(r.Date, out var date) && date >= DateTime.Now.AddDays(-7)),
+                "Mensal" => Records.Where(r => DateTime.TryParse(r.Date, out var date) && date >= DateTime.Now.AddMonths(-1)),
                 _ => Records
             };
 
+            Log($"Total de registros em Records antes do filtro3: {Records.Count}");
             foreach (var record in filtered)
             {
+                // Adiciona os registros filtrados ao log
+                Log($"Registro filtrado: Data={record.Date}, Humor={record.Mood}, Sono={record.SleepQuality}, Alimentacao={record.FoodDescription}, Calorias={record.FoodCalories} Atividade={record.Activity}, Duracao={record.Duration}");
+
                 FilteredRecords.Add(record);
             }
+
+            this.RaisePropertyChanged(nameof(FilteredRecords));
         }
+
 
         private void EditRecord(Record record)
         {
@@ -150,14 +170,67 @@ namespace diario_saude.ViewModels
             Records.Remove(record);
             ApplyFilter(); // Reaplica o filtro após excluir
         }
+
+        public void Log(string message)
+        {
+            var logFilePath = "log.txt"; // Caminho do arquivo de log
+            File.AppendAllText(logFilePath, $"{DateTime.Now}: {message}{Environment.NewLine}");
+        }
     }
 
     public class Record
     {
         public string? Date { get; set; }
         public string? Mood { get; set; }
+        public string? FoodDescription { get; set; }
+        public int FoodCalories { get; set; }
         public string? SleepQuality { get; set; }
         public string? Activity { get; set; }
         public int Duration { get; set; }
+    }
+
+    public class DiarioSaudeRepository : IDisposable
+    {
+        private readonly string _connectionString;
+
+        public DiarioSaudeRepository(string connectionString)
+        {
+            _connectionString = connectionString;
+        }
+
+        public async Task<List<RegistroDiario>> ObterRegistrosDiariosAsync()
+        {
+            using var db = new DiarioSaudeDb(_connectionString);
+            return await db.RegistroDiario.ToListAsync();
+        }
+
+        public async Task<List<Humor>> ObterHumoresAsync()
+        {
+            using var db = new DiarioSaudeDb(_connectionString);
+            return await db.Humores.ToListAsync();
+        }
+
+        public async Task<List<QualidadeSono>> ObterQualidadesSonoAsync()
+        {
+            using var db = new DiarioSaudeDb(_connectionString);
+            return await db.QualidadesSono.ToListAsync();
+        }
+
+        public async Task<List<Alimentacao>> ObterAlimentacoesAsync()
+        {
+            using var db = new DiarioSaudeDb(_connectionString);
+            return await db.Alimentacoes.ToListAsync();
+        }
+
+        public async Task<List<AtividadeFisica>> ObterAtividadesFisicasAsync()
+        {
+            using var db = new DiarioSaudeDb(_connectionString);
+            return await db.AtividadesFisicas.ToListAsync();
+        }
+
+        public void Dispose()
+        {
+            // Libera recursos, se necessário
+        }
     }
 }

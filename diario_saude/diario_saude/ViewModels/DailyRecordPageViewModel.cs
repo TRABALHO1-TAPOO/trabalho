@@ -27,12 +27,24 @@ namespace diario_saude.ViewModels
             "Corrida", "Musculação", "Caminhada", "Yoga", "Natação"
         };
 
-        private DateTime _recordDate;
-        public DateTime RecordDate
+        private DateTimeOffset _recordDate = DateTimeOffset.Now;
+        public DateTimeOffset RecordDate
         {
             get => _recordDate;
-            set => this.RaiseAndSetIfChanged(ref _recordDate, value);
+            set
+            {
+                this.RaiseAndSetIfChanged(ref _recordDate, value);
+                ConvertedRecordDate = _recordDate.DateTime; // Converte para DateTime
+            }
         }
+
+        private DateTime _convertedRecordDate;
+        public DateTime ConvertedRecordDate
+        {
+            get => _convertedRecordDate;
+            private set => this.RaiseAndSetIfChanged(ref _convertedRecordDate, value);
+        }
+
         private string? _selectedMood;
         public string SelectedMood
         {
@@ -54,16 +66,16 @@ namespace diario_saude.ViewModels
             set => this.RaiseAndSetIfChanged(ref _foodDescription, value);
         }
 
-        private int _foodCalories;
-        public int FoodCalories
+        private int? _foodCalories;
+        public int? FoodCalories
         {
             get => _foodCalories;
             set => this.RaiseAndSetIfChanged(ref _foodCalories, value);
         }
 
 
-        private int _physicalActivityDuration;
-        public int PhysicalActivityDuration
+        private int? _physicalActivityDuration;
+        public int? PhysicalActivityDuration
         {
             get => _physicalActivityDuration;
             set => this.RaiseAndSetIfChanged(ref _physicalActivityDuration, value);
@@ -107,6 +119,19 @@ namespace diario_saude.ViewModels
         {
             try
             {
+                // Validações
+                if (FoodCalories == null || FoodCalories <= 0)
+                {
+                    Console.WriteLine("Erro: As calorias da alimentação devem ser maiores que zero.");
+                    return;
+                }
+
+                if (PhysicalActivityDuration == null || PhysicalActivityDuration <= 0)
+                {
+                    Console.WriteLine("Erro: A duração da atividade física deve ser maior que zero.");
+                    return;
+                }
+
                 // Caminho do banco de dados
                 string connectionString = $"Data Source={App.DbPath}";
                 using var db = new DiarioSaudeDb(connectionString);
@@ -115,7 +140,7 @@ namespace diario_saude.ViewModels
                 var alimentacao = new Alimentacao
                 {
                     Descricao = FoodDescription,
-                    Calorias = FoodCalories
+                    Calorias = FoodCalories.Value // Usa o valor não nulo
                 };
                 await db.InsertAsync(alimentacao);
 
@@ -129,7 +154,7 @@ namespace diario_saude.ViewModels
                 var atividadeFisica = new AtividadeFisica
                 {
                     TipoAtividade = SelectedPhysicalActivityType,
-                    DuracaoMinutos = PhysicalActivityDuration
+                    DuracaoMinutos = PhysicalActivityDuration.Value // Usa o valor não nulo
                 };
                 await db.InsertAsync(atividadeFisica);
 
@@ -142,9 +167,9 @@ namespace diario_saude.ViewModels
                 // Inserir na tabela RegistroDiario
                 var registro = new RegistroDiario
                 {
-                    Data = RecordDate,
-                    HumorId = MoodOptions.IndexOf(SelectedMood) + 1, // Supondo que o ID seja baseado no índice
-                    SonoId = SleepQualityOptions.IndexOf(SelectedSleepQuality) + 1, // Supondo que o ID seja baseado no índice
+                    Data = ConvertedRecordDate.Date,
+                    HumorId = MoodOptions.IndexOf(SelectedMood) + 1,
+                    SonoId = SleepQualityOptions.IndexOf(SelectedSleepQuality) + 1,
                     AlimentacaoId = alimentacaoId,
                     AtividadeFisicaId = atividadeFisicaId
                 };
@@ -155,27 +180,34 @@ namespace diario_saude.ViewModels
             }
             catch (Exception ex)
             {
-                // Exibe uma mensagem de erro
+                // Exibe uma mensagem de erro detalhada
                 Console.WriteLine($"Erro ao salvar o registro: {ex.Message}");
             }
-            
-            // Limpa os campos
-            SelectedMood = null;
-            SelectedSleepQuality = null;
-            FoodDescription = string.Empty;
-            PhysicalActivityDuration = 0;
-            SelectedPhysicalActivityType = null;
+            finally
+            {
+                // Limpa os campos
+                RecordDate = DateTimeOffset.Now;
+                SelectedMood = null;
+                SelectedSleepQuality = null;
+                FoodDescription = string.Empty;
+                FoodCalories = 0;
+                PhysicalActivityDuration = 0;
+                SelectedPhysicalActivityType = null;
+            }
         }
 
         // Método para cancelar o registro
         private void CancelRecord()
         {
             // Limpa os campos
+            RecordDate = DateTimeOffset.Now;
             SelectedMood = null;
             SelectedSleepQuality = null;
             FoodDescription = string.Empty;
+            FoodCalories = 0;
             PhysicalActivityDuration = 0;
             SelectedPhysicalActivityType = null;
         }
+
     }
 }
