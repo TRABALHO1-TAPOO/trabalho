@@ -18,7 +18,7 @@ namespace diario_saude.ViewModels
         public ObservableCollection<Record> FilteredRecords { get; set; } = new ObservableCollection<Record>();
         public ObservableCollection<string> FilterOptions { get; } = new ObservableCollection<string>
         {
-            "Diário", "Semanal", "Mensal"
+            "Diário", "Semanal", "Mensal", "Todo o período"
         };
 
         private string _selectedFilter = "Mensal"; // Inicializa com um valor padrão
@@ -184,6 +184,7 @@ namespace diario_saude.ViewModels
                 "Diário" => Records.Where(r => DateTime.TryParse(r.Date, out var date) && date >= DateTime.Now.Date),
                 "Semanal" => Records.Where(r => DateTime.TryParse(r.Date, out var date) && date >= DateTime.Now.AddDays(-7)),
                 "Mensal" => Records.Where(r => DateTime.TryParse(r.Date, out var date) && date >= DateTime.Now.AddMonths(-1)),
+                "Todo o período" => Records.Select(i => i),
                 _ => Records
             };
 
