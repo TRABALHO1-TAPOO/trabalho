@@ -58,7 +58,7 @@ namespace diario_saude.ViewModels
 
         protected virtual void SetLightTheme()
         {
-            ContentBackgroundColor = new SolidColorBrush(Color.Parse("#f2f2f2"));
+            ContentBackgroundColor = new SolidColorBrush(Color.Parse("#e2e2e2"));
             (Avalonia.Application.Current as Application)!.RequestedThemeVariant = ThemeVariant.Light;
         }
 

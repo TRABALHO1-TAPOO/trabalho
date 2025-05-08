@@ -7,7 +7,8 @@
         x:Class="diario_saude.Views.EditRecordWindow"
         x:DataType="vm:EditRecordWindowViewModel"
         xmlns:local="using:diario_saude.Views.Components"
-        Title="Editar Registro">
+        Title="Editar Registro"
+		Background="{Binding ContentBackgroundColor}">
 
 	<Grid>
 		<!-- Cabeçalho -->
