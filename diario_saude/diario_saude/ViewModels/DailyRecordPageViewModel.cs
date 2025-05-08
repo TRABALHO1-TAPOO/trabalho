@@ -95,6 +95,7 @@ namespace diario_saude.ViewModels
         // Construtor
         public DailyRecordPageViewModel()
         {
+            _convertedRecordDate = _recordDate.DateTime;
             SaveCommand = ReactiveCommand.CreateFromTask(async () => await Task.Run(SaveRecord), this.WhenAnyValue(
             vm => vm.SelectedMood,
             vm => vm.SelectedSleepQuality,

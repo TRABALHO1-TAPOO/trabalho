@@ -182,3 +182,25 @@
 08/05/2025 17:41:23: Total de registros no viewModel: 2
 08/05/2025 17:41:23: Total de registros filtrados no viewModel: 0
 08/05/2025 17:41:23: Filtro selecionado no viewModel: Mensal
+08/05/2025 17:47:02: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 17:47:02: Registros carregados do banco: 2
+08/05/2025 17:47:02: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Boa, Alimentação=tghnrn, Atividade=Musculação
+08/05/2025 17:47:02: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Média, Alimentação=ewdf, Atividade=Corrida
+08/05/2025 17:47:03: Registros carregados do banco: 2
+08/05/2025 17:47:03: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Boa, Alimentação=tghnrn, Atividade=Musculação
+08/05/2025 17:47:03: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Média, Alimentação=ewdf, Atividade=Corrida
+08/05/2025 17:47:03: Registros carregados em Records: 2
+08/05/2025 17:47:03: Registros carregados em FilteredRecords: 0
+08/05/2025 17:47:03: Registros carregados em Records: 2
+08/05/2025 17:47:03: Registros carregados em FilteredRecords: 0
+08/05/2025 17:47:03: Aplicando filtro: Mensal
+08/05/2025 17:47:03: Total de registros em Records antes do filtro1: 2
+08/05/2025 17:47:03: Total de registros em Records antes do filtro2: 2
+08/05/2025 17:47:03: Total de registros em Records antes do filtro3: 2
+08/05/2025 17:47:03: Aplicando filtro: Mensal
+08/05/2025 17:47:03: Total de registros em Records antes do filtro1: 2
+08/05/2025 17:47:03: Total de registros em Records antes do filtro2: 2
+08/05/2025 17:47:03: Total de registros em Records antes do filtro3: 2
+08/05/2025 17:47:03: Total de registros no viewModel: 2
+08/05/2025 17:47:03: Total de registros filtrados no viewModel: 0
+08/05/2025 17:47:03: Filtro selecionado no viewModel: Mensal
