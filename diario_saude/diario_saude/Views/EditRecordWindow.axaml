@@ -1,0 +1,80 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:diario_saude.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="600"
+        x:Class="diario_saude.Views.EditRecordWindow"
+        x:DataType="vm:EditRecordWindowViewModel"
+        Icon="/Assets/favicon.ico"
+        Title="Editar Registro">
+    <Grid RowDefinitions="Auto, *" Margin="20">
+        <!-- Cabeçalho -->
+        <Image Source="avares://diario_saude/Assets/logo.png" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="100" />
+
+        <!-- Conteúdo Principal -->
+        <StackPanel Grid.Row="1" Spacing="10" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <!-- Título -->
+            <TextBlock Text="Registro Diário" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" />
+
+            <!-- Data do Registro -->
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBlock Text="Data do Registro:" VerticalAlignment="Center" />
+                <DatePicker SelectedDate="{Binding RecordDate}" Width="400" />
+            </StackPanel>
+
+            <!-- Seleção de Humor -->
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBlock Text="Humor:" VerticalAlignment="Center" />
+                <ComboBox x:Name="HumorCaixa" ItemsSource="{Binding MoodOptions}" SelectedItem="{Binding SelectedMood}" Width="200" />
+            </StackPanel>
+
+            <!-- Seleção de Qualidade do Sono -->
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBlock Text="Qualidade do Sono:" VerticalAlignment="Center" />
+                <ComboBox x:Name="SonoCaixa" ItemsSource="{Binding SleepQualityOptions}" SelectedItem="{Binding SelectedSleepQuality}" Width="200" />
+            </StackPanel>
+
+            <!-- Descrição da Alimentação -->
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBlock Text="Descrição da Alimentação:" VerticalAlignment="Center" />
+                <TextBox x:Name="AlimentacaoTextoDesc" Text="{Binding FoodDescription}" Width="300" />
+            </StackPanel>
+
+            <!-- Calorias da Alimentação -->
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBlock Text="Calorias da Alimentação:" VerticalAlignment="Center" />
+                <NumericUpDown x:Name="AlimentacaoCaixaCal" 
+                               Value="{Binding FoodCalories}" 
+                               Minimum="0" 
+                               Maximum="5000" 
+                               ParsingNumberStyle="Integer" 
+                               Width="200" />
+            </StackPanel>
+
+			    <!-- Seleção do Tipo de Atividade Física -->
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBlock Text="Tipo de Atividade Física:" VerticalAlignment="Center" />
+                <ComboBox x:Name="AtividadeCaixa" ItemsSource="{Binding PhysicalActivityTypes}" SelectedItem="{Binding SelectedPhysicalActivityType}" Width="200" />
+            </StackPanel>
+
+            <!-- Duração da Atividade Física -->
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBlock Text="Duração da Atividade Física (min):" VerticalAlignment="Center" />
+                <NumericUpDown x:Name="AtividadeTempo" 
+                               Value="{Binding PhysicalActivityDuration}" 
+                               Minimum="0" 
+                               Maximum="300" 
+                               ParsingNumberStyle="Integer" 
+                               Width="200" />
+            </StackPanel>
+
+            <!-- Botões -->
+            <StackPanel Orientation="Horizontal" Spacing="20" HorizontalAlignment="Center">
+                <Button Content="Salvar" 
+                    Command="{Binding SaveCommand}" 
+                    Width="100"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

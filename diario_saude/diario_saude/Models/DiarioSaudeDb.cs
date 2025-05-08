@@ -83,7 +83,7 @@ namespace DiarioSaude.Models
                 {
                     Console.WriteLine("Inserindo valores padrão para QualidadeSono");
                     db.Insert(new QualidadeSono { Descricao = "Boa" });
-                    db.Insert(new QualidadeSono { Descricao = "Média" });
+                    db.Insert(new QualidadeSono { Descricao = "Regular" });
                     db.Insert(new QualidadeSono { Descricao = "Ruim" });
                 }
 

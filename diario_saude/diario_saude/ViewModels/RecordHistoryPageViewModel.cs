@@ -8,6 +8,7 @@ using DiarioSaude.Models;
 using LinqToDB;
 using System.Collections.Generic;
 using System.IO;
+using diario_saude.Views;
 
 namespace diario_saude.ViewModels
 {
@@ -38,8 +39,48 @@ namespace diario_saude.ViewModels
         public RecordHistoryPageViewModel()
         {
             ApplyFilterCommand = ReactiveCommand.Create(ApplyFilter);
-            EditCommand = ReactiveCommand.Create<Record>(EditRecord);
-            DeleteCommand = ReactiveCommand.Create<Record>(DeleteRecord);
+            EditCommand = ReactiveCommand.Create<Record>(record =>
+            {
+                var editViewModel = new EditRecordWindowViewModel
+                {
+                    RecordDate = DateTime.Parse(record.Date),
+                    SelectedMood = record.Mood,
+                    FoodDescription = record.FoodDescription,
+                    FoodCalories = record.FoodCalories,
+                    SelectedSleepQuality = record.SleepQuality,
+                    SelectedPhysicalActivityType = record.Activity,
+                    PhysicalActivityDuration = record.Duration
+                };
+
+                var editWindow = new EditRecordWindow(editViewModel);
+                var mainWindow = (Avalonia.Application.Current?.ApplicationLifetime as Avalonia.Controls.ApplicationLifetimes.IClassicDesktopStyleApplicationLifetime)?.MainWindow;
+                editWindow.ShowDialog(mainWindow);
+            });
+
+            // Comando para excluir um registro
+            DeleteCommand = ReactiveCommand.CreateFromTask<Record>(async record =>
+            {
+                try
+                {
+                    using var repository = new DiarioSaudeRepository($"Data Source={App.DbPath}");
+
+                    // Exclui o registro do banco de dados com base no Id
+                    await repository.DeleteRegistroDiarioAsync(record.Id);
+
+                    // Remove o registro das coleções
+                    await Avalonia.Threading.Dispatcher.UIThread.InvokeAsync(() =>
+                    {
+                        Records.Remove(record);
+                        FilteredRecords.Remove(record);
+                    });
+
+                    Log($"Registro excluído com sucesso: Id={record.Id}, Data={record.Date}, Humor={record.Mood}");
+                }
+                catch (Exception ex)
+                {
+                    Log($"Erro ao excluir registro: {ex.Message}");
+                }
+            });
 
             // Carrega os registros do banco de dados
             LoadRecordsFromDatabase();
@@ -110,6 +151,7 @@ namespace diario_saude.ViewModels
 
                     records.Add(new Record
                     {
+                        Id = registro.Id,
                         Date = registro.Data.ToShortDateString(),
                         Mood = humorDescricao,
                         SleepQuality = sonoDescricao,
@@ -158,19 +200,6 @@ namespace diario_saude.ViewModels
         }
 
 
-        private void EditRecord(Record record)
-        {
-            // Lógica para editar o registro
-            Console.WriteLine($"Editar registro: {record.Date}");
-        }
-
-        private void DeleteRecord(Record record)
-        {
-            // Lógica para excluir o registro
-            Records.Remove(record);
-            ApplyFilter(); // Reaplica o filtro após excluir
-        }
-
         public void Log(string message)
         {
             var logFilePath = "log.txt"; // Caminho do arquivo de log
@@ -180,6 +209,7 @@ namespace diario_saude.ViewModels
 
     public class Record
     {
+        public int Id { get; set; }
         public string? Date { get; set; }
         public string? Mood { get; set; }
         public string? FoodDescription { get; set; }
@@ -226,6 +256,21 @@ namespace diario_saude.ViewModels
         {
             using var db = new DiarioSaudeDb(_connectionString);
             return await db.AtividadesFisicas.ToListAsync();
+        }
+
+        public async Task DeleteRegistroDiarioAsync(int id)
+        {
+            using var db = new DiarioSaudeDb(_connectionString);
+
+            // Verifica se o registro existe antes de tentar excluir
+            var registro = await db.RegistroDiario.FirstOrDefaultAsync(r => r.Id == id);
+            if (registro == null)
+            {
+                throw new Exception($"Registro com Id={id} não encontrado.");
+            }
+
+            // Exclui o registro
+            await db.RegistroDiario.Where(r => r.Id == id).DeleteAsync();
         }
 
         public void Dispose()

@@ -9,7 +9,6 @@
              x:Name="Root">
 
 
-
     <Grid Margin="20" RowDefinitions="Auto, Auto, *">
 	<Image Source="avares://diario_saude/Assets/logo.png" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="100" />
         <!-- Título -->
@@ -23,20 +22,33 @@
         </StackPanel>
 
         <!-- DataGrid -->
-        <ItemsControl ItemsSource="{Binding FilteredRecords}" Grid.Row="2" Margin="0,20,0,0">
-            <ItemsControl.ItemTemplate>
-                <DataTemplate>
-                    <StackPanel Orientation="Horizontal" Spacing="10">
-                        <TextBlock Text="{Binding Date}" Width="100" />
-                        <TextBlock Text="{Binding Mood}" Width="150" />
-                        <TextBlock Text="{Binding FoodDescription}" Width="200" />
-                        <TextBlock Text="{Binding FoodCalories}" Width="100" />
-                        <TextBlock Text="{Binding SleepQuality}" Width="150" />
-                        <TextBlock Text="{Binding Activity}" Width="200" />
-                        <TextBlock Text="{Binding Duration}" Width="100" />
-                    </StackPanel>
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-        </ItemsControl>
+        <DataGrid ItemsSource="{Binding FilteredRecords}" Grid.Row="2" Margin="0,20,0,0" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Data" Binding="{Binding Date}" Width="150" />
+                <DataGridTextColumn Header="Humor" Binding="{Binding Mood}" Width="150" />
+                <DataGridTextColumn Header="Alimentação" Binding="{Binding FoodDescription}" Width="200" />
+                <DataGridTextColumn Header="Calorias" Binding="{Binding FoodCalories}" Width="100" />
+                <DataGridTextColumn Header="Sono" Binding="{Binding SleepQuality}" Width="150" />
+                <DataGridTextColumn Header="Atividade" Binding="{Binding Activity}" Width="200" />
+                <DataGridTextColumn Header="Tempo (min)" Binding="{Binding Duration}" Width="150" />
+                <!-- Coluna para botões -->
+                <DataGridTemplateColumn Header="Ações" Width="150">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Spacing="10">
+                                <!-- Botão Editar -->
+                                <Button Content="Editar" 
+                                        Command="{Binding $parent[UserControl].((vm:RecordHistoryPageViewModel)DataContext).EditCommand}" 
+                                        CommandParameter="{Binding}" />
+                                <!-- Botão Excluir -->
+                                <Button Content="Excluir" 
+                                        Command="{Binding $parent[UserControl].((vm:RecordHistoryPageViewModel)DataContext).DeleteCommand}" 
+                                        CommandParameter="{Binding}" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </UserControl>
