@@ -1,16 +1,56 @@
 <UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:ScottPlot="clr-namespace:ScottPlot.Avalonia;assembly=ScottPlot.Avalonia"  
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              xmlns:local="using:diario_saude.Views.Components"
-			 x:Class="diario_saude.Views.ReportAndChartsPageView">
-	<Grid>
-		<local:LogoHeader HorizontalAlignment="Left" VerticalAlignment="Top"/>
-		<StackPanel
-	VerticalAlignment="Center"
-	HorizontalAlignment="Center">
-			<TextBox>Relátorios e Gráficos</TextBox>
-		</StackPanel>
-	</Grid>
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="diario_saude.Views.ReportAndChartsPageView"
+             xmlns:vm="using:diario_saude.ViewModels" 
+             x:DataType="vm:ReportAndChartsPageViewModel"       
+             x:CompileBindings="True">           
+
+    <Grid Margin="20 20 20 30">
+    <local:LogoHeader HorizontalAlignment="Left" VerticalAlignment="Top"/>
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Spacing="15" Margin="0 0 0 10">
+
+      <!-- Gráfico ScottPlot -->
+      <!-- Interval selection -->
+      <StackPanel Orientation="Horizontal" Spacing="20" VerticalAlignment="Center" Margin="0,70,0,0">
+        <ScottPlot:AvaPlot Name="AvaPlot1" Height="300" Width="550" Margin="0,20,0,0"/>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Spacing="5">
+          <TextBlock Text="Selecione o período:" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+          <Calendar x:Name="calendar" SelectionMode="MultipleRange"/>
+          <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Spacing="5">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Spacing="5">
+              <TextBlock x:Name="start" Text="{Binding StartDate}" Margin="10" />
+              <TextBlock x:Name="end" Text="{Binding EndDate}" Margin="10" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Spacing="5">
+              <TextBlock Text="{Binding StartFood}" Margin="10" />
+              <TextBlock Text="{Binding EndFood}" Margin="10" />
+            </StackPanel>
+          </StackPanel>
+        </StackPanel>
+      </StackPanel>
+      <Button x:Name="updateButton" FontWeight="Bold" FontSize="16" BorderBrush="#ca8eed" Content="Update" HorizontalAlignment="Center"/>
+
+      <!-- Exibição de resultados numéricos -->
+      <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="40" Margin="0,0,30,0">
+        <Border Background="#f4d0f7" BorderBrush="#ca8eed" BorderThickness="1" CornerRadius="45" Padding="15"> 
+          <StackPanel Orientation="Horizontal" Spacing="5">
+            <TextBlock Text="Média:" FontWeight="Bold" FontSize="16"/>
+            <TextBlock Name="AverageText" Text="--" FontSize="16"/>
+          </StackPanel>
+        </Border>
+        <Border Background="#f4d0f7" BorderBrush="#ca8eed" BorderThickness="1" CornerRadius="45" Padding="15">
+          <StackPanel Orientation="Horizontal" Spacing="5">
+            <TextBlock Text="Total:" FontWeight="Bold" FontSize="16"/>
+            <TextBlock Name="TotalText" Text="--" FontSize="16"/>
+          </StackPanel>
+        </Border>
+      </StackPanel>
+    </StackPanel>
+  </Grid>
+  
 </UserControl>

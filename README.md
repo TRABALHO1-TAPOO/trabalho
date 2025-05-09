@@ -234,11 +234,11 @@ int atividadeId = await repository.AdicionarAtividadeFisicaAsync(atividade);
 // (HumorId e SonoId são IDs existentes das tabelas Humor e QualidadeSono)
 var registro = new RegistroDiario
 {
-    Data = DateTime.Now,  // Data atual
-    HumorId = 1,          // ID 1 = "Feliz" (se seguir os dados padrão)
-    SonoId = 1,           // ID 1 = "Boa" (se seguir os dados padrão)
-    AlimentacaoId = alimentacaoId,
-    AtividadeFisicaId = atividadeId
+        Data = DateTime.Now,  // Data atual
+        HumorId = 1,          // ID 1 = "Feliz" (se seguir os dados padrão)
+        SonoId = 1,           // ID 1 = "Boa" (se seguir os dados padrão)
+        AlimentacaoId = alimentacaoId,
+        AtividadeFisicaId = atividadeId
 };
 
 // 5. Salve o registro no banco de dados
