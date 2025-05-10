@@ -159,8 +159,8 @@ namespace diario_saude.ViewModels
                 // Converta os registros para o modelo Record_v
                 foreach (var registro in registrosDiarios)
                 {
-                    var humorDescricao = humores.FirstOrDefault(h => h.Id == registro.HumorId)?.Descricao ?? "Desconhecido";
-                    var sonoDescricao = qualidadesSono.FirstOrDefault(s => s.Id == registro.SonoId)?.Descricao ?? "Desconhecido";
+                    var humorDescricao = humores.FirstOrDefault(h => h.Id == registro.HumorId)?.Id ?? 0;
+                    var sonoDescricao = qualidadesSono.FirstOrDefault(s => s.Id == registro.SonoId)?.Id ?? 0;
                     var alimentacaoDescricao = alimentacoes.FirstOrDefault(a => a.Id == registro.AlimentacaoId)?.Descricao ?? "Desconhecido";
                     var alimentacaoCalorias = alimentacoes.FirstOrDefault(a => a.Id == registro.AlimentacaoId)?.Calorias ?? 0;
                     var atividadeDuracao = atividadesFisicas.FirstOrDefault(a => a.Id == registro.AtividadeFisicaId)?.DuracaoMinutos ?? 0;
@@ -172,7 +172,7 @@ namespace diario_saude.ViewModels
                     {
                         Id = registro.Id,
                         Date = registro.Data.ToShortDateString(),
-                        Mood = humorDescricao,
+                        Mood =  humorDescricao,
                         SleepQuality = sonoDescricao,
                         FoodDescription = alimentacaoDescricao,
                         FoodCalories = alimentacaoCalorias,
@@ -218,8 +218,8 @@ namespace diario_saude.ViewModels
                     {
                         Id = 0,
                         Date = date.ToShortDateString(),
-                        Mood = "Desconhecido",
-                        SleepQuality = "Desconhecido",
+                        Mood = 0,
+                        SleepQuality = 0,
                         FoodDescription = "Desconhecido",
                         FoodCalories = 0,
                         Activity = "Desconhecido",
@@ -245,12 +245,12 @@ namespace diario_saude.ViewModels
     {
         public int Id { get; set; }
         public string? Date { get; set; }
-        public string? Mood { get; set; }
+        public double? Mood { get; set; }
         public string? FoodDescription { get; set; }
-        public double FoodCalories { get; set; }
-        public string? SleepQuality { get; set; }
+        public double? FoodCalories { get; set; }
+        public double? SleepQuality { get; set; }
         public string? Activity { get; set; }
-        public double Duration { get; set; }
+        public double? Duration { get; set; }
     }
 
 }

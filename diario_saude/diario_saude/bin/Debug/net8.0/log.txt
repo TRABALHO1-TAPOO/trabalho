@@ -2693,3 +2693,637 @@
 [Reports&Charts&View]09/05/2025 23:30:18: Número de itens na coleção: 1
 [Reports&Charts&View]09/05/2025 23:30:18: Data: 07/05/2025 00:00:00
 [Reports&Charts&View]09/05/2025 23:30:18: Calorias: 300
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registros carregados do banco: 10
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registro encontrado: Data=07/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registro encontrado: Data=06/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registro encontrado: Data=05/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registro encontrado: Data=04/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Lanche da tarde, Atividade=Natação
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registro encontrado: Data=03/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã reforçado, Atividade=Ciclismo
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registro encontrado: Data=02/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço vegetariano, Atividade=Treinamento funcional
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registro encontrado: Data=01/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar com sopa, Atividade=Pilates
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registro encontrado: Data=30/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registro encontrado: Data=29/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registro encontrado: Data=28/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registros carregados em Records: 10
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registros carregados em FilteredRecords: 0
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Aplicando filtro de 01/05/2025 até 07/05/2025
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Total de registros em Records antes do filtro: 10
+[Reports&Charts&View]10/05/2025 00:37:16: MinhaColeção alterada: Reset
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registro filtrado: Data=01/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Jantar com sopa, Calorias=300, Atividade=Pilates, Duração=45
+[Reports&Charts&View]10/05/2025 00:37:16: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 00:37:16: Gráfico criado com 1 registros.
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registro filtrado: Data=02/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Almoço vegetariano, Calorias=500, Atividade=Treinamento funcional, Duração=35
+[Reports&Charts&View]10/05/2025 00:37:16: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 00:37:16: Gráfico criado com 2 registros.
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registro filtrado: Data=03/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã reforçado, Calorias=400, Atividade=Ciclismo, Duração=50
+[Reports&Charts&View]10/05/2025 00:37:16: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 00:37:16: Gráfico criado com 3 registros.
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registro filtrado: Data=04/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Lanche da tarde, Calorias=200, Atividade=Natação, Duração=40
+[Reports&Charts&View]10/05/2025 00:37:16: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 00:37:16: Gráfico criado com 4 registros.
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registro filtrado: Data=05/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Calorias=400, Atividade=Yoga, Duração=60
+[Reports&Charts&View]10/05/2025 00:37:16: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 00:37:16: Gráfico criado com 5 registros.
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registro filtrado: Data=06/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Calorias=600, Atividade=Corrida, Duração=45
+[Reports&Charts&View]10/05/2025 00:37:16: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 00:37:16: Gráfico criado com 6 registros.
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Registro filtrado: Data=07/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Calorias=300, Atividade=Caminhada, Duração=30
+[Reports&Charts&View]10/05/2025 00:37:16: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 00:37:16: Gráfico criado com 7 registros.
+[Reports&Charts&View&Model]10/05/2025 00:37:16: Total de registros em FilteredRecords após criar o IEnumerable filtrado: 7
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registros carregados do banco: 10
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registro encontrado: Data=07/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registro encontrado: Data=06/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registro encontrado: Data=05/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registro encontrado: Data=04/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Lanche da tarde, Atividade=Natação
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registro encontrado: Data=03/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã reforçado, Atividade=Ciclismo
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registro encontrado: Data=02/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço vegetariano, Atividade=Treinamento funcional
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registro encontrado: Data=01/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar com sopa, Atividade=Pilates
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registro encontrado: Data=30/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registro encontrado: Data=29/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registro encontrado: Data=28/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registros carregados em Records: 10
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registros carregados em FilteredRecords: 0
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Aplicando filtro de 01/05/2025 até 07/05/2025
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Total de registros em Records antes do filtro: 10
+[Reports&Charts&View]10/05/2025 12:12:59: MinhaColeção alterada: Reset
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registro filtrado: Data=01/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Jantar com sopa, Calorias=300, Atividade=Pilates, Duração=45
+[Reports&Charts&View]10/05/2025 12:12:59: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 12:12:59: Gráfico criado com 1 registros.
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registro filtrado: Data=02/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Almoço vegetariano, Calorias=500, Atividade=Treinamento funcional, Duração=35
+[Reports&Charts&View]10/05/2025 12:12:59: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 12:12:59: Gráfico criado com 2 registros.
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registro filtrado: Data=03/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã reforçado, Calorias=400, Atividade=Ciclismo, Duração=50
+[Reports&Charts&View]10/05/2025 12:12:59: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 12:12:59: Gráfico criado com 3 registros.
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registro filtrado: Data=04/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Lanche da tarde, Calorias=200, Atividade=Natação, Duração=40
+[Reports&Charts&View]10/05/2025 12:12:59: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 12:12:59: Gráfico criado com 4 registros.
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registro filtrado: Data=05/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Calorias=400, Atividade=Yoga, Duração=60
+[Reports&Charts&View]10/05/2025 12:12:59: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 12:12:59: Gráfico criado com 5 registros.
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registro filtrado: Data=06/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Calorias=600, Atividade=Corrida, Duração=45
+[Reports&Charts&View]10/05/2025 12:12:59: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 12:12:59: Gráfico criado com 6 registros.
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Registro filtrado: Data=07/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Calorias=300, Atividade=Caminhada, Duração=30
+[Reports&Charts&View]10/05/2025 12:12:59: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 12:12:59: Gráfico criado com 7 registros.
+[Reports&Charts&View&Model]10/05/2025 12:12:59: Total de registros em FilteredRecords após criar o IEnumerable filtrado: 7
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registros carregados do banco: 10
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=07/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=06/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=05/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=04/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Lanche da tarde, Atividade=Natação
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=03/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã reforçado, Atividade=Ciclismo
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=02/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço vegetariano, Atividade=Treinamento funcional
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=01/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar com sopa, Atividade=Pilates
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=30/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=29/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=28/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registros carregados em Records: 10
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registros carregados em FilteredRecords: 0
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Aplicando filtro de 01/01/0001 até 01/01/0001
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Total de registros em Records antes do filtro: 10
+[Reports&Charts&View]10/05/2025 12:20:42: MinhaColeção alterada: Reset
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Total de registros em FilteredRecords após criar o IEnumerable filtrado: 0
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registros carregados do banco: 10
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=07/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=06/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=05/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=04/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Lanche da tarde, Atividade=Natação
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=03/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã reforçado, Atividade=Ciclismo
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=02/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço vegetariano, Atividade=Treinamento funcional
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=01/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar com sopa, Atividade=Pilates
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=30/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=29/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=28/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registros carregados em Records: 10
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registros carregados em FilteredRecords: 0
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Aplicando filtro de 01/01/0001 até 01/01/0001
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Total de registros em Records antes do filtro: 10
+[Reports&Charts&View]10/05/2025 12:20:42: MinhaColeção alterada: Reset
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Total de registros em FilteredRecords após criar o IEnumerable filtrado: 0
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registros carregados do banco: 10
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=07/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=06/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=05/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=04/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Lanche da tarde, Atividade=Natação
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=03/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã reforçado, Atividade=Ciclismo
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=02/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço vegetariano, Atividade=Treinamento funcional
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=01/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar com sopa, Atividade=Pilates
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=30/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=29/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registro encontrado: Data=28/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registros carregados em Records: 10
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Registros carregados em FilteredRecords: 0
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Aplicando filtro de 01/01/0001 até 01/01/0001
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Total de registros em Records antes do filtro: 10
+[Reports&Charts&View]10/05/2025 12:20:42: MinhaColeção alterada: Reset
+[Reports&Charts&View&Model]10/05/2025 12:20:42: Total de registros em FilteredRecords após criar o IEnumerable filtrado: 0
+10/05/2025 12:21:21: DataContext configurado: RecordHistoryPageViewModel
+10/05/2025 12:21:21: Registros carregados do banco: 10
+10/05/2025 12:21:21: Registro encontrado: Data=07/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Atividade=Caminhada
+10/05/2025 12:21:21: Registro encontrado: Data=06/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Atividade=Corrida
+10/05/2025 12:21:21: Registro encontrado: Data=05/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Atividade=Yoga
+10/05/2025 12:21:21: Registro encontrado: Data=04/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Lanche da tarde, Atividade=Natação
+10/05/2025 12:21:21: Registro encontrado: Data=03/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã reforçado, Atividade=Ciclismo
+10/05/2025 12:21:21: Registro encontrado: Data=02/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço vegetariano, Atividade=Treinamento funcional
+10/05/2025 12:21:21: Registro encontrado: Data=01/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar com sopa, Atividade=Pilates
+10/05/2025 12:21:21: Registro encontrado: Data=30/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Atividade=Corrida
+10/05/2025 12:21:21: Registro encontrado: Data=29/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Atividade=Yoga
+10/05/2025 12:21:21: Registro encontrado: Data=28/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Atividade=Caminhada
+10/05/2025 12:21:21: Registros carregados do banco: 10
+10/05/2025 12:21:21: Registro encontrado: Data=07/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Atividade=Caminhada
+10/05/2025 12:21:21: Registro encontrado: Data=06/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Atividade=Corrida
+10/05/2025 12:21:21: Registro encontrado: Data=05/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Atividade=Yoga
+10/05/2025 12:21:21: Registro encontrado: Data=04/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Lanche da tarde, Atividade=Natação
+10/05/2025 12:21:21: Registro encontrado: Data=03/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã reforçado, Atividade=Ciclismo
+10/05/2025 12:21:21: Registro encontrado: Data=02/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço vegetariano, Atividade=Treinamento funcional
+10/05/2025 12:21:21: Registro encontrado: Data=01/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar com sopa, Atividade=Pilates
+10/05/2025 12:21:21: Registro encontrado: Data=30/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Atividade=Corrida
+10/05/2025 12:21:21: Registro encontrado: Data=29/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Atividade=Yoga
+10/05/2025 12:21:21: Registro encontrado: Data=28/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Atividade=Caminhada
+10/05/2025 12:21:21: Registros carregados do banco: 10
+10/05/2025 12:21:21: Registro encontrado: Data=07/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Atividade=Caminhada
+10/05/2025 12:21:21: Registro encontrado: Data=06/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Atividade=Corrida
+10/05/2025 12:21:21: Registro encontrado: Data=05/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Atividade=Yoga
+10/05/2025 12:21:21: Registro encontrado: Data=04/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Lanche da tarde, Atividade=Natação
+10/05/2025 12:21:21: Registro encontrado: Data=03/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã reforçado, Atividade=Ciclismo
+10/05/2025 12:21:21: Registro encontrado: Data=02/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço vegetariano, Atividade=Treinamento funcional
+10/05/2025 12:21:21: Registro encontrado: Data=01/05/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar com sopa, Atividade=Pilates
+10/05/2025 12:21:21: Registro encontrado: Data=30/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Atividade=Corrida
+10/05/2025 12:21:21: Registro encontrado: Data=29/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Atividade=Yoga
+10/05/2025 12:21:21: Registro encontrado: Data=28/04/2025 19:16:45, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Atividade=Caminhada
+10/05/2025 12:21:21: Registros carregados em Records: 10
+10/05/2025 12:21:21: Registros carregados em FilteredRecords: 0
+10/05/2025 12:21:21: Aplicando filtro: Todo o período
+10/05/2025 12:21:21: Total de registros em Records antes do filtro1: 10
+10/05/2025 12:21:21: Total de registros em Records antes do filtro2: 10
+10/05/2025 12:21:21: Total de registros em Records antes do filtro3: 10
+10/05/2025 12:21:21: Registro filtrado: Data=07/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Café da manhã saudável, Calorias=300 Atividade=Caminhada, Duracao=30
+10/05/2025 12:21:21: Registro filtrado: Data=06/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Almoço balanceado, Calorias=600 Atividade=Corrida, Duracao=45
+10/05/2025 12:21:21: Registro filtrado: Data=05/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Jantar leve, Calorias=400 Atividade=Yoga, Duracao=60
+10/05/2025 12:21:21: Registro filtrado: Data=04/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lanche da tarde, Calorias=200 Atividade=Natação, Duracao=40
+10/05/2025 12:21:21: Registro filtrado: Data=03/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Café da manhã reforçado, Calorias=400 Atividade=Ciclismo, Duracao=50
+10/05/2025 12:21:21: Registro filtrado: Data=02/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Almoço vegetariano, Calorias=500 Atividade=Treinamento funcional, Duracao=35
+10/05/2025 12:21:21: Registro filtrado: Data=01/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Jantar com sopa, Calorias=300 Atividade=Pilates, Duracao=45
+10/05/2025 12:21:21: Registro filtrado: Data=30/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Café da manhã saudável, Calorias=300 Atividade=Corrida, Duracao=45
+10/05/2025 12:21:21: Registro filtrado: Data=29/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Almoço balanceado, Calorias=600 Atividade=Yoga, Duracao=60
+10/05/2025 12:21:21: Registro filtrado: Data=28/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Jantar leve, Calorias=400 Atividade=Caminhada, Duracao=30
+10/05/2025 12:21:21: Registros carregados em Records: 10
+10/05/2025 12:21:21: Registros carregados em FilteredRecords: 0
+10/05/2025 12:21:21: Aplicando filtro: Todo o período
+10/05/2025 12:21:21: Total de registros em Records antes do filtro1: 10
+10/05/2025 12:21:21: Total de registros em Records antes do filtro2: 10
+10/05/2025 12:21:21: Total de registros em Records antes do filtro3: 10
+10/05/2025 12:21:21: Registro filtrado: Data=07/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Café da manhã saudável, Calorias=300 Atividade=Caminhada, Duracao=30
+10/05/2025 12:21:21: Registro filtrado: Data=06/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Almoço balanceado, Calorias=600 Atividade=Corrida, Duracao=45
+10/05/2025 12:21:21: Registro filtrado: Data=05/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Jantar leve, Calorias=400 Atividade=Yoga, Duracao=60
+10/05/2025 12:21:21: Registro filtrado: Data=04/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lanche da tarde, Calorias=200 Atividade=Natação, Duracao=40
+10/05/2025 12:21:21: Registro filtrado: Data=03/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Café da manhã reforçado, Calorias=400 Atividade=Ciclismo, Duracao=50
+10/05/2025 12:21:21: Registro filtrado: Data=02/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Almoço vegetariano, Calorias=500 Atividade=Treinamento funcional, Duracao=35
+10/05/2025 12:21:21: Registro filtrado: Data=01/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Jantar com sopa, Calorias=300 Atividade=Pilates, Duracao=45
+10/05/2025 12:21:21: Registro filtrado: Data=30/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Café da manhã saudável, Calorias=300 Atividade=Corrida, Duracao=45
+10/05/2025 12:21:21: Registro filtrado: Data=29/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Almoço balanceado, Calorias=600 Atividade=Yoga, Duracao=60
+10/05/2025 12:21:21: Registro filtrado: Data=28/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Jantar leve, Calorias=400 Atividade=Caminhada, Duracao=30
+10/05/2025 12:21:21: Registros carregados em Records: 10
+10/05/2025 12:21:21: Registros carregados em FilteredRecords: 0
+10/05/2025 12:21:21: Aplicando filtro: Todo o período
+10/05/2025 12:21:21: Total de registros em Records antes do filtro1: 10
+10/05/2025 12:21:21: Total de registros em Records antes do filtro2: 10
+10/05/2025 12:21:21: Total de registros em Records antes do filtro3: 10
+10/05/2025 12:21:21: Registro filtrado: Data=07/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Café da manhã saudável, Calorias=300 Atividade=Caminhada, Duracao=30
+10/05/2025 12:21:21: Registro filtrado: Data=06/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Almoço balanceado, Calorias=600 Atividade=Corrida, Duracao=45
+10/05/2025 12:21:21: Registro filtrado: Data=05/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Jantar leve, Calorias=400 Atividade=Yoga, Duracao=60
+10/05/2025 12:21:21: Registro filtrado: Data=04/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Lanche da tarde, Calorias=200 Atividade=Natação, Duracao=40
+10/05/2025 12:21:21: Registro filtrado: Data=03/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Café da manhã reforçado, Calorias=400 Atividade=Ciclismo, Duracao=50
+10/05/2025 12:21:21: Registro filtrado: Data=02/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Almoço vegetariano, Calorias=500 Atividade=Treinamento funcional, Duracao=35
+10/05/2025 12:21:21: Registro filtrado: Data=01/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=Jantar com sopa, Calorias=300 Atividade=Pilates, Duracao=45
+10/05/2025 12:21:21: Registro filtrado: Data=30/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Café da manhã saudável, Calorias=300 Atividade=Corrida, Duracao=45
+10/05/2025 12:21:21: Registro filtrado: Data=29/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Almoço balanceado, Calorias=600 Atividade=Yoga, Duracao=60
+10/05/2025 12:21:21: Registro filtrado: Data=28/04/2025, Humor=Feliz, Sono=Boa, Alimentacao=Jantar leve, Calorias=400 Atividade=Caminhada, Duracao=30
+10/05/2025 12:21:21: Total de registros no viewModel: 10
+10/05/2025 12:21:21: Total de registros filtrados no viewModel: 10
+10/05/2025 12:21:21: Filtro selecionado no viewModel: Todo o período
+10/05/2025 12:21:21: Registro filtrado no DataContext: Data=07/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Atividade=Caminhada, Duração=30
+10/05/2025 12:21:21: Registro filtrado no DataContext: Data=06/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Atividade=Corrida, Duração=45
+10/05/2025 12:21:21: Registro filtrado no DataContext: Data=05/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Atividade=Yoga, Duração=60
+10/05/2025 12:21:21: Registro filtrado no DataContext: Data=04/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Lanche da tarde, Atividade=Natação, Duração=40
+10/05/2025 12:21:21: Registro filtrado no DataContext: Data=03/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã reforçado, Atividade=Ciclismo, Duração=50
+10/05/2025 12:21:21: Registro filtrado no DataContext: Data=02/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Almoço vegetariano, Atividade=Treinamento funcional, Duração=35
+10/05/2025 12:21:21: Registro filtrado no DataContext: Data=01/05/2025, Humor=Feliz, Sono=Boa, Alimentação=Jantar com sopa, Atividade=Pilates, Duração=45
+10/05/2025 12:21:21: Registro filtrado no DataContext: Data=30/04/2025, Humor=Feliz, Sono=Boa, Alimentação=Café da manhã saudável, Atividade=Corrida, Duração=45
+10/05/2025 12:21:21: Registro filtrado no DataContext: Data=29/04/2025, Humor=Feliz, Sono=Boa, Alimentação=Almoço balanceado, Atividade=Yoga, Duração=60
+10/05/2025 12:21:21: Registro filtrado no DataContext: Data=28/04/2025, Humor=Feliz, Sono=Boa, Alimentação=Jantar leve, Atividade=Caminhada, Duração=30
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registros carregados do banco: 10
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registro encontrado: Data=07/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registro encontrado: Data=06/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço balanceado, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registro encontrado: Data=05/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar leve, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registro encontrado: Data=04/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Lanche da tarde, Atividade=Natação
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registro encontrado: Data=03/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã reforçado, Atividade=Ciclismo
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registro encontrado: Data=02/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço vegetariano, Atividade=Treinamento funcional
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registro encontrado: Data=01/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar com sopa, Atividade=Pilates
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registro encontrado: Data=30/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registro encontrado: Data=29/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço balanceado, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registro encontrado: Data=28/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar leve, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registros carregados em Records: 10
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registros carregados em FilteredRecords: 0
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Aplicando filtro de 01/05/2025 até 07/05/2025
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Total de registros em Records antes do filtro: 10
+[Reports&Charts&View]10/05/2025 13:03:52: MinhaColeção alterada: Reset
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registro filtrado: Data=01/05/2025, Humor=1, Sono=1, Alimentação=Jantar com sopa, Calorias=300, Atividade=Pilates, Duração=45
+[Reports&Charts&View]10/05/2025 13:03:52: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:03:52: Gráfico criado com 1 registros.
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registro filtrado: Data=02/05/2025, Humor=1, Sono=1, Alimentação=Almoço vegetariano, Calorias=500, Atividade=Treinamento funcional, Duração=35
+[Reports&Charts&View]10/05/2025 13:03:52: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:03:52: Gráfico criado com 2 registros.
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registro filtrado: Data=03/05/2025, Humor=1, Sono=1, Alimentação=Café da manhã reforçado, Calorias=400, Atividade=Ciclismo, Duração=50
+[Reports&Charts&View]10/05/2025 13:03:52: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:03:52: Gráfico criado com 3 registros.
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registro filtrado: Data=04/05/2025, Humor=1, Sono=1, Alimentação=Lanche da tarde, Calorias=200, Atividade=Natação, Duração=40
+[Reports&Charts&View]10/05/2025 13:03:52: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:03:52: Gráfico criado com 4 registros.
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registro filtrado: Data=05/05/2025, Humor=1, Sono=1, Alimentação=Jantar leve, Calorias=400, Atividade=Yoga, Duração=60
+[Reports&Charts&View]10/05/2025 13:03:52: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:03:52: Gráfico criado com 5 registros.
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registro filtrado: Data=06/05/2025, Humor=1, Sono=1, Alimentação=Almoço balanceado, Calorias=600, Atividade=Corrida, Duração=45
+[Reports&Charts&View]10/05/2025 13:03:52: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:03:52: Gráfico criado com 6 registros.
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Registro filtrado: Data=07/05/2025, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Calorias=300, Atividade=Caminhada, Duração=30
+[Reports&Charts&View]10/05/2025 13:03:52: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:03:52: Gráfico criado com 7 registros.
+[Reports&Charts&View&Model]10/05/2025 13:03:52: Total de registros em FilteredRecords após criar o IEnumerable filtrado: 7
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registros carregados do banco: 10
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registro encontrado: Data=07/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registro encontrado: Data=06/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço balanceado, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registro encontrado: Data=05/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar leve, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registro encontrado: Data=04/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Lanche da tarde, Atividade=Natação
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registro encontrado: Data=03/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã reforçado, Atividade=Ciclismo
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registro encontrado: Data=02/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço vegetariano, Atividade=Treinamento funcional
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registro encontrado: Data=01/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar com sopa, Atividade=Pilates
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registro encontrado: Data=30/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registro encontrado: Data=29/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço balanceado, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registro encontrado: Data=28/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar leve, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registros carregados em Records: 10
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registros carregados em FilteredRecords: 7
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Aplicando filtro de 01/05/2025 até 07/05/2025
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Total de registros em Records antes do filtro: 10
+[Reports&Charts&View]10/05/2025 13:04:00: MinhaColeção alterada: Reset
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registro filtrado: Data=01/05/2025, Humor=1, Sono=1, Alimentação=Jantar com sopa, Calorias=300, Atividade=Pilates, Duração=45
+[Reports&Charts&View]10/05/2025 13:04:00: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:00: Gráfico criado com 1 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registro filtrado: Data=02/05/2025, Humor=1, Sono=1, Alimentação=Almoço vegetariano, Calorias=500, Atividade=Treinamento funcional, Duração=35
+[Reports&Charts&View]10/05/2025 13:04:00: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:00: Gráfico criado com 2 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registro filtrado: Data=03/05/2025, Humor=1, Sono=1, Alimentação=Café da manhã reforçado, Calorias=400, Atividade=Ciclismo, Duração=50
+[Reports&Charts&View]10/05/2025 13:04:00: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:00: Gráfico criado com 3 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registro filtrado: Data=04/05/2025, Humor=1, Sono=1, Alimentação=Lanche da tarde, Calorias=200, Atividade=Natação, Duração=40
+[Reports&Charts&View]10/05/2025 13:04:00: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:00: Gráfico criado com 4 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registro filtrado: Data=05/05/2025, Humor=1, Sono=1, Alimentação=Jantar leve, Calorias=400, Atividade=Yoga, Duração=60
+[Reports&Charts&View]10/05/2025 13:04:00: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:00: Gráfico criado com 5 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registro filtrado: Data=06/05/2025, Humor=1, Sono=1, Alimentação=Almoço balanceado, Calorias=600, Atividade=Corrida, Duração=45
+[Reports&Charts&View]10/05/2025 13:04:00: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:00: Gráfico criado com 6 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Registro filtrado: Data=07/05/2025, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Calorias=300, Atividade=Caminhada, Duração=30
+[Reports&Charts&View]10/05/2025 13:04:00: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:00: Gráfico criado com 7 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:00: Total de registros em FilteredRecords após criar o IEnumerable filtrado: 7
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registros carregados do banco: 10
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registro encontrado: Data=07/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registro encontrado: Data=06/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço balanceado, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registro encontrado: Data=05/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar leve, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registro encontrado: Data=04/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Lanche da tarde, Atividade=Natação
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registro encontrado: Data=03/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã reforçado, Atividade=Ciclismo
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registro encontrado: Data=02/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço vegetariano, Atividade=Treinamento funcional
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registro encontrado: Data=01/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar com sopa, Atividade=Pilates
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registro encontrado: Data=30/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registro encontrado: Data=29/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço balanceado, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registro encontrado: Data=28/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar leve, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registros carregados em Records: 10
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registros carregados em FilteredRecords: 7
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Aplicando filtro de 01/05/2025 até 07/05/2025
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Total de registros em Records antes do filtro: 10
+[Reports&Charts&View]10/05/2025 13:04:07: MinhaColeção alterada: Reset
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registro filtrado: Data=01/05/2025, Humor=1, Sono=1, Alimentação=Jantar com sopa, Calorias=300, Atividade=Pilates, Duração=45
+[Reports&Charts&View]10/05/2025 13:04:07: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:07: Gráfico criado com 1 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registro filtrado: Data=02/05/2025, Humor=1, Sono=1, Alimentação=Almoço vegetariano, Calorias=500, Atividade=Treinamento funcional, Duração=35
+[Reports&Charts&View]10/05/2025 13:04:07: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:07: Gráfico criado com 2 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registro filtrado: Data=03/05/2025, Humor=1, Sono=1, Alimentação=Café da manhã reforçado, Calorias=400, Atividade=Ciclismo, Duração=50
+[Reports&Charts&View]10/05/2025 13:04:07: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:07: Gráfico criado com 3 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registro filtrado: Data=04/05/2025, Humor=1, Sono=1, Alimentação=Lanche da tarde, Calorias=200, Atividade=Natação, Duração=40
+[Reports&Charts&View]10/05/2025 13:04:07: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:07: Gráfico criado com 4 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registro filtrado: Data=05/05/2025, Humor=1, Sono=1, Alimentação=Jantar leve, Calorias=400, Atividade=Yoga, Duração=60
+[Reports&Charts&View]10/05/2025 13:04:07: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:07: Gráfico criado com 5 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registro filtrado: Data=06/05/2025, Humor=1, Sono=1, Alimentação=Almoço balanceado, Calorias=600, Atividade=Corrida, Duração=45
+[Reports&Charts&View]10/05/2025 13:04:07: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:07: Gráfico criado com 6 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Registro filtrado: Data=07/05/2025, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Calorias=300, Atividade=Caminhada, Duração=30
+[Reports&Charts&View]10/05/2025 13:04:07: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:07: Gráfico criado com 7 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:07: Total de registros em FilteredRecords após criar o IEnumerable filtrado: 7
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registros carregados do banco: 10
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registro encontrado: Data=07/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registro encontrado: Data=06/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço balanceado, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registro encontrado: Data=05/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar leve, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registro encontrado: Data=04/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Lanche da tarde, Atividade=Natação
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registro encontrado: Data=03/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã reforçado, Atividade=Ciclismo
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registro encontrado: Data=02/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço vegetariano, Atividade=Treinamento funcional
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registro encontrado: Data=01/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar com sopa, Atividade=Pilates
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registro encontrado: Data=30/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registro encontrado: Data=29/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço balanceado, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registro encontrado: Data=28/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar leve, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registros carregados em Records: 10
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registros carregados em FilteredRecords: 7
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Aplicando filtro de 01/05/2025 até 07/05/2025
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Total de registros em Records antes do filtro: 10
+[Reports&Charts&View]10/05/2025 13:04:13: MinhaColeção alterada: Reset
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registro filtrado: Data=01/05/2025, Humor=1, Sono=1, Alimentação=Jantar com sopa, Calorias=300, Atividade=Pilates, Duração=45
+[Reports&Charts&View]10/05/2025 13:04:13: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:13: Gráfico criado com 1 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registro filtrado: Data=02/05/2025, Humor=1, Sono=1, Alimentação=Almoço vegetariano, Calorias=500, Atividade=Treinamento funcional, Duração=35
+[Reports&Charts&View]10/05/2025 13:04:13: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:13: Gráfico criado com 2 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registro filtrado: Data=03/05/2025, Humor=1, Sono=1, Alimentação=Café da manhã reforçado, Calorias=400, Atividade=Ciclismo, Duração=50
+[Reports&Charts&View]10/05/2025 13:04:13: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:13: Gráfico criado com 3 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registro filtrado: Data=04/05/2025, Humor=1, Sono=1, Alimentação=Lanche da tarde, Calorias=200, Atividade=Natação, Duração=40
+[Reports&Charts&View]10/05/2025 13:04:13: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:13: Gráfico criado com 4 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registro filtrado: Data=05/05/2025, Humor=1, Sono=1, Alimentação=Jantar leve, Calorias=400, Atividade=Yoga, Duração=60
+[Reports&Charts&View]10/05/2025 13:04:13: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:13: Gráfico criado com 5 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registro filtrado: Data=06/05/2025, Humor=1, Sono=1, Alimentação=Almoço balanceado, Calorias=600, Atividade=Corrida, Duração=45
+[Reports&Charts&View]10/05/2025 13:04:13: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:13: Gráfico criado com 6 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Registro filtrado: Data=07/05/2025, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Calorias=300, Atividade=Caminhada, Duração=30
+[Reports&Charts&View]10/05/2025 13:04:13: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:13: Gráfico criado com 7 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:13: Total de registros em FilteredRecords após criar o IEnumerable filtrado: 7
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registros carregados do banco: 10
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registro encontrado: Data=07/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registro encontrado: Data=06/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço balanceado, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registro encontrado: Data=05/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar leve, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registro encontrado: Data=04/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Lanche da tarde, Atividade=Natação
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registro encontrado: Data=03/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã reforçado, Atividade=Ciclismo
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registro encontrado: Data=02/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço vegetariano, Atividade=Treinamento funcional
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registro encontrado: Data=01/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar com sopa, Atividade=Pilates
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registro encontrado: Data=30/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registro encontrado: Data=29/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço balanceado, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registro encontrado: Data=28/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar leve, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registros carregados em Records: 10
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registros carregados em FilteredRecords: 7
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Aplicando filtro de 01/05/2025 até 07/05/2025
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Total de registros em Records antes do filtro: 10
+[Reports&Charts&View]10/05/2025 13:04:15: MinhaColeção alterada: Reset
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registro filtrado: Data=01/05/2025, Humor=1, Sono=1, Alimentação=Jantar com sopa, Calorias=300, Atividade=Pilates, Duração=45
+[Reports&Charts&View]10/05/2025 13:04:15: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:15: Gráfico criado com 1 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registro filtrado: Data=02/05/2025, Humor=1, Sono=1, Alimentação=Almoço vegetariano, Calorias=500, Atividade=Treinamento funcional, Duração=35
+[Reports&Charts&View]10/05/2025 13:04:15: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:15: Gráfico criado com 2 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registro filtrado: Data=03/05/2025, Humor=1, Sono=1, Alimentação=Café da manhã reforçado, Calorias=400, Atividade=Ciclismo, Duração=50
+[Reports&Charts&View]10/05/2025 13:04:15: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:15: Gráfico criado com 3 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registro filtrado: Data=04/05/2025, Humor=1, Sono=1, Alimentação=Lanche da tarde, Calorias=200, Atividade=Natação, Duração=40
+[Reports&Charts&View]10/05/2025 13:04:15: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:15: Gráfico criado com 4 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registro filtrado: Data=05/05/2025, Humor=1, Sono=1, Alimentação=Jantar leve, Calorias=400, Atividade=Yoga, Duração=60
+[Reports&Charts&View]10/05/2025 13:04:15: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:15: Gráfico criado com 5 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registro filtrado: Data=06/05/2025, Humor=1, Sono=1, Alimentação=Almoço balanceado, Calorias=600, Atividade=Corrida, Duração=45
+[Reports&Charts&View]10/05/2025 13:04:15: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:15: Gráfico criado com 6 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Registro filtrado: Data=07/05/2025, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Calorias=300, Atividade=Caminhada, Duração=30
+[Reports&Charts&View]10/05/2025 13:04:15: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:15: Gráfico criado com 7 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:15: Total de registros em FilteredRecords após criar o IEnumerable filtrado: 7
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registros carregados do banco: 10
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registro encontrado: Data=07/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registro encontrado: Data=06/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço balanceado, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registro encontrado: Data=05/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar leve, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registro encontrado: Data=04/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Lanche da tarde, Atividade=Natação
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registro encontrado: Data=03/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã reforçado, Atividade=Ciclismo
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registro encontrado: Data=02/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço vegetariano, Atividade=Treinamento funcional
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registro encontrado: Data=01/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar com sopa, Atividade=Pilates
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registro encontrado: Data=30/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registro encontrado: Data=29/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço balanceado, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registro encontrado: Data=28/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar leve, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registros carregados em Records: 10
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registros carregados em FilteredRecords: 7
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Aplicando filtro de 01/05/2025 até 07/05/2025
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Total de registros em Records antes do filtro: 10
+[Reports&Charts&View]10/05/2025 13:04:19: MinhaColeção alterada: Reset
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registro filtrado: Data=01/05/2025, Humor=1, Sono=1, Alimentação=Jantar com sopa, Calorias=300, Atividade=Pilates, Duração=45
+[Reports&Charts&View]10/05/2025 13:04:19: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:19: Gráfico criado com 1 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registro filtrado: Data=02/05/2025, Humor=1, Sono=1, Alimentação=Almoço vegetariano, Calorias=500, Atividade=Treinamento funcional, Duração=35
+[Reports&Charts&View]10/05/2025 13:04:19: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:19: Gráfico criado com 2 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registro filtrado: Data=03/05/2025, Humor=1, Sono=1, Alimentação=Café da manhã reforçado, Calorias=400, Atividade=Ciclismo, Duração=50
+[Reports&Charts&View]10/05/2025 13:04:19: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:19: Gráfico criado com 3 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registro filtrado: Data=04/05/2025, Humor=1, Sono=1, Alimentação=Lanche da tarde, Calorias=200, Atividade=Natação, Duração=40
+[Reports&Charts&View]10/05/2025 13:04:19: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:19: Gráfico criado com 4 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registro filtrado: Data=05/05/2025, Humor=1, Sono=1, Alimentação=Jantar leve, Calorias=400, Atividade=Yoga, Duração=60
+[Reports&Charts&View]10/05/2025 13:04:19: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:19: Gráfico criado com 5 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registro filtrado: Data=06/05/2025, Humor=1, Sono=1, Alimentação=Almoço balanceado, Calorias=600, Atividade=Corrida, Duração=45
+[Reports&Charts&View]10/05/2025 13:04:19: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:19: Gráfico criado com 6 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Registro filtrado: Data=07/05/2025, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Calorias=300, Atividade=Caminhada, Duração=30
+[Reports&Charts&View]10/05/2025 13:04:19: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:19: Gráfico criado com 7 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:19: Total de registros em FilteredRecords após criar o IEnumerable filtrado: 7
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registros carregados do banco: 10
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registro encontrado: Data=07/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registro encontrado: Data=06/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço balanceado, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registro encontrado: Data=05/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar leve, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registro encontrado: Data=04/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Lanche da tarde, Atividade=Natação
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registro encontrado: Data=03/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã reforçado, Atividade=Ciclismo
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registro encontrado: Data=02/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço vegetariano, Atividade=Treinamento funcional
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registro encontrado: Data=01/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar com sopa, Atividade=Pilates
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registro encontrado: Data=30/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registro encontrado: Data=29/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço balanceado, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registro encontrado: Data=28/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar leve, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registros carregados em Records: 10
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registros carregados em FilteredRecords: 7
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Aplicando filtro de 01/05/2025 até 07/05/2025
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Total de registros em Records antes do filtro: 10
+[Reports&Charts&View]10/05/2025 13:04:20: MinhaColeção alterada: Reset
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registro filtrado: Data=01/05/2025, Humor=1, Sono=1, Alimentação=Jantar com sopa, Calorias=300, Atividade=Pilates, Duração=45
+[Reports&Charts&View]10/05/2025 13:04:20: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:20: Gráfico criado com 1 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registro filtrado: Data=02/05/2025, Humor=1, Sono=1, Alimentação=Almoço vegetariano, Calorias=500, Atividade=Treinamento funcional, Duração=35
+[Reports&Charts&View]10/05/2025 13:04:20: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:20: Gráfico criado com 2 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registro filtrado: Data=03/05/2025, Humor=1, Sono=1, Alimentação=Café da manhã reforçado, Calorias=400, Atividade=Ciclismo, Duração=50
+[Reports&Charts&View]10/05/2025 13:04:20: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:20: Gráfico criado com 3 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registro filtrado: Data=04/05/2025, Humor=1, Sono=1, Alimentação=Lanche da tarde, Calorias=200, Atividade=Natação, Duração=40
+[Reports&Charts&View]10/05/2025 13:04:20: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:20: Gráfico criado com 4 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registro filtrado: Data=05/05/2025, Humor=1, Sono=1, Alimentação=Jantar leve, Calorias=400, Atividade=Yoga, Duração=60
+[Reports&Charts&View]10/05/2025 13:04:20: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:20: Gráfico criado com 5 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registro filtrado: Data=06/05/2025, Humor=1, Sono=1, Alimentação=Almoço balanceado, Calorias=600, Atividade=Corrida, Duração=45
+[Reports&Charts&View]10/05/2025 13:04:20: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:20: Gráfico criado com 6 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Registro filtrado: Data=07/05/2025, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Calorias=300, Atividade=Caminhada, Duração=30
+[Reports&Charts&View]10/05/2025 13:04:20: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:04:20: Gráfico criado com 7 registros.
+[Reports&Charts&View&Model]10/05/2025 13:04:20: Total de registros em FilteredRecords após criar o IEnumerable filtrado: 7
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registros carregados do banco: 10
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro encontrado: Data=07/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro encontrado: Data=06/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço balanceado, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro encontrado: Data=05/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar leve, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro encontrado: Data=04/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Lanche da tarde, Atividade=Natação
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro encontrado: Data=03/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã reforçado, Atividade=Ciclismo
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro encontrado: Data=02/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço vegetariano, Atividade=Treinamento funcional
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro encontrado: Data=01/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar com sopa, Atividade=Pilates
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro encontrado: Data=30/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro encontrado: Data=29/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço balanceado, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro encontrado: Data=28/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar leve, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registros carregados em Records: 10
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registros carregados em FilteredRecords: 7
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Aplicando filtro de 15/04/2025 até 07/05/2025
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Total de registros em Records antes do filtro: 10
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Reset
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 1 registros.
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 2 registros.
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 3 registros.
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 4 registros.
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 5 registros.
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 6 registros.
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 7 registros.
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 8 registros.
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 9 registros.
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 10 registros.
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 11 registros.
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 12 registros.
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 13 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro filtrado: Data=28/04/2025, Humor=1, Sono=1, Alimentação=Jantar leve, Calorias=400, Atividade=Caminhada, Duração=30
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 14 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro filtrado: Data=29/04/2025, Humor=1, Sono=1, Alimentação=Almoço balanceado, Calorias=600, Atividade=Yoga, Duração=60
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 15 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro filtrado: Data=30/04/2025, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Calorias=300, Atividade=Corrida, Duração=45
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 16 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro filtrado: Data=01/05/2025, Humor=1, Sono=1, Alimentação=Jantar com sopa, Calorias=300, Atividade=Pilates, Duração=45
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 17 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro filtrado: Data=02/05/2025, Humor=1, Sono=1, Alimentação=Almoço vegetariano, Calorias=500, Atividade=Treinamento funcional, Duração=35
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 18 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro filtrado: Data=03/05/2025, Humor=1, Sono=1, Alimentação=Café da manhã reforçado, Calorias=400, Atividade=Ciclismo, Duração=50
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 19 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro filtrado: Data=04/05/2025, Humor=1, Sono=1, Alimentação=Lanche da tarde, Calorias=200, Atividade=Natação, Duração=40
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 20 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro filtrado: Data=05/05/2025, Humor=1, Sono=1, Alimentação=Jantar leve, Calorias=400, Atividade=Yoga, Duração=60
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 21 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro filtrado: Data=06/05/2025, Humor=1, Sono=1, Alimentação=Almoço balanceado, Calorias=600, Atividade=Corrida, Duração=45
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 22 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Registro filtrado: Data=07/05/2025, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Calorias=300, Atividade=Caminhada, Duração=30
+[Reports&Charts&View]10/05/2025 13:07:35: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:35: Gráfico criado com 23 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:35: Total de registros em FilteredRecords após criar o IEnumerable filtrado: 23
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registros carregados do banco: 10
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro encontrado: Data=07/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro encontrado: Data=06/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço balanceado, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro encontrado: Data=05/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar leve, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro encontrado: Data=04/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Lanche da tarde, Atividade=Natação
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro encontrado: Data=03/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã reforçado, Atividade=Ciclismo
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro encontrado: Data=02/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço vegetariano, Atividade=Treinamento funcional
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro encontrado: Data=01/05/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar com sopa, Atividade=Pilates
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro encontrado: Data=30/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Atividade=Corrida
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro encontrado: Data=29/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Almoço balanceado, Atividade=Yoga
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro encontrado: Data=28/04/2025 19:16:45, Humor=1, Sono=1, Alimentação=Jantar leve, Atividade=Caminhada
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registros carregados em Records: 10
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registros carregados em FilteredRecords: 23
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Aplicando filtro de 15/04/2025 até 07/05/2025
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Total de registros em Records antes do filtro: 10
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Reset
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 1 registros.
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 2 registros.
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 3 registros.
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 4 registros.
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 5 registros.
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 6 registros.
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 7 registros.
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 8 registros.
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 9 registros.
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 10 registros.
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 11 registros.
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 12 registros.
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 13 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro filtrado: Data=28/04/2025, Humor=1, Sono=1, Alimentação=Jantar leve, Calorias=400, Atividade=Caminhada, Duração=30
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 14 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro filtrado: Data=29/04/2025, Humor=1, Sono=1, Alimentação=Almoço balanceado, Calorias=600, Atividade=Yoga, Duração=60
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 15 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro filtrado: Data=30/04/2025, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Calorias=300, Atividade=Corrida, Duração=45
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 16 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro filtrado: Data=01/05/2025, Humor=1, Sono=1, Alimentação=Jantar com sopa, Calorias=300, Atividade=Pilates, Duração=45
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 17 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro filtrado: Data=02/05/2025, Humor=1, Sono=1, Alimentação=Almoço vegetariano, Calorias=500, Atividade=Treinamento funcional, Duração=35
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 18 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro filtrado: Data=03/05/2025, Humor=1, Sono=1, Alimentação=Café da manhã reforçado, Calorias=400, Atividade=Ciclismo, Duração=50
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 19 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro filtrado: Data=04/05/2025, Humor=1, Sono=1, Alimentação=Lanche da tarde, Calorias=200, Atividade=Natação, Duração=40
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 20 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro filtrado: Data=05/05/2025, Humor=1, Sono=1, Alimentação=Jantar leve, Calorias=400, Atividade=Yoga, Duração=60
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 21 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro filtrado: Data=06/05/2025, Humor=1, Sono=1, Alimentação=Almoço balanceado, Calorias=600, Atividade=Corrida, Duração=45
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 22 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Registro filtrado: Data=07/05/2025, Humor=1, Sono=1, Alimentação=Café da manhã saudável, Calorias=300, Atividade=Caminhada, Duração=30
+[Reports&Charts&View]10/05/2025 13:07:37: MinhaColeção alterada: Add
+[Reports&Charts&View]10/05/2025 13:07:37: Gráfico criado com 23 registros.
+[Reports&Charts&View&Model]10/05/2025 13:07:37: Total de registros em FilteredRecords após criar o IEnumerable filtrado: 23

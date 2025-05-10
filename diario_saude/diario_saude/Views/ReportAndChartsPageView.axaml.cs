@@ -7,12 +7,17 @@ using System.Collections;
 using ScottPlot;
 using System.IO;
 using System.Collections.ObjectModel;
+using System.Text.RegularExpressions;
+using Tmds.DBus.Protocol;
 
 namespace diario_saude.Views
 {
     public partial class ReportAndChartsPageView : UserControl
     {
         
+        private double?[] data;
+        private string DataType;
+
         public ReportAndChartsPageViewModel vm;
         public int i = 0;
         public ObservableCollection<Record_v> minhaColecao { get; set; } = new ObservableCollection<Record_v>();
@@ -60,6 +65,38 @@ namespace diario_saude.Views
             
             vm.SelectedDates = periodo;
 
+            var selecionado = DataTypeGroup
+                .Children
+                .OfType<RadioButton>()
+                .FirstOrDefault(rb => rb.IsChecked == true);
+
+            if (selecionado != null)
+            {
+
+                switch (selecionado.Name)
+                {
+                    case "Mood":
+                        data = minhaColecao.Select(r => r.Mood).ToArray();
+                        DataType = "Humor";
+                        break;
+                    case "FoodCalories":
+                        data = minhaColecao.Select(r => r.FoodCalories).ToArray();
+                        DataType = "Calorias (kCal)";
+                        break;
+                    case "SleepQuality":
+                        data = minhaColecao.Select(r => r.SleepQuality).ToArray();
+                        DataType = "Qualidade do Sono";
+                        break;
+                    case "Duration":
+                        data = minhaColecao.Select(r => r.Duration).ToArray();
+                        DataType = "Tempo de exercitação (min)";
+                        break;
+                    default:
+                        data = new double?[] { 0 };
+                        break;
+                }
+            }
+
         }
 
         public void PlotCaloriesVsDays()
@@ -71,17 +108,16 @@ namespace diario_saude.Views
 
             // Adicione os dados ao gráfico
             var dates = minhaColecao.Select(r => DateTime.Parse(r.Date)).ToArray();
-            var calories = minhaColecao.Select(r => r.FoodCalories).ToArray();
 
             // Adiciona os dados ao gráfico como barras
             
-            myPlot.Add.Scatter(dates, calories);
+            myPlot.Add.Scatter(dates, data);
 
             // Define os rótulos do eixo X como as datas formatadas
             myPlot.Axes.DateTimeTicksBottom();
 
             // Customize plot style
-            myPlot.YLabel("Calories");
+            myPlot.YLabel($"{DataType}");
             myPlot.XLabel("Dates");
             myPlot.Axes.Margins(bottom: 0.2);
 
