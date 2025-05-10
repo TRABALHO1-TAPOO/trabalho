@@ -9,6 +9,8 @@ using System.Collections.ObjectModel;
 using DiarioSaude.Models;
 using LinqToDB;
 using LinqToDB.Data;
+using Avalonia.Controls;
+using Avalonia.Threading;
 
 namespace diario_saude.ViewModels
 {
@@ -90,8 +92,12 @@ namespace diario_saude.ViewModels
             set => this.RaiseAndSetIfChanged(ref _selectedPhysicalActivityType, value);
         }
 
+        private Window _window;
+
         // Comandos
         public ReactiveCommand<Unit, Unit> SaveCommand { get; }
+        public ReactiveCommand<Unit, Unit> CancelCommand { get; }
+
 
         // Construtor
         public EditRecordWindowViewModel()
@@ -111,9 +117,9 @@ namespace diario_saude.ViewModels
                 activityDuration > 0 &&
                 !string.IsNullOrWhiteSpace(activityType)
             ));
+            CancelCommand = ReactiveCommand.Create(CancelAction);
 
         }
-
 
         private async void SaveRecord()
         {
@@ -213,8 +219,18 @@ namespace diario_saude.ViewModels
             {
                 // Fecha a janela após salvar o registro (se necessário)
                 Console.WriteLine("Operação concluída.");
+                Dispatcher.UIThread.Post(() => _window?.Close());
+
             }
         }
+        private void CancelAction()
+        {
+            _window?.Close();
+        }
 
+        public void SetWindow(Window window)
+        {
+            _window = window;
+        }
     }
 }

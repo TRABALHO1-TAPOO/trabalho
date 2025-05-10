@@ -7,12 +7,28 @@ using System.Threading.Tasks;
 using System.Collections.ObjectModel;
 using System.IO;
 using Avalonia.Metadata;
+using ScottPlot;
+using diario_saude.Views;
+using System.Collections.Specialized;
 
 
 namespace diario_saude.ViewModels
 {
     public class ReportAndChartsPageViewModel : ViewModelBase
     {
+
+        // Propriedade para armazenar Dados do banco de dados
+        public ObservableCollection<Record_v> Records { get; } = new ObservableCollection<Record_v>();
+        public ObservableCollection<Record_v> FilteredRecords { get; set; } = new ObservableCollection<Record_v>();
+
+
+        private Plot _plot;
+        public Plot myPlot
+        {
+            get => _plot;
+            set => this.RaiseAndSetIfChanged(ref _plot, value);
+        }
+
 
         private String _startFood;
         public String StartFood
@@ -52,36 +68,42 @@ namespace diario_saude.ViewModels
             get => _endDate;
             set => this.RaiseAndSetIfChanged(ref _endDate, value);
         }
-
+        
 
         public ReportAndChartsPageViewModel()
         {
-            // Sempre que SelectedDates mudar, cai aqui:
             this.WhenAnyValue(vm => vm.SelectedDates)
                 .Subscribe(newCollection =>
                 {
-                    // 'periodo' acabou de ser atribuído a SelectedDates
-                    // Coloque aqui a lógica que você quer disparar
-                    LoadRecordsFromDatabase().ContinueWith(_ => OnPeriodoChanged(newCollection));
+                    // Verifica se a coleção de datas selecionadas não é nula
+                    if (newCollection != null)
+                    {
+                        // 1) Aguarda o carregamento dos registros
+
+                        // 2) Só depois chama o OnPeriodoChanged
+                        OnPeriodoChanged(newCollection);
+                        
+                    }
                 });
         }
 
-        // Método que será chamado quando SelectedDates mudar
-        private void OnPeriodoChanged(List<DateTime> periodo)
-        {
+
+        // Método que será chamado quando Update for chamado (Botão "Atualizar")
+        private async void OnPeriodoChanged(List<DateTime> periodo)
+        { 
             // Exemplo de acionamento:
             var all = periodo?.ToList() ?? new List<DateTime>();
-            StartDate = all.Any() ? all.Min() : DateTime.Today;
-            EndDate   = all.Any() ? all.Max() : DateTime.Today;
+            StartDate = all.Any() ? all.Min() : DateTime.MinValue;
+            EndDate   = all.Any() ? all.Max() : DateTime.MinValue;
+
+            // 3) Aguarda o carregamento dos registros
+            await LoadRecordsFromDatabase().ConfigureAwait(false);
+
 
             StartFood = FilteredRecords.FirstOrDefault()?.FoodDescription ?? "Desconhecido";
             EndFood = FilteredRecords.LastOrDefault()?.FoodDescription ?? "Desconhecido";
 
         }
-
-
-        public ObservableCollection<Record> Records { get; } = new ObservableCollection<Record>();
-        public ObservableCollection<Record> FilteredRecords { get; set; } = new ObservableCollection<Record>();
 
         public async Task LoadRecordsFromDatabase()
         {
@@ -105,6 +127,7 @@ namespace diario_saude.ViewModels
 
                 // Notifica a interface sobre as alterações
                 this.RaisePropertyChanged(nameof(FilteredRecords));
+
             }
             catch (Exception ex)
             {
@@ -115,9 +138,9 @@ namespace diario_saude.ViewModels
             ApplyFilter();
         }
 
-        private async Task<ObservableCollection<Record>> FetchRecordsFromDatabaseAsync()
+        private async Task<ObservableCollection<Record_v>> FetchRecordsFromDatabaseAsync()
         {
-            var records = new ObservableCollection<Record>();
+            var records = new ObservableCollection<Record_v>();
 
             try
             {
@@ -133,7 +156,7 @@ namespace diario_saude.ViewModels
                 var alimentacoes = await repository.ObterAlimentacoesAsync();
                 var atividadesFisicas = await repository.ObterAtividadesFisicasAsync();
 
-                // Converta os registros para o modelo Record
+                // Converta os registros para o modelo Record_v
                 foreach (var registro in registrosDiarios)
                 {
                     var humorDescricao = humores.FirstOrDefault(h => h.Id == registro.HumorId)?.Descricao ?? "Desconhecido";
@@ -145,7 +168,7 @@ namespace diario_saude.ViewModels
 
                     Log($"Registro encontrado: Data={registro.Data}, Humor={humorDescricao}, Sono={sonoDescricao}, Alimentação={alimentacaoDescricao}, Atividade={atividadeDescricao}");
 
-                    records.Add(new Record
+                    records.Add(new Record_v
                     {
                         Id = registro.Id,
                         Date = registro.Data.ToShortDateString(),
@@ -173,24 +196,39 @@ namespace diario_saude.ViewModels
             Log($"Total de registros em Records antes do filtro: {Records.Count}");
             FilteredRecords.Clear();
 
-            // Filtra por período entre StartDate e EndDate (inclusive)
-            var filtered = Records
-                .Where(r =>
-                    DateTime.TryParse(r.Date, out var date)
-                    && date.Date >= StartDate.Date
-                    && date.Date <= EndDate.Date
-                ); // :contentReference[oaicite:0]{index=0}
-
-            Log($"Total de registros em Records após criar o IEnumerable filtrado: {Records.Count}");
-
-            foreach (var record in filtered)
+            foreach (var date in SelectedDates)
             {
-                Log($"Registro filtrado: Data={record.Date}, Humor={record.Mood}, Sono={record.SleepQuality}, " +
-                    $"Alimentação={record.FoodDescription}, Calorias={record.FoodCalories}, " +
-                    $"Atividade={record.Activity}, Duração={record.Duration}");
+                var records = Records.Where(r =>
+                    DateTime.TryParse(r.Date, out var recordDate)
+                    && recordDate.Date == date.Date
+                );
 
-                FilteredRecords.Add(record);
+                if (records.Any()){
+                    foreach (var r in records)
+                    {
+                        Log($"Registro filtrado: Data={r.Date}, Humor={r.Mood}, Sono={r.SleepQuality}, " +
+                            $"Alimentação={r.FoodDescription}, Calorias={r.FoodCalories}, " +
+                            $"Atividade={r.Activity}, Duração={r.Duration}");
+
+                        FilteredRecords.Add(r);
+                    }
+                }else
+                {
+                    FilteredRecords.Add(new Record_v
+                    {
+                        Id = 0,
+                        Date = date.ToShortDateString(),
+                        Mood = "Desconhecido",
+                        SleepQuality = "Desconhecido",
+                        FoodDescription = "Desconhecido",
+                        FoodCalories = 0,
+                        Activity = "Desconhecido",
+                        Duration = 0
+                    });
+                }
             }
+
+            Log($"Total de registros em FilteredRecords após criar o IEnumerable filtrado: {FilteredRecords.Count()}");
 
             this.RaisePropertyChanged(nameof(FilteredRecords));
         }
@@ -198,8 +236,21 @@ namespace diario_saude.ViewModels
         public void Log(string message)
         {
             var logFilePath = "log.txt"; // Caminho do arquivo de log
-            File.AppendAllText(logFilePath, $"{DateTime.Now}: {message}{Environment.NewLine}");
+            File.AppendAllText(logFilePath, $"[Reports&Charts&View&Model]{DateTime.Now}: {message}{Environment.NewLine}");
         }
 
     }
+
+    public class Record_v
+    {
+        public int Id { get; set; }
+        public string? Date { get; set; }
+        public string? Mood { get; set; }
+        public string? FoodDescription { get; set; }
+        public double FoodCalories { get; set; }
+        public string? SleepQuality { get; set; }
+        public string? Activity { get; set; }
+        public double Duration { get; set; }
+    }
+
 }

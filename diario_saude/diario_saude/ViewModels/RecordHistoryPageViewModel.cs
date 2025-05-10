@@ -21,7 +21,7 @@ namespace diario_saude.ViewModels
             "Diário", "Semanal", "Mensal", "Todo o período"
         };
 
-        private string _selectedFilter = "Mensal"; // Inicializa com um valor padrão
+        private string _selectedFilter = "Todo o período";
         public string SelectedFilter
         {
             get => _selectedFilter;
@@ -53,6 +53,7 @@ namespace diario_saude.ViewModels
                 };
 
                 var editWindow = new EditRecordWindow(editViewModel);
+                editViewModel.SetWindow(editWindow);
                 var mainWindow = (Avalonia.Application.Current?.ApplicationLifetime as Avalonia.Controls.ApplicationLifetimes.IClassicDesktopStyleApplicationLifetime)?.MainWindow;
                 editWindow.ShowDialog(mainWindow);
             });

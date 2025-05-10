@@ -204,3 +204,253 @@
 08/05/2025 17:47:03: Total de registros no viewModel: 2
 08/05/2025 17:47:03: Total de registros filtrados no viewModel: 0
 08/05/2025 17:47:03: Filtro selecionado no viewModel: Mensal
+08/05/2025 18:53:05: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 18:53:06: Registros carregados do banco: 4
+08/05/2025 18:53:06: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Boa, Alimentação=tghnrn, Atividade=Musculação
+08/05/2025 18:53:06: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Média, Alimentação=ewdf, Atividade=Corrida
+08/05/2025 18:53:06: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=fgegafd, Atividade=Corrida
+08/05/2025 18:53:06: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 18:53:06: Registros carregados do banco: 4
+08/05/2025 18:53:06: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Boa, Alimentação=tghnrn, Atividade=Musculação
+08/05/2025 18:53:06: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Média, Alimentação=ewdf, Atividade=Corrida
+08/05/2025 18:53:06: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=fgegafd, Atividade=Corrida
+08/05/2025 18:53:06: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 18:53:06: Registros carregados em Records: 4
+08/05/2025 18:53:06: Registros carregados em FilteredRecords: 0
+08/05/2025 18:53:06: Registros carregados em Records: 4
+08/05/2025 18:53:06: Registros carregados em FilteredRecords: 0
+08/05/2025 18:53:06: Aplicando filtro: Mensal
+08/05/2025 18:53:06: Total de registros em Records antes do filtro1: 4
+08/05/2025 18:53:06: Total de registros em Records antes do filtro2: 4
+08/05/2025 18:53:06: Total de registros em Records antes do filtro3: 4
+08/05/2025 18:53:06: Registro filtrado: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=fgegafd, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 18:53:06: Registro filtrado: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 18:53:06: Aplicando filtro: Mensal
+08/05/2025 18:53:06: Total de registros em Records antes do filtro1: 4
+08/05/2025 18:53:06: Total de registros em Records antes do filtro2: 4
+08/05/2025 18:53:06: Total de registros em Records antes do filtro3: 4
+08/05/2025 18:53:06: Registro filtrado: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=fgegafd, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 18:53:06: Registro filtrado: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 18:53:06: Total de registros no viewModel: 4
+08/05/2025 18:53:06: Total de registros filtrados no viewModel: 2
+08/05/2025 18:53:06: Filtro selecionado no viewModel: Mensal
+08/05/2025 18:53:06: Registro filtrado no DataContext: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentação=fgegafd, Atividade=Corrida, Duração=2
+08/05/2025 18:53:06: Registro filtrado no DataContext: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentação=sdafds, Atividade=Corrida, Duração=2
+08/05/2025 19:17:05: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 19:17:05: Registros carregados do banco: 4
+08/05/2025 19:17:05: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Boa, Alimentação=tghnrn, Atividade=Musculação
+08/05/2025 19:17:05: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Média, Alimentação=ewdf, Atividade=Corrida
+08/05/2025 19:17:05: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Boa, Alimentação=fgegafd, Atividade=Corrida
+08/05/2025 19:17:05: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 19:17:05: Registros carregados do banco: 4
+08/05/2025 19:17:05: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Boa, Alimentação=tghnrn, Atividade=Musculação
+08/05/2025 19:17:05: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Média, Alimentação=ewdf, Atividade=Corrida
+08/05/2025 19:17:05: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Triste, Sono=Boa, Alimentação=fgegafd, Atividade=Corrida
+08/05/2025 19:17:05: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 19:17:05: Registros carregados em Records: 4
+08/05/2025 19:17:05: Registros carregados em FilteredRecords: 0
+08/05/2025 19:17:05: Registros carregados em Records: 4
+08/05/2025 19:17:05: Registros carregados em FilteredRecords: 0
+08/05/2025 19:17:05: Aplicando filtro: Mensal
+08/05/2025 19:17:05: Total de registros em Records antes do filtro1: 4
+08/05/2025 19:17:05: Total de registros em Records antes do filtro2: 4
+08/05/2025 19:17:05: Total de registros em Records antes do filtro3: 4
+08/05/2025 19:17:05: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Boa, Alimentacao=fgegafd, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:17:05: Registro filtrado: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:17:05: Aplicando filtro: Mensal
+08/05/2025 19:17:05: Total de registros em Records antes do filtro1: 4
+08/05/2025 19:17:05: Total de registros em Records antes do filtro2: 4
+08/05/2025 19:17:05: Total de registros em Records antes do filtro3: 4
+08/05/2025 19:17:05: Registro filtrado: Data=08/05/2025, Humor=Triste, Sono=Boa, Alimentacao=fgegafd, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:17:05: Registro filtrado: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:17:05: Total de registros no viewModel: 4
+08/05/2025 19:17:05: Total de registros filtrados no viewModel: 2
+08/05/2025 19:17:05: Filtro selecionado no viewModel: Mensal
+08/05/2025 19:17:05: Registro filtrado no DataContext: Data=08/05/2025, Humor=Triste, Sono=Boa, Alimentação=fgegafd, Atividade=Corrida, Duração=2
+08/05/2025 19:17:05: Registro filtrado no DataContext: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentação=sdafds, Atividade=Corrida, Duração=2
+08/05/2025 19:32:55: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 19:32:55: Registros carregados do banco: 4
+08/05/2025 19:32:55: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Boa, Alimentação=tghnrn, Atividade=Musculação
+08/05/2025 19:32:55: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Média, Alimentação=ewdf, Atividade=Corrida
+08/05/2025 19:32:55: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=fgegafd, Atividade=Corrida
+08/05/2025 19:32:55: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 19:32:55: Registros carregados do banco: 4
+08/05/2025 19:32:55: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Boa, Alimentação=tghnrn, Atividade=Musculação
+08/05/2025 19:32:55: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Média, Alimentação=ewdf, Atividade=Corrida
+08/05/2025 19:32:55: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=fgegafd, Atividade=Corrida
+08/05/2025 19:32:55: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 19:32:55: Registros carregados em Records: 4
+08/05/2025 19:32:55: Registros carregados em FilteredRecords: 0
+08/05/2025 19:32:55: Registros carregados em Records: 4
+08/05/2025 19:32:55: Registros carregados em FilteredRecords: 0
+08/05/2025 19:32:55: Aplicando filtro: Mensal
+08/05/2025 19:32:55: Total de registros em Records antes do filtro1: 4
+08/05/2025 19:32:55: Total de registros em Records antes do filtro2: 4
+08/05/2025 19:32:55: Total de registros em Records antes do filtro3: 4
+08/05/2025 19:32:55: Registro filtrado: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=fgegafd, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:32:55: Registro filtrado: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:32:55: Aplicando filtro: Mensal
+08/05/2025 19:32:55: Total de registros em Records antes do filtro1: 4
+08/05/2025 19:32:55: Total de registros em Records antes do filtro2: 4
+08/05/2025 19:32:55: Total de registros em Records antes do filtro3: 4
+08/05/2025 19:32:55: Registro filtrado: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=fgegafd, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:32:55: Registro filtrado: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:32:55: Total de registros no viewModel: 4
+08/05/2025 19:32:55: Total de registros filtrados no viewModel: 2
+08/05/2025 19:32:55: Filtro selecionado no viewModel: Mensal
+08/05/2025 19:32:55: Registro filtrado no DataContext: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentação=fgegafd, Atividade=Corrida, Duração=2
+08/05/2025 19:32:55: Registro filtrado no DataContext: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentação=sdafds, Atividade=Corrida, Duração=2
+08/05/2025 19:33:52: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 19:33:52: Registros carregados do banco: 4
+08/05/2025 19:33:52: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Boa, Alimentação=tghnrn, Atividade=Musculação
+08/05/2025 19:33:52: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Média, Alimentação=ewdf, Atividade=Corrida
+08/05/2025 19:33:52: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=fgegafd, Atividade=Corrida
+08/05/2025 19:33:52: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 19:33:52: Registros carregados do banco: 4
+08/05/2025 19:33:52: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Boa, Alimentação=tghnrn, Atividade=Musculação
+08/05/2025 19:33:52: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Média, Alimentação=ewdf, Atividade=Corrida
+08/05/2025 19:33:52: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=fgegafd, Atividade=Corrida
+08/05/2025 19:33:52: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 19:33:52: Registros carregados em Records: 4
+08/05/2025 19:33:52: Registros carregados em FilteredRecords: 0
+08/05/2025 19:33:52: Registros carregados em Records: 4
+08/05/2025 19:33:52: Registros carregados em FilteredRecords: 0
+08/05/2025 19:33:52: Aplicando filtro: Mensal
+08/05/2025 19:33:52: Total de registros em Records antes do filtro1: 4
+08/05/2025 19:33:52: Total de registros em Records antes do filtro2: 4
+08/05/2025 19:33:52: Total de registros em Records antes do filtro3: 4
+08/05/2025 19:33:52: Registro filtrado: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=fgegafd, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:33:52: Registro filtrado: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:33:52: Aplicando filtro: Mensal
+08/05/2025 19:33:52: Total de registros em Records antes do filtro1: 4
+08/05/2025 19:33:52: Total de registros em Records antes do filtro2: 4
+08/05/2025 19:33:52: Total de registros em Records antes do filtro3: 4
+08/05/2025 19:33:52: Registro filtrado: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=fgegafd, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:33:52: Registro filtrado: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:33:52: Total de registros no viewModel: 4
+08/05/2025 19:33:52: Total de registros filtrados no viewModel: 2
+08/05/2025 19:33:52: Filtro selecionado no viewModel: Mensal
+08/05/2025 19:33:52: Registro filtrado no DataContext: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentação=fgegafd, Atividade=Corrida, Duração=2
+08/05/2025 19:33:52: Registro filtrado no DataContext: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentação=sdafds, Atividade=Corrida, Duração=2
+08/05/2025 19:44:21: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 19:44:21: Registros carregados do banco: 4
+08/05/2025 19:44:21: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Desconhecido, Alimentação=ewdf, Atividade=Corrida
+08/05/2025 19:44:21: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Média, Alimentação=ewdf, Atividade=Corrida
+08/05/2025 19:44:21: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Ansioso, Sono=Boa, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 19:44:21: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 19:44:21: Registros carregados do banco: 4
+08/05/2025 19:44:21: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Desconhecido, Alimentação=ewdf, Atividade=Corrida
+08/05/2025 19:44:21: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Média, Alimentação=ewdf, Atividade=Corrida
+08/05/2025 19:44:21: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Ansioso, Sono=Boa, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 19:44:21: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 19:44:21: Registros carregados em Records: 4
+08/05/2025 19:44:21: Registros carregados em FilteredRecords: 0
+08/05/2025 19:44:21: Registros carregados em Records: 4
+08/05/2025 19:44:21: Registros carregados em FilteredRecords: 0
+08/05/2025 19:44:21: Aplicando filtro: Todo o período
+08/05/2025 19:44:21: Total de registros em Records antes do filtro1: 4
+08/05/2025 19:44:21: Total de registros em Records antes do filtro2: 4
+08/05/2025 19:44:21: Total de registros em Records antes do filtro3: 4
+08/05/2025 19:44:21: Registro filtrado: Data=01/01/0001, Humor=Feliz, Sono=Desconhecido, Alimentacao=ewdf, Calorias=2 Atividade=Corrida, Duracao=5
+08/05/2025 19:44:21: Registro filtrado: Data=01/01/0001, Humor=Triste, Sono=Média, Alimentacao=ewdf, Calorias=2 Atividade=Corrida, Duracao=5
+08/05/2025 19:44:21: Registro filtrado: Data=08/05/2025, Humor=Ansioso, Sono=Boa, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:44:21: Registro filtrado: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:44:21: Aplicando filtro: Todo o período
+08/05/2025 19:44:21: Total de registros em Records antes do filtro1: 4
+08/05/2025 19:44:21: Total de registros em Records antes do filtro2: 4
+08/05/2025 19:44:21: Total de registros em Records antes do filtro3: 4
+08/05/2025 19:44:21: Registro filtrado: Data=01/01/0001, Humor=Feliz, Sono=Desconhecido, Alimentacao=ewdf, Calorias=2 Atividade=Corrida, Duracao=5
+08/05/2025 19:44:21: Registro filtrado: Data=01/01/0001, Humor=Triste, Sono=Média, Alimentacao=ewdf, Calorias=2 Atividade=Corrida, Duracao=5
+08/05/2025 19:44:21: Registro filtrado: Data=08/05/2025, Humor=Ansioso, Sono=Boa, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:44:21: Registro filtrado: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:44:21: Total de registros no viewModel: 4
+08/05/2025 19:44:21: Total de registros filtrados no viewModel: 4
+08/05/2025 19:44:21: Filtro selecionado no viewModel: Todo o período
+08/05/2025 19:44:21: Registro filtrado no DataContext: Data=01/01/0001, Humor=Feliz, Sono=Desconhecido, Alimentação=ewdf, Atividade=Corrida, Duração=5
+08/05/2025 19:44:21: Registro filtrado no DataContext: Data=01/01/0001, Humor=Triste, Sono=Média, Alimentação=ewdf, Atividade=Corrida, Duração=5
+08/05/2025 19:44:21: Registro filtrado no DataContext: Data=08/05/2025, Humor=Ansioso, Sono=Boa, Alimentação=sdafds, Atividade=Corrida, Duração=2
+08/05/2025 19:44:21: Registro filtrado no DataContext: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentação=sdafds, Atividade=Corrida, Duração=2
+08/05/2025 19:51:35: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 19:51:35: Registros carregados do banco: 4
+08/05/2025 19:51:35: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Desconhecido, Alimentação=ewdf, Atividade=Corrida
+08/05/2025 19:51:35: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Média, Alimentação=ewdf, Atividade=Corrida
+08/05/2025 19:51:35: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Ansioso, Sono=Boa, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 19:51:35: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 19:51:35: Registros carregados do banco: 4
+08/05/2025 19:51:35: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Feliz, Sono=Desconhecido, Alimentação=ewdf, Atividade=Corrida
+08/05/2025 19:51:35: Registro encontrado: Data=01/01/0001 00:00:00, Humor=Triste, Sono=Média, Alimentação=ewdf, Atividade=Corrida
+08/05/2025 19:51:35: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Ansioso, Sono=Boa, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 19:51:35: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Feliz, Sono=Boa, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 19:51:35: Registros carregados em Records: 4
+08/05/2025 19:51:35: Registros carregados em FilteredRecords: 0
+08/05/2025 19:51:35: Registros carregados em Records: 4
+08/05/2025 19:51:35: Registros carregados em FilteredRecords: 0
+08/05/2025 19:51:35: Aplicando filtro: Todo o período
+08/05/2025 19:51:35: Total de registros em Records antes do filtro1: 4
+08/05/2025 19:51:35: Total de registros em Records antes do filtro2: 4
+08/05/2025 19:51:35: Total de registros em Records antes do filtro3: 4
+08/05/2025 19:51:35: Registro filtrado: Data=01/01/0001, Humor=Feliz, Sono=Desconhecido, Alimentacao=ewdf, Calorias=2 Atividade=Corrida, Duracao=5
+08/05/2025 19:51:35: Registro filtrado: Data=01/01/0001, Humor=Triste, Sono=Média, Alimentacao=ewdf, Calorias=2 Atividade=Corrida, Duracao=5
+08/05/2025 19:51:35: Registro filtrado: Data=08/05/2025, Humor=Ansioso, Sono=Boa, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:51:35: Registro filtrado: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:51:35: Aplicando filtro: Todo o período
+08/05/2025 19:51:35: Total de registros em Records antes do filtro1: 4
+08/05/2025 19:51:35: Total de registros em Records antes do filtro2: 4
+08/05/2025 19:51:35: Total de registros em Records antes do filtro3: 4
+08/05/2025 19:51:35: Registro filtrado: Data=01/01/0001, Humor=Feliz, Sono=Desconhecido, Alimentacao=ewdf, Calorias=2 Atividade=Corrida, Duracao=5
+08/05/2025 19:51:35: Registro filtrado: Data=01/01/0001, Humor=Triste, Sono=Média, Alimentacao=ewdf, Calorias=2 Atividade=Corrida, Duracao=5
+08/05/2025 19:51:35: Registro filtrado: Data=08/05/2025, Humor=Ansioso, Sono=Boa, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:51:35: Registro filtrado: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:51:35: Total de registros no viewModel: 4
+08/05/2025 19:51:35: Total de registros filtrados no viewModel: 4
+08/05/2025 19:51:35: Filtro selecionado no viewModel: Todo o período
+08/05/2025 19:51:35: Registro filtrado no DataContext: Data=01/01/0001, Humor=Feliz, Sono=Desconhecido, Alimentação=ewdf, Atividade=Corrida, Duração=5
+08/05/2025 19:51:35: Registro filtrado no DataContext: Data=01/01/0001, Humor=Triste, Sono=Média, Alimentação=ewdf, Atividade=Corrida, Duração=5
+08/05/2025 19:51:35: Registro filtrado no DataContext: Data=08/05/2025, Humor=Ansioso, Sono=Boa, Alimentação=sdafds, Atividade=Corrida, Duração=2
+08/05/2025 19:51:35: Registro filtrado no DataContext: Data=08/05/2025, Humor=Feliz, Sono=Boa, Alimentação=sdafds, Atividade=Corrida, Duração=2
+08/05/2025 19:56:26: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 19:56:26: Registros carregados do banco: 1
+08/05/2025 19:56:26: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 19:56:26: Registros carregados do banco: 1
+08/05/2025 19:56:26: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 19:56:26: Registros carregados em Records: 1
+08/05/2025 19:56:26: Registros carregados em FilteredRecords: 0
+08/05/2025 19:56:26: Registros carregados em Records: 1
+08/05/2025 19:56:26: Registros carregados em FilteredRecords: 0
+08/05/2025 19:56:26: Aplicando filtro: Todo o período
+08/05/2025 19:56:26: Total de registros em Records antes do filtro1: 1
+08/05/2025 19:56:26: Total de registros em Records antes do filtro2: 1
+08/05/2025 19:56:26: Total de registros em Records antes do filtro3: 1
+08/05/2025 19:56:26: Registro filtrado: Data=08/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:56:26: Aplicando filtro: Todo o período
+08/05/2025 19:56:26: Total de registros em Records antes do filtro1: 1
+08/05/2025 19:56:26: Total de registros em Records antes do filtro2: 1
+08/05/2025 19:56:26: Total de registros em Records antes do filtro3: 1
+08/05/2025 19:56:26: Registro filtrado: Data=08/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:56:26: Total de registros no viewModel: 1
+08/05/2025 19:56:26: Total de registros filtrados no viewModel: 1
+08/05/2025 19:56:26: Filtro selecionado no viewModel: Todo o período
+08/05/2025 19:56:26: Registro filtrado no DataContext: Data=08/05/2025, Humor=Ansioso, Sono=Ruim, Alimentação=sdafds, Atividade=Corrida, Duração=2
+08/05/2025 19:56:28: DataContext configurado: RecordHistoryPageViewModel
+08/05/2025 19:56:28: Registros carregados do banco: 1
+08/05/2025 19:56:28: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 19:56:28: Registros carregados do banco: 1
+08/05/2025 19:56:28: Registro encontrado: Data=08/05/2025 00:00:00, Humor=Ansioso, Sono=Ruim, Alimentação=sdafds, Atividade=Corrida
+08/05/2025 19:56:28: Registros carregados em Records: 1
+08/05/2025 19:56:28: Registros carregados em FilteredRecords: 0
+08/05/2025 19:56:28: Registros carregados em Records: 1
+08/05/2025 19:56:28: Registros carregados em FilteredRecords: 0
+08/05/2025 19:56:28: Aplicando filtro: Todo o período
+08/05/2025 19:56:28: Total de registros em Records antes do filtro1: 1
+08/05/2025 19:56:28: Total de registros em Records antes do filtro2: 1
+08/05/2025 19:56:28: Total de registros em Records antes do filtro3: 1
+08/05/2025 19:56:28: Registro filtrado: Data=08/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:56:28: Aplicando filtro: Todo o período
+08/05/2025 19:56:28: Total de registros em Records antes do filtro1: 1
+08/05/2025 19:56:28: Total de registros em Records antes do filtro2: 1
+08/05/2025 19:56:28: Total de registros em Records antes do filtro3: 1
+08/05/2025 19:56:28: Registro filtrado: Data=08/05/2025, Humor=Ansioso, Sono=Ruim, Alimentacao=sdafds, Calorias=2 Atividade=Corrida, Duracao=2
+08/05/2025 19:56:28: Total de registros no viewModel: 1
+08/05/2025 19:56:28: Total de registros filtrados no viewModel: 1
+08/05/2025 19:56:28: Filtro selecionado no viewModel: Todo o período
+08/05/2025 19:56:28: Registro filtrado no DataContext: Data=08/05/2025, Humor=Ansioso, Sono=Ruim, Alimentação=sdafds, Atividade=Corrida, Duração=2

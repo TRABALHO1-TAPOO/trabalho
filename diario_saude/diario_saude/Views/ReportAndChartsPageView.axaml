@@ -9,7 +9,7 @@
              xmlns:vm="using:diario_saude.ViewModels" 
              x:DataType="vm:ReportAndChartsPageViewModel"       
              x:CompileBindings="True">           
-
+    
     <Grid Margin="20 20 20 30">
     <local:LogoHeader HorizontalAlignment="Left" VerticalAlignment="Top"/>
     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Spacing="15" Margin="0 0 0 10">
@@ -33,7 +33,7 @@
           </StackPanel>
         </StackPanel>
       </StackPanel>
-      <Button x:Name="updateButton" FontWeight="Bold" FontSize="16" BorderBrush="#ca8eed" Content="Update" HorizontalAlignment="Center"/>
+      <Button x:Name="updateButton" FontWeight="Bold" FontSize="16" BorderBrush="#ca8eed" Content="Atualizar" HorizontalAlignment="Center"/>
 
       <!-- Exibição de resultados numéricos -->
       <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="40" Margin="0,0,30,0">
