@@ -77,7 +77,6 @@ namespace diario_saude.ViewModels
             set => this.RaiseAndSetIfChanged(ref _foodCalories, value);
         }
 
-
         private int? _physicalActivityDuration;
         public int? PhysicalActivityDuration
         {
@@ -92,7 +91,30 @@ namespace diario_saude.ViewModels
             set => this.RaiseAndSetIfChanged(ref _selectedPhysicalActivityType, value);
         }
 
+        private int _RecordId;
+        public int RecordId
+        {
+            get => _RecordId;
+            set => this.RaiseAndSetIfChanged(ref _RecordId, value);
+        }
+
+        private int _FoodId;
+        public int FoodId
+        {
+            get => _FoodId;
+            set => this.RaiseAndSetIfChanged(ref _FoodId, value);
+        }
+
+        private int _PhysicalActivityId;
+        public int PhysicalActivityId
+        {
+            get => _PhysicalActivityId;
+            set => this.RaiseAndSetIfChanged(ref _PhysicalActivityId, value);
+        }
+
         private Window _window;
+
+        public event Action? RecordUpdated;
 
         // Comandos
         public ReactiveCommand<Unit, Unit> SaveCommand { get; }
@@ -142,17 +164,10 @@ namespace diario_saude.ViewModels
                 string connectionString = $"Data Source={App.DbPath}";
                 using var db = new DiarioSaudeDb(connectionString);
 
-                // Atualizar a tabela Alimentacao
-                var alimentacaoId = await db.Alimentacoes
-                    .Where(a => a.Descricao == FoodDescription && a.Calorias == FoodCalories)
-                    .Select(a => a.Id)
-                    .FirstOrDefaultAsync();
-
-                if (alimentacaoId > 0)
+                if (FoodId > 0)
                 {
-                    // Atualiza o registro existente
                     await db.Alimentacoes
-                        .Where(a => a.Id == alimentacaoId)
+                        .Where(a => a.Id == FoodId)
                         .Set(a => a.Descricao, FoodDescription)
                         .Set(a => a.Calorias, FoodCalories.Value)
                         .UpdateAsync();
@@ -160,20 +175,14 @@ namespace diario_saude.ViewModels
                 else
                 {
                     Console.WriteLine("Erro: Alimentação não encontrada para atualização.");
+                    Console.WriteLine($"FoodId: {FoodId}");
                     return;
                 }
 
-                // Atualizar a tabela AtividadeFisica
-                var atividadeFisicaId = await db.AtividadesFisicas
-                    .Where(a => a.TipoAtividade == SelectedPhysicalActivityType && a.DuracaoMinutos == PhysicalActivityDuration)
-                    .Select(a => a.Id)
-                    .FirstOrDefaultAsync();
-
-                if (atividadeFisicaId > 0)
+                if (PhysicalActivityId > 0)
                 {
-                    // Atualiza o registro existente
                     await db.AtividadesFisicas
-                        .Where(a => a.Id == atividadeFisicaId)
+                        .Where(a => a.Id == PhysicalActivityId)
                         .Set(a => a.TipoAtividade, SelectedPhysicalActivityType)
                         .Set(a => a.DuracaoMinutos, PhysicalActivityDuration.Value)
                         .UpdateAsync();
@@ -184,21 +193,23 @@ namespace diario_saude.ViewModels
                     return;
                 }
 
-                // Atualizar a tabela RegistroDiario
-                var registroId = await db.RegistroDiario
-                    .Where(r => r.Data == ConvertedRecordDate.Date)
-                    .Select(r => r.Id)
-                    .FirstOrDefaultAsync();
-
-                if (registroId > 0)
+                // Atualizar a tabela RegistroDiario usando o Id
+                Console.WriteLine($"RecordId: {RecordId}");
+                if (RecordId > 0)
                 {
-                    // Atualiza o registro existente
+                    // Registro antigo:
+                    Console.WriteLine($"Registro diário encontrado com ID: {RecordId}");
+                    // Atualiza o registro diário com os novos valores
+                    Console.WriteLine($"Humor: {SelectedMood}, Sono: {SelectedSleepQuality}, Alimentação: {FoodDescription}, Atividade Física: {SelectedPhysicalActivityType}");
+                    Console.WriteLine($"Data: {RecordDate}, Calorias: {FoodCalories}, Duração: {PhysicalActivityDuration}");
+
                     await db.RegistroDiario
-                        .Where(r => r.Id == registroId)
+                        .Where(r => r.Id == RecordId)
+                        .Set(r => r.Data, RecordDate.DateTime)
                         .Set(r => r.HumorId, MoodOptions.IndexOf(SelectedMood) + 1)
                         .Set(r => r.SonoId, SleepQualityOptions.IndexOf(SelectedSleepQuality) + 1)
-                        .Set(r => r.AlimentacaoId, alimentacaoId)
-                        .Set(r => r.AtividadeFisicaId, atividadeFisicaId)
+                        .Set(r => r.AlimentacaoId, FoodId)
+                        .Set(r => r.AtividadeFisicaId, PhysicalActivityId)
                         .UpdateAsync();
                 }
                 else
@@ -212,17 +223,16 @@ namespace diario_saude.ViewModels
             }
             catch (Exception ex)
             {
-                // Exibe uma mensagem de erro detalhada
                 Console.WriteLine($"Erro ao atualizar o registro: {ex.Message}");
             }
             finally
             {
-                // Fecha a janela após salvar o registro (se necessário)
+                RecordUpdated?.Invoke();
                 Console.WriteLine("Operação concluída.");
                 Dispatcher.UIThread.Post(() => _window?.Close());
-
             }
         }
+
         private void CancelAction()
         {
             _window?.Close();

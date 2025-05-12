@@ -150,7 +150,7 @@ namespace DiarioSaude.Models
                     // Insere registros diários fictícios
                     db.Insert(new RegistroDiario
                     {
-                        Data = DateTime.Now.AddDays(-1),
+                        Data = DateTime.Now.AddDays(-1).Date,
                         HumorId = humorId,
                         SonoId = sonoId,
                         AlimentacaoId = alimentacaoId1,
@@ -159,7 +159,7 @@ namespace DiarioSaude.Models
 
                     db.Insert(new RegistroDiario
                     {
-                        Data = DateTime.Now.AddDays(-2),
+                        Data = DateTime.Now.AddDays(-2).Date,
                         HumorId = humorId,
                         SonoId = sonoId,
                         AlimentacaoId = alimentacaoId2,
@@ -168,7 +168,7 @@ namespace DiarioSaude.Models
 
                     db.Insert(new RegistroDiario
                     {
-                        Data = DateTime.Now.AddDays(-3),
+                        Data = DateTime.Now.AddDays(-3).Date,
                         HumorId = humorId,
                         SonoId = sonoId,
                         AlimentacaoId = alimentacaoId3,
@@ -177,7 +177,7 @@ namespace DiarioSaude.Models
 
                     db.Insert(new RegistroDiario
                     {
-                        Data = DateTime.Now.AddDays(-4),
+                        Data = DateTime.Now.AddDays(-4).Date,
                         HumorId = humorId,
                         SonoId = sonoId,
                         AlimentacaoId = alimentacaoId4,
@@ -186,7 +186,7 @@ namespace DiarioSaude.Models
 
                     db.Insert(new RegistroDiario
                     {
-                        Data = DateTime.Now.AddDays(-5),
+                        Data = DateTime.Now.AddDays(-5).Date,
                         HumorId = humorId,
                         SonoId = sonoId,
                         AlimentacaoId = alimentacaoId5,
@@ -195,7 +195,7 @@ namespace DiarioSaude.Models
 
                     db.Insert(new RegistroDiario
                     {
-                        Data = DateTime.Now.AddDays(-6),
+                        Data = DateTime.Now.AddDays(-6).Date,
                         HumorId = humorId,
                         SonoId = sonoId,
                         AlimentacaoId = alimentacaoId6,
@@ -204,7 +204,7 @@ namespace DiarioSaude.Models
 
                     db.Insert(new RegistroDiario
                     {
-                        Data = DateTime.Now.AddDays(-7),
+                        Data = DateTime.Now.AddDays(-7).Date,
                         HumorId = humorId,
                         SonoId = sonoId,
                         AlimentacaoId = alimentacaoId7,
@@ -213,7 +213,7 @@ namespace DiarioSaude.Models
 
                     db.Insert(new RegistroDiario
                     {
-                        Data = DateTime.Now.AddDays(-8),
+                        Data = DateTime.Now.AddDays(-8).Date,
                         HumorId = humorId,
                         SonoId = sonoId,
                         AlimentacaoId = alimentacaoId1,
@@ -222,7 +222,7 @@ namespace DiarioSaude.Models
 
                     db.Insert(new RegistroDiario
                     {
-                        Data = DateTime.Now.AddDays(-9),
+                        Data = DateTime.Now.AddDays(-9).Date,
                         HumorId = humorId,
                         SonoId = sonoId,
                         AlimentacaoId = alimentacaoId2,
@@ -231,7 +231,7 @@ namespace DiarioSaude.Models
 
                     db.Insert(new RegistroDiario
                     {
-                        Data = DateTime.Now.AddDays(-10),
+                        Data = DateTime.Now.AddDays(-10).Date,
                         HumorId = humorId,
                         SonoId = sonoId,
                         AlimentacaoId = alimentacaoId3,

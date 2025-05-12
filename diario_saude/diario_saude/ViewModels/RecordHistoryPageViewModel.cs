@@ -43,13 +43,25 @@ namespace diario_saude.ViewModels
             {
                 var editViewModel = new EditRecordWindowViewModel
                 {
+                    RecordId = record.Id,
                     RecordDate = DateTime.Parse(record.Date),
                     SelectedMood = record.Mood,
+                    FoodId = record.AlimentacaoId,
                     FoodDescription = record.FoodDescription,
                     FoodCalories = record.FoodCalories,
                     SelectedSleepQuality = record.SleepQuality,
+                    PhysicalActivityId = record.AtividadeFisicaId,
                     SelectedPhysicalActivityType = record.Activity,
                     PhysicalActivityDuration = record.Duration
+                };
+
+                // Inscreve-se no evento RecordUpdated
+                editViewModel.RecordUpdated += async () =>
+                {
+                    await Avalonia.Threading.Dispatcher.UIThread.InvokeAsync(async () =>
+                    {
+                        await LoadRecordsFromDatabase(); // Recarrega os registros
+                    });
                 };
 
                 var editWindow = new EditRecordWindow(editViewModel);
@@ -156,8 +168,10 @@ namespace diario_saude.ViewModels
                         Date = registro.Data.ToShortDateString(),
                         Mood = humorDescricao,
                         SleepQuality = sonoDescricao,
+                        AlimentacaoId = registro.AlimentacaoId,
                         FoodDescription = alimentacaoDescricao,
                         FoodCalories = alimentacaoCalorias,
+                        AtividadeFisicaId = registro.AtividadeFisicaId,
                         Activity = atividadeDescricao,
                         Duration = atividadeDuracao
                     });
@@ -214,9 +228,11 @@ namespace diario_saude.ViewModels
         public int Id { get; set; }
         public string? Date { get; set; }
         public string? Mood { get; set; }
+        public int AlimentacaoId { get; set; }
         public string? FoodDescription { get; set; }
         public int FoodCalories { get; set; }
         public string? SleepQuality { get; set; }
+        public int AtividadeFisicaId { get; set; }
         public string? Activity { get; set; }
         public int Duration { get; set; }
     }
