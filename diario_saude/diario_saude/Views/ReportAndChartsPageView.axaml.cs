@@ -18,6 +18,8 @@ namespace diario_saude.Views
         private double?[] data;
         private string DataType;
 
+        private double average;
+        private double total;
         public ReportAndChartsPageViewModel vm;
         public int i = 0;
         public ObservableCollection<Record_v> minhaColecao { get; set; } = new ObservableCollection<Record_v>();
@@ -69,6 +71,8 @@ namespace diario_saude.Views
                 .Children
                 .OfType<RadioButton>()
                 .FirstOrDefault(rb => rb.IsChecked == true);
+            
+            Results.IsVisible = true;
 
             if (selecionado != null)
             {
@@ -76,26 +80,31 @@ namespace diario_saude.Views
                 switch (selecionado.Name)
                 {
                     case "Mood":
-                        data = minhaColecao.Select(r => r.Mood).ToArray();
-                        DataType = "Humor";
+                    case "SleepQuality":
+                        data = selecionado.Name == "Mood" 
+                            ? minhaColecao.Select(r => r.Mood).ToArray() 
+                            : minhaColecao.Select(r => r.SleepQuality).ToArray();
+                        DataType = selecionado.Name == "Mood" ? "Humor" : "Qualidade do Sono";
+                        Results.IsVisible = false;
                         break;
                     case "FoodCalories":
-                        data = minhaColecao.Select(r => r.FoodCalories).ToArray();
-                        DataType = "Calorias (kCal)";
-                        break;
-                    case "SleepQuality":
-                        data = minhaColecao.Select(r => r.SleepQuality).ToArray();
-                        DataType = "Qualidade do Sono";
-                        break;
                     case "Duration":
-                        data = minhaColecao.Select(r => r.Duration).ToArray();
-                        DataType = "Tempo de exercitação (min)";
+                        data = selecionado.Name == "FoodCalories" 
+                            ? minhaColecao.Select(r => r.FoodCalories).ToArray() 
+                            : minhaColecao.Select(r => r.Duration).ToArray();
+                        DataType = selecionado.Name == "FoodCalories" ? "Calorias (kCal)" : "Tempo de exercitação (min)";
+                        
+                        var nonNullData = data.Where(d => d.HasValue).Select(d => d.Value).ToArray();
+                        AverageText.Text = $"{Math.Round(nonNullData.DefaultIfEmpty(0).Average(), 2)} {(selecionado.Name == "FoodCalories" ? "kCal" : "min")}";
+                        TotalText.Text = $"{Math.Round(nonNullData.DefaultIfEmpty(0).Sum(), 2)} {(selecionado.Name == "FoodCalories" ? "kCal" : "min")}";
                         break;
                     default:
                         data = new double?[] { 0 };
                         break;
                 }
             }
+
+
 
         }
 
@@ -108,9 +117,8 @@ namespace diario_saude.Views
 
             // Adicione os dados ao gráfico
             var dates = minhaColecao.Select(r => DateTime.Parse(r.Date)).ToArray();
-
-            // Adiciona os dados ao gráfico como barras
             
+            // Adiciona os dados ao gráfico como barras
             myPlot.Add.Scatter(dates, data);
 
             // Define os rótulos do eixo X como as datas formatadas

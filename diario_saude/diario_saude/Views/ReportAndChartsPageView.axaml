@@ -36,7 +36,7 @@
       </StackPanel>
 
       <!-- Exibição de resultados numéricos -->
-      <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="40" Margin="0,0,30,0">
+      <StackPanel x:Name="Results" Orientation="Horizontal" HorizontalAlignment="Right" Spacing="40" Margin="0,0,30,0">
         <Border Background="#ad7fad" BorderBrush="#ca8eed" BorderThickness="1" CornerRadius="45" Padding="15"> 
           <StackPanel Orientation="Horizontal" Spacing="5">
             <TextBlock Text="Média:" FontWeight="Bold" FontSize="16" Foreground="White"/>
